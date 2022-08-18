@@ -6,7 +6,7 @@ const StyleDictionaryPackage = require('style-dictionary');
     name: 'javascript/es6',
     formatter: function (dictionary, config) {
       return `${this.selector} {
-        ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
+        ${dictionary.allProperties.map(prop => `  ${prop.name}: ${prop.value};`).join('\n')}
       }`
     }
   });  */
@@ -35,8 +35,8 @@ function getStyleDictionaryConfig(theme) {
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
         "buildPath": `tokens/generated/output/`,
         "files": [{
-            "destination": `gen-${theme}.css`,
-            "format": "javascript/es6",
+            "destination": `gen-${theme}.js`,
+            "format": "javascript/object",
             "selector": `.${theme}-theme`
           }]
       }
