@@ -2,14 +2,14 @@ const StyleDictionaryPackage = require('style-dictionary');
 
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
-StyleDictionaryPackage.registerFormat({
+/*StyleDictionaryPackage.registerFormat({
     name: 'javascript/es6',
     formatter: function (dictionary, config) {
       return `${this.selector} {
         ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
       }`
     }
-  });  
+  });  */
 
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
