@@ -3,7 +3,7 @@ const StyleDictionaryPackage = require('style-dictionary');
 // HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
 
 StyleDictionaryPackage.registerFormat({
-    name: 'css/variables',
+    name: 'javascript/es6',
     formatter: function (dictionary, config) {
       return `${this.selector} {
         ${dictionary.allProperties.map(prop => `  --${prop.name}: ${prop.value};`).join('\n')}
@@ -36,7 +36,7 @@ function getStyleDictionaryConfig(theme) {
         "buildPath": `tokens/generated/output`,
         "files": [{
             "destination": `gen-${theme}.css`,
-            "format": "javascript/es6s",
+            "format": "javascript/es6",
             "selector": `.${theme}-theme`
           }]
       }
