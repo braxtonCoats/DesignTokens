@@ -37,6 +37,11 @@ function getStyleDictionaryConfig(theme) {
         "files": [{
             "destination": `gen-${theme}.js`,
             "format": "javascript/object",
+            "filter": {
+              "attributes": {
+                "category": "color"
+              },
+            },
             "selector": `.${theme}-theme`
           }]
       }
