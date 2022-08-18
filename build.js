@@ -30,12 +30,13 @@ function getStyleDictionaryConfig(theme) {
       `tokens/${theme}.json`,
     ],
     "platforms": {
-      "web": {
+      "js": {
+        "transformGroup": "js",
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `src/tokens/output/`,
+        "buildPath": `tokens/generated/output`,
         "files": [{
-            "destination": `${theme}.css`,
-            "format": "css/variables",
+            "destination": `gen-${theme}.css`,
+            "format": "javascript/es6s",
             "selector": `.${theme}-theme`
           }]
       }
