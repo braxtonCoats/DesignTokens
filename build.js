@@ -33,7 +33,7 @@ function getStyleDictionaryConfig(theme) {
       "js": {
         "transformGroup": "js",
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `tokens/generated/output`,
+        "buildPath": `tokens/generated/output/`,
         "files": [{
             "destination": `gen-${theme}.css`,
             "format": "javascript/es6",
