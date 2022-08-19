@@ -11,14 +11,16 @@ jobs:
         uses: actions/setup-node@v2.4.0
       # Install dependencies
       - run: npm install
+
+      # ------- Composer Tokens ----------
       # Transform Figma Tokens JSON to something Style Dictionary can read
-      - run: npx token-transformer tokens/tokens.json tokens/generated/input/global.json global
+      - run: npx token-transformer Composer/figmaTokens/figmaTokens.json Composer/generated/globalTokens.json global
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens/tokens.json tokens/generated/input/light.json global,light,theme global
+      - run: npx token-transformer Composer/figmaTokens/figmaTokens.json Composer/generated/lightTokens.json global,light,theme global
       # Create a dark theme, exclude the global tokens
-      - run: npx token-transformer tokens/tokens.json tokens/generated/input/dark.json global,dark,theme global
+      - run: npx token-transformer Composer/figmaTokens/figmaTokens.json Composer/generated/darkTokens.json global,dark,theme global
       # Convert tokens according to Style Dictionary config
-      - run: node build.js
+      # - run: node build.js    ---> I dont need style dictonary. Just referencing JSON directly
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
