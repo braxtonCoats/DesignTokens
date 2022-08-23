@@ -2176,12 +2176,11 @@
           "description": ""
         },
         "container": {
-          "value": "{blue.blue90}",
-          "type": "color",
-          "description": ""
+          "value": "{blue.blue70}",
+          "type": "color"
         },
         "containerVariant": {
-          "value": "{blue.blue85}",
+          "value": "{blue.blue65}",
           "type": "color"
         },
         "onContainer": {
