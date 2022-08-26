@@ -910,7 +910,7 @@
         "type": "color"
       },
       "onContainer": {
-        "value": "{green.green50}",
+        "value": "{green.green65}",
         "type": "color"
       }
     },
@@ -924,7 +924,7 @@
         "type": "color"
       },
       "onContainer": {
-        "value": "{purple.purple50}",
+        "value": "{purple.purple65}",
         "type": "color"
       }
     },
@@ -938,7 +938,7 @@
         "type": "color"
       },
       "onContainer": {
-        "value": "{orange.orange50}",
+        "value": "{orange.orange65}",
         "type": "color"
       }
     }
