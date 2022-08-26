@@ -1,9 +1,68 @@
 {
   "global": {},
+  "Composer": {
+    "voice": {
+      "container": {
+        "value": "{maroon.maroon2}",
+        "type": "color"
+      },
+      "containerVariant": {
+        "value": "{maroon.maroon5}",
+        "type": "color"
+      },
+      "onContainer": {
+        "value": "{maroon.maroon50}",
+        "type": "color"
+      }
+    },
+    "messaging": {
+      "container": {
+        "value": "{green.green2}",
+        "type": "color"
+      },
+      "containerVariant": {
+        "value": "{green.green5}",
+        "type": "color"
+      },
+      "onContainer": {
+        "value": "{green.green50}",
+        "type": "color"
+      }
+    },
+    "numbers": {
+      "container": {
+        "value": "{purple.purple2}",
+        "type": "color"
+      },
+      "containerVariant": {
+        "value": "{purple.purple5}",
+        "type": "color"
+      },
+      "onContainer": {
+        "value": "{purple.purple50}",
+        "type": "color"
+      }
+    },
+    "emergency": {
+      "container": {
+        "value": "{orange.orange2}",
+        "type": "color"
+      },
+      "containerVariant": {
+        "value": "{orange.orange5}",
+        "type": "color"
+      },
+      "onContainer": {
+        "value": "{orange.orange50}",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "Composer"
     ]
   }
 }
