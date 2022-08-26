@@ -2968,7 +2968,7 @@
       "link": {
         "value": {
           "fontFamily": "$brand",
-          "fontWeight": "$fontWeights.overpass-2",
+          "fontWeight": "$fontWeights.400",
           "lineHeight": "$lineHeights.7",
           "fontSize": "$fontSize.2",
           "letterSpacing": "$letterSpacing.1",
