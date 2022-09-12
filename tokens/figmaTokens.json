@@ -3937,6 +3937,54 @@
               "value": "{bp.sys.color.primary.onContainer}",
               "type": "color"
             }
+          },
+          "primary": {
+            "value": "{bp.sys.color.background.main}",
+            "type": "color"
+          },
+          "surface": {
+            "primary": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "{bp.sys.color.surface.variant}",
+              "type": "color"
+            }
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.main}",
+            "type": "color"
+          },
+          "tooltip": {
+            "default": {
+              "value": "{bp.sys.color.surface.variant}",
+              "type": "color"
+            }
+          },
+          "navigation": {
+            "default": {
+              "value": "{bp.sys.color.secondary.main}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.secondary.onMain}",
+              "type": "color"
+            },
+            "secondary": {
+              "default": {
+                "value": "{bp.sys.color.secondary.container}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.secondary.container}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.secondary.onContainer}",
+                "type": "color"
+              }
+            }
           }
         },
         "modal": {
@@ -3993,8 +4041,16 @@
             }
           },
           "pagination": {
-            "text-color": {
+            "default": {
               "value": "{bp.sys.color.surface.onMain}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.primary.containerVariant}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
           },
@@ -4029,16 +4085,8 @@
             }
           },
           "tooltip": {
-            "bg-color": {
-              "value": "{bp.sys.color.surface.main}",
-              "type": "color"
-            },
-            "icon-color": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{bp.sys.color.primary.main}",
+            "default": {
+              "value": "{bp.sys.color.surface.onMain}",
               "type": "color"
             }
           },
@@ -4069,6 +4117,34 @@
           "primary": {
             "value": "{bp.sys.color.surface.onMain}",
             "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
+          "navigation": {
+            "default": {
+              "value": "{bp.sys.color.secondary.onMain}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.secondary.main}",
+              "type": "color"
+            },
+            "secondary": {
+              "default": {
+                "value": "{bp.sys.color.secondary.onContainer}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.secondary.onContainer}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.secondary.container}",
+                "type": "color"
+              }
+            }
           }
         },
         "icon": {
@@ -4079,6 +4155,20 @@
           "primary": {
             "value": "{bp.sys.color.primary.main}",
             "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
+          "navigation": {
+            "default": {
+              "value": "{bp.sys.color.secondary.onMain}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.secondary.main}",
+              "type": "color"
+            }
           }
         }
       }
@@ -4262,7 +4352,7 @@
         "bp.color.button.text.text-color": "S:be14df3057c8b8ebd81d04a40385ef9069534aca,",
         "bp.color.button.icon.bg-color": "S:20fac4b60824f0754017bb5f8cba84ed25414325,",
         "bp.color.button.icon.text-color": "S:ce94ba29eed48a81ac26d6e1cbabbf4f981161f5,",
-        "bp.color.icon.primary": "S:3db3be5855f93d6cb7b46659510363ab97a18b44,",
+        "bp.color.icon.primary": "S:88d5bc3aef010c3a238a21528b60ee17bff79501,",
         "bp.color.link.text-color": "S:b6d522ce07b4efc33050cdabf49ac15a02ebc115,",
         "bp.color.modal.bg-color": "S:c9c74adc3a6cc5e297e765bef99492b36d60dea4,",
         "bp.color.modal.text-color": "S:86a9a0423c522f593552aa1e69db001180427541,",
@@ -4282,7 +4372,50 @@
         "bp.color.text.link.default": "S:f2cff5c501f1d47e898714f0df66a28f13260608,",
         "bp.color.tooltip.bg-color": "S:6bf86e158e385807319aa4e10500b05e85d94aca,",
         "bp.color.tooltip.icon-color": "S:d01d52ea83ebbf1fabfe0e6ea99b51cbe287a6e1,",
-        "bp.color.tooltip.border": "S:d1d9713ece4d1934994772076d821e1b00a77a9b,"
+        "bp.color.tooltip.border": "S:d1d9713ece4d1934994772076d821e1b00a77a9b,",
+        "bp.color.background.accordion.border": "S:dcaa634862d297205b12d75b9924a97946b30722,",
+        "bp.color.background.accordion.bg-color": "S:ce8c113b11f7d8652789c8cc7e178aa9fc81bdb5,",
+        "bp.color.background.badge.bg-color": "S:3f9c287d9892b0044b4b961e3b641e839d39391e,",
+        "bp.color.background.badge.text-color": "S:95c201474fcc056c1c0cb60683137edc969a655d,",
+        "bp.color.background.primary": "S:9679a26ce0550b8d86828cba193d7c31d42f3cd1,",
+        "bp.color.background.surface.primary": "S:352746e78cf59eb544aaf8525d27b54ae735aeb6,",
+        "bp.color.background.surface.secondary": "S:7babd67f2a03926887e940061fe8f109ed60e3ca,",
+        "bp.color.background.disabled": "S:11e3bda6fc852928b5304b9d1b7bbadb05a4a374,",
+        "bp.color.background.tooltip.default": "S:315659131da47ff699f64d7a3ce7c92ddf627d58,",
+        "bp.color.background.navigation.default": "S:6a216f536f704f031fc97ef7b8e8e33ceb10920d,",
+        "bp.color.background.navigation.active": "S:0e40ff6e35462771e8e880889fba6d09336c72dc,",
+        "bp.color.background.navigation.secondary.default": "S:f09a5f952c75fb6dd161ceabaaa82547cb3f2eff,",
+        "bp.color.background.navigation.secondary.hover": "S:f206f15b5d9352b605460124547de19dd6240d9a,",
+        "bp.color.background.navigation.secondary.active": "S:eed11da14ec0a39794e6624e5aa4771a59a1e9fa,",
+        "bp.color.text.link.hover": "S:6b7cde877233aac2372094f9cfcb3c24d134d777,",
+        "bp.color.text.link.active": "S:b0d41b0ff977eaea6e503ed4a677f11e9fb5b1b0,",
+        "bp.color.text.link.disabled": "S:c2ce9f59c9deb8d3c876a00e107c682766767ff8,",
+        "bp.color.text.link.visited": "S:74e5372d1ad89e0b669ff07a911a28b9df8f710c,",
+        "bp.color.text.pagination.default": "S:d0043bff5128c8dab1ff43745e1b93865eb8225f,",
+        "bp.color.text.pagination.active": "S:70359add63b172e1c753a183fbb9fb862b187eab,",
+        "bp.color.text.pagination.disabled": "S:81eef266f0d8d990663452ee02abf38fa72e5480,",
+        "bp.color.text.switch.bg-color": "S:3f2efde0591cfb67f4c805b491032b11db67bda2,",
+        "bp.color.text.switch.text-color": "S:ff7d65b1a08d6896b2b12c28a8be29599268be82,",
+        "bp.color.text.table.bg-color": "S:b50e39dd9ebd84c7df47130144c022cd4ae5570b,",
+        "bp.color.text.table.text-color": "S:b96cf2bc3c4399b40c3217b037a858910e3e0b4d,",
+        "bp.color.text.tabs.bg-color": "S:ac05e3538566be2c154ea070d57baf4756193884,",
+        "bp.color.text.tabs.text-color": "S:808131f33e6f05fc8d514602a8ab5debabdd90f0,",
+        "bp.color.text.tooltip.default": "S:61ac96ea78c79ff24bac74aa1fb7a2939ab22937,",
+        "bp.color.text.button.contained": "S:b7185e79b4fd1ce7671425966f81a7fc8d7c0e60,",
+        "bp.color.text.button.outlined": "S:736cfbae89c9e5c7a95f87981a5a6c38b712a18c,",
+        "bp.color.text.button.icon": "S:26cb1c2e15794eb0b443758b3584163633453877,",
+        "bp.color.text.button.text": "S:80c9dfee6db20e0b47b7ec40ea52b7c778aea36b,",
+        "bp.color.text.accordion.primary": "S:9ce07c4d3e9b315086747b6c70ba4ab0fbd56d7c,",
+        "bp.color.text.disabled": "S:eebbcf931f72ecd207a4b06da7f06e089cc819d3,",
+        "bp.color.text.navigation.default": "S:2513b23808a6277926a2946b12ed9da1a2941896,",
+        "bp.color.text.navigation.active": "S:3d3a3e46508687fa93528cccf523be2b09f62d7c,",
+        "bp.color.text.navigation.secondary.default": "S:a65a5726cb816339d753567cb9bd0b06b8180669,",
+        "bp.color.text.navigation.secondary.hover": "S:db36fa4b2382fa7421ab8e2c42592c77703ee3db,",
+        "bp.color.text.navigation.secondary.active": "S:5cf0efa61a401dd0275f5a1d2144f1abc6ff1a0c,",
+        "bp.color.icon.default": "S:dd805f67cb85dd5e71dc533b239fa7797ca90c79,",
+        "bp.color.icon.disabled": "S:6bd69607a2d9bceeeda46fa5e7e4fb28c6ddf938,",
+        "bp.color.icon.navigation.default": "S:3bda66b64de51faa7bc9d5115c7f5ec3058cb293,",
+        "bp.color.icon.navigation.active": "S:64a418c5a2314c1a57aaf1f48a14c74cbe0c3a2b,"
       }
     }
   ],
