@@ -3917,92 +3917,26 @@
   "light": {
     "bp": {
       "color": {
-        "accordion": {
-          "border": {
-            "value": "{bp.sys.color.outline.variant}",
-            "type": "color"
-          },
-          "bg-color": {
-            "value": "{bp.sys.color.surface.main}",
-            "type": "color"
-          }
-        },
         "background": {
-          "color": {
-            "value": "{bp.sys.color.background.main}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{bp.sys.color.background.onMain}",
-            "type": "color"
-          }
-        },
-        "badge": {
-          "bg-color": {
-            "value": "{bp.sys.color.primary.container}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{bp.sys.color.primary.onContainer}",
-            "type": "color"
-          }
-        },
-        "button": {
-          "contained": {
-            "bg-color": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "text-color": {
-              "value": "{bp.sys.color.primary.onMain}",
-              "type": "color"
-            }
-          },
-          "outlined": {
-            "bg-color": {
-              "value": "{bp.sys.color.primary.onMain}",
-              "type": "color"
-            },
-            "text-color": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
+          "accordion": {
             "border": {
-              "value": "{bp.sys.color.primary.main}",
+              "value": "{bp.sys.color.outline.variant}",
+              "type": "color"
+            },
+            "bg-color": {
+              "value": "{bp.sys.color.surface.main}",
               "type": "color"
             }
           },
-          "text": {
+          "badge": {
             "bg-color": {
-              "value": "{bp.sys.color.primary.onMain}",
+              "value": "{bp.sys.color.primary.container}",
               "type": "color"
             },
             "text-color": {
-              "value": "{bp.sys.color.primary.main}",
+              "value": "{bp.sys.color.primary.onContainer}",
               "type": "color"
             }
-          },
-          "icon": {
-            "bg-color": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "text-color": {
-              "value": "{bp.sys.color.primary.onMain}",
-              "type": "color"
-            }
-          }
-        },
-        "icon": {
-          "primary": {
-            "value": "{bp.sys.color.surface.onMain}",
-            "type": "color"
-          }
-        },
-        "link": {
-          "text-color": {
-            "value": "{bp.sys.color.primary.main}",
-            "type": "color"
           }
         },
         "modal": {
@@ -4025,51 +3959,7 @@
             "type": "color"
           }
         },
-        "switch": {
-          "bg-color": {
-            "value": "{bp.sys.color.primary.main}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{bp.sys.color.primary.onMain}",
-            "type": "color"
-          }
-        },
-        "pagination": {
-          "text-color": {
-            "value": "{bp.sys.color.surface.onMain}",
-            "type": "color"
-          }
-        },
-        "table": {
-          "bg-color": {
-            "value": "{bp.sys.color.primary.main}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{bp.sys.color.primary.onMain}",
-            "type": "color"
-          }
-        },
-        "tabs": {
-          "bg-color": {
-            "value": "{bp.sys.color.primary.main}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{bp.sys.color.primary.onMain}",
-            "type": "color"
-          }
-        },
         "text": {
-          "primary": {
-            "value": "{bp.sys.color.surface.onMain}",
-            "type": "color"
-          },
-          "placeholder": {
-            "value": "{bp.sys.color.surface.onVariant}",
-            "type": "color"
-          },
           "input": {
             "default": {
               "value": "{bp.sys.color.surface.onMain}",
@@ -4084,19 +3974,109 @@
             "default": {
               "value": "{bp.sys.color.primary.main}",
               "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "visited": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
             }
+          },
+          "pagination": {
+            "text-color": {
+              "value": "{bp.sys.color.surface.onMain}",
+              "type": "color"
+            }
+          },
+          "switch": {
+            "bg-color": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "text-color": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            }
+          },
+          "table": {
+            "bg-color": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "text-color": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            }
+          },
+          "tabs": {
+            "bg-color": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "text-color": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            }
+          },
+          "tooltip": {
+            "bg-color": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "icon-color": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          },
+          "button": {
+            "contained": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "outlined": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "icon": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            }
+          },
+          "accordion": {
+            "primary": {
+              "value": "{bp.sys.color.surface.onMain}",
+              "type": "color"
+            }
+          },
+          "primary": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
           }
         },
-        "tooltip": {
-          "bg-color": {
-            "value": "{bp.sys.color.surface.main}",
+        "icon": {
+          "default": {
+            "value": "{bp.sys.color.surface.onMain}",
             "type": "color"
           },
-          "icon-color": {
-            "value": "{bp.sys.color.primary.main}",
-            "type": "color"
-          },
-          "border": {
+          "primary": {
             "value": "{bp.sys.color.primary.main}",
             "type": "color"
           }
