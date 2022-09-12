@@ -3977,11 +3977,67 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{bp.sys.color.secondary.container}",
+                "value": "{bp.sys.color.secondary.containerVariant}",
                 "type": "color"
               },
               "active": {
                 "value": "{bp.sys.color.secondary.onContainer}",
+                "type": "color"
+              }
+            }
+          },
+          "button": {
+            "contained": {
+              "default": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.onContainer}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.secondary.main}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.main}",
+                "type": "color"
+              }
+            },
+            "outlined": {
+              "default": {
+                "value": "{bp.sys.color.primary.onMain}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.secondary.main}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.main}",
+                "type": "color"
+              }
+            },
+            "icon": {
+              "default": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.onContainer}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.secondary.main}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.main}",
                 "type": "color"
               }
             }
@@ -4005,6 +4061,26 @@
           "primary": {
             "value": "{bp.sys.color.outline.primary}",
             "type": "color"
+          },
+          "button": {
+            "outlined": {
+              "default": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.onMain}",
+                "type": "color"
+              }
+            }
           }
         },
         "text": {
@@ -4090,24 +4166,6 @@
               "type": "color"
             }
           },
-          "button": {
-            "contained": {
-              "value": "{bp.sys.color.primary.onMain}",
-              "type": "color"
-            },
-            "outlined": {
-              "value": "{bp.sys.color.primary.onMain}",
-              "type": "color"
-            },
-            "icon": {
-              "value": "{bp.sys.color.primary.onMain}",
-              "type": "color"
-            },
-            "text": {
-              "value": "{bp.sys.color.primary.onMain}",
-              "type": "color"
-            }
-          },
           "accordion": {
             "primary": {
               "value": "{bp.sys.color.surface.onMain}",
@@ -4142,6 +4200,62 @@
               },
               "active": {
                 "value": "{bp.sys.color.secondary.container}",
+                "type": "color"
+              }
+            }
+          },
+          "button": {
+            "contained": {
+              "default": {
+                "value": "{bp.sys.color.primary.onMain}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.onMain}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.primary.onMain}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.onMain}",
+                "type": "color"
+              }
+            },
+            "outlined": {
+              "default": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.onMain}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.primary.onMain}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.onMain}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.onContainer}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.primary.onContainer}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.onMain}",
                 "type": "color"
               }
             }
@@ -4415,7 +4529,35 @@
         "bp.color.icon.default": "S:dd805f67cb85dd5e71dc533b239fa7797ca90c79,",
         "bp.color.icon.disabled": "S:6bd69607a2d9bceeeda46fa5e7e4fb28c6ddf938,",
         "bp.color.icon.navigation.default": "S:3bda66b64de51faa7bc9d5115c7f5ec3058cb293,",
-        "bp.color.icon.navigation.active": "S:64a418c5a2314c1a57aaf1f48a14c74cbe0c3a2b,"
+        "bp.color.icon.navigation.active": "S:64a418c5a2314c1a57aaf1f48a14c74cbe0c3a2b,",
+        "bp.color.text.button.contained.default": "S:879813356b84d7ffd2511873135216a8341bb17a,",
+        "bp.color.text.button.contained.hover": "S:9b80441b0877da1372640d5f120b52a952e61353,",
+        "bp.color.text.button.contained.active": "S:ca32c32b29b8660ec08e1d4eca45476dc9d61824,",
+        "bp.color.text.button.contained.disabled": "S:ff8999a562bb8363f6f20502a7693a8834036ac5,",
+        "bp.color.text.button.outlined.default": "S:e2ab2af2233c2081c4548a5202b5806d4a3307f4,",
+        "bp.color.text.button.outlined.hover": "S:1b9e1bbd2e7fdf2ba502268866704e64c9e04858,",
+        "bp.color.text.button.outlined.active": "S:be44983d2ab6a1dd3d5d6dddf222bf5819a948a7,",
+        "bp.color.text.button.outlined.disabled": "S:f33806f1488510f320c734e8f287a9dd751dad6c,",
+        "bp.color.text.button.text.default": "S:7b34547093cc26bb3b09e97eb8f4f6493b78c3bb,",
+        "bp.color.text.button.text.hover": "S:c5a67582d8329c8b2f9a68f0b40b417c28ce0037,",
+        "bp.color.text.button.text.active": "S:9418a13531137d1f721214596ce08fe0cdf34040,",
+        "bp.color.text.button.text.disabled": "S:b25c7bbea49caa6a59d886262b310aeb56806b35,",
+        "bp.color.background.button.contained.default": "S:c194581043e2816ac31c1efaeb0943be8b8dfcc6,",
+        "bp.color.background.button.contained.hover": "S:8bf205a433b3d4a09670b06974adff451b06270c,",
+        "bp.color.background.button.contained.active": "S:7b139bc707b68d358a27c931847284dceaaa5c3b,",
+        "bp.color.background.button.contained.disabled": "S:e31848ff048917c9ddb01907151c67d82fdf83b4,",
+        "bp.color.background.button.outlined.default": "S:eba351f23debac57db51de8e2a3266bee06a208d,",
+        "bp.color.background.button.outlined.hover": "S:08c564c025d9ce39007daf55f9c8e206373c6521,",
+        "bp.color.background.button.outlined.active": "S:28be68543865fe19f3309c39aa3d3ed2331c5ae0,",
+        "bp.color.background.button.outlined.disabled": "S:edd6158bd2dc0b61f9b8fedabb64f5c064ed733d,",
+        "bp.color.background.button.icon.default": "S:0866d0b510faf92902386fda25faeaa8bcd223f6,",
+        "bp.color.background.button.icon.hover": "S:17eeccd550716d12ce150944d2caf2c64c09d751,",
+        "bp.color.background.button.icon.active": "S:dcdb1bab3c7d6129723e89d33d6b7506ac3f38f7,",
+        "bp.color.background.button.icon.disabled": "S:f9ccdc1df3fad0e90960ad7ca567db6ddf905cf7,",
+        "bp.color.outline.button.outlined.default": "S:c04bc4123997326d2dd8cde78e139c6627ec297d,",
+        "bp.color.outline.button.outlined.hover": "S:80dfcab282aebecd6d433c514eeca605019b6b92,",
+        "bp.color.outline.button.outlined.active": "S:c1fd22dee8ca403992a20f2d2becd8d1bd180428,",
+        "bp.color.outline.button.outlined.disabled": "S:d0db913db3e3493051ade480b69de2304708941c,"
       }
     }
   ],
