@@ -3916,38 +3916,116 @@
   },
   "light": {
     "bp": {
-      "accordion": {
-        "border": {
-          "value": "{bp.sys.color.outline.variant}",
-          "type": "color"
+      "color": {
+        "accordion": {
+          "border": {
+            "value": "{bp.sys.color.outline.variant}",
+            "type": "color"
+          },
+          "bg-color": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
+          }
         },
-        "bg-color": {
-          "value": "{bp.sys.color.surface.main}",
-          "type": "color"
-        }
-      },
-      "background": {
-        "color": {
-          "value": "{bp.sys.color.background.main}",
-          "type": "color"
+        "background": {
+          "color": {
+            "value": "{bp.sys.color.background.main}",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "{bp.sys.color.background.onMain}",
+            "type": "color"
+          }
         },
-        "text-color": {
-          "value": "{bp.sys.color.background.onMain}",
-          "type": "color"
-        }
-      },
-      "badge": {
-        "bg-color": {
-          "value": "{bp.sys.color.primary.container}",
-          "type": "color"
+        "badge": {
+          "bg-color": {
+            "value": "{bp.sys.color.primary.container}",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "{bp.sys.color.primary.onContainer}",
+            "type": "color"
+          }
         },
-        "text-color": {
-          "value": "{bp.sys.color.primary.onContainer}",
-          "type": "color"
-        }
-      },
-      "button": {
-        "contained": {
+        "button": {
+          "contained": {
+            "bg-color": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "text-color": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            }
+          },
+          "outlined": {
+            "bg-color": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "text-color": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "bg-color": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "text-color": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "bg-color": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "text-color": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            }
+          }
+        },
+        "icon": {
+          "primary": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          }
+        },
+        "link": {
+          "text-color": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          }
+        },
+        "modal": {
+          "bg-color": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          }
+        },
+        "outline": {
+          "color": {
+            "value": "{bp.sys.color.outline.main}",
+            "type": "color"
+          },
+          "primary": {
+            "value": "{bp.sys.color.outline.primary}",
+            "type": "color"
+          }
+        },
+        "switch": {
           "bg-color": {
             "value": "{bp.sys.color.primary.main}",
             "type": "color"
@@ -3957,12 +4035,64 @@
             "type": "color"
           }
         },
-        "outlined": {
+        "pagination": {
+          "text-color": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          }
+        },
+        "table": {
           "bg-color": {
-            "value": "{bp.sys.color.primary.onMain}",
+            "value": "{bp.sys.color.primary.main}",
             "type": "color"
           },
           "text-color": {
+            "value": "{bp.sys.color.primary.onMain}",
+            "type": "color"
+          }
+        },
+        "tabs": {
+          "bg-color": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "text-color": {
+            "value": "{bp.sys.color.primary.onMain}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "primary": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          },
+          "placeholder": {
+            "value": "{bp.sys.color.surface.onVariant}",
+            "type": "color"
+          },
+          "input": {
+            "default": {
+              "value": "{bp.sys.color.surface.onMain}",
+              "type": "color"
+            },
+            "placeholder": {
+              "value": "{bp.sys.color.surface.onVariant}",
+              "type": "color"
+            }
+          },
+          "link": {
+            "default": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          }
+        },
+        "tooltip": {
+          "bg-color": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
+          },
+          "icon-color": {
             "value": "{bp.sys.color.primary.main}",
             "type": "color"
           },
@@ -3970,124 +4100,6 @@
             "value": "{bp.sys.color.primary.main}",
             "type": "color"
           }
-        },
-        "text": {
-          "bg-color": {
-            "value": "{bp.sys.color.primary.onMain}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{bp.sys.color.primary.main}",
-            "type": "color"
-          }
-        },
-        "icon": {
-          "bg-color": {
-            "value": "{bp.sys.color.primary.main}",
-            "type": "color"
-          },
-          "text-color": {
-            "value": "{bp.sys.color.primary.onMain}",
-            "type": "color"
-          }
-        }
-      },
-      "icon": {
-        "color": {
-          "value": "{bp.sys.color.surface.onMain}",
-          "type": "color"
-        }
-      },
-      "input": {
-        "bg-color": {
-          "value": "{bp.sys.color.surface.main}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{bp.sys.color.outline.main}",
-          "type": "color"
-        }
-      },
-      "link": {
-        "text-color": {
-          "value": "{bp.sys.color.primary.main}",
-          "type": "color"
-        }
-      },
-      "modal": {
-        "bg-color": {
-          "value": "{bp.sys.color.surface.main}",
-          "type": "color"
-        },
-        "text-color": {
-          "value": "{bp.sys.color.surface.onMain}",
-          "type": "color"
-        }
-      },
-      "outline": {
-        "color": {
-          "value": "{bp.sys.color.outline.main}",
-          "type": "color"
-        },
-        "primary": {
-          "value": "{bp.sys.color.outline.primary}",
-          "type": "color"
-        }
-      },
-      "pagination": {
-        "text-color": {
-          "value": "{bp.sys.color.surface.onMain}",
-          "type": "color"
-        }
-      },
-      "switch": {
-        "bg-color": {
-          "value": "{bp.sys.color.primary.main}",
-          "type": "color"
-        },
-        "text-color": {
-          "value": "{bp.sys.color.primary.onMain}",
-          "type": "color"
-        }
-      },
-      "table": {
-        "bg-color": {
-          "value": "{bp.sys.color.primary.main}",
-          "type": "color"
-        },
-        "text-color": {
-          "value": "{bp.sys.color.primary.onMain}",
-          "type": "color"
-        }
-      },
-      "tabs": {
-        "bg-color": {
-          "value": "{bp.sys.color.primary.main}",
-          "type": "color"
-        },
-        "text-color": {
-          "value": "{bp.sys.color.primary.onMain}",
-          "type": "color"
-        }
-      },
-      "text": {
-        "color": {
-          "value": "{bp.sys.color.surface.onMain}",
-          "type": "color"
-        }
-      },
-      "tooltip": {
-        "bg-color": {
-          "value": "{bp.sys.color.surface.main}",
-          "type": "color"
-        },
-        "icon-color": {
-          "value": "{bp.sys.color.primary.main}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{bp.sys.color.primary.main}",
-          "type": "color"
         }
       }
     }
@@ -4095,7 +4107,7 @@
   "$themes": [
     {
       "id": "185d57c111b411b3a5b1eb0fc38dfaa32db42b11",
-      "name": "BP - Light Mode",
+      "name": "Light Mode",
       "selectedTokenSets": {
         "reference": "source",
         "BP v1.0": "disabled",
@@ -4103,128 +4115,194 @@
         "light": "enabled"
       },
       "$figmaStyleReferences": {
-        "bp.accordion.border": "S:fbce5e43d1dbaee68bd715efe311176c41e5eb6d,",
-        "bp.accordion.bg-color": "S:c315edd0557a635167e13addfeb67cfc3faa2cee,",
-        "bp.background.color": "S:29ef398e1703d523fe5e8b7b6b4a16a7edb6338e,",
-        "bp.background.text-color": "S:fd64f68a17e451aa66743dbaf56b9fe4535823f4,",
-        "bp.badge.bg-color": "S:bdc9fc25a36536cbfe6adf4e0e5f4e3658bc486e,",
-        "bp.badge.text-color": "S:6b486475b954e922bd1ade26ff54fb6ff98fc75f,",
-        "bp.button.contained.bg-color": "S:896a62b16334e02d10a4b659c187c82c2a5c0af2,",
-        "bp.button.contained.text-color": "S:2388361ce86842928c3eb6d90e49b35db08fc3c7,",
-        "bp.button.outlined.bg-color": "S:9bf75721520355d2d227e2a8e7d184263f5e96a6,",
-        "bp.button.outlined.text-color": "S:1b0b7bac086b2326e2d855b2f62743fb4a27e248,",
-        "bp.button.outlined.border": "S:12ada53a01ae536651360ad1a448d39b8106a3d0,",
-        "bp.button.text.bg-color": "S:3e7365eac0dccc2b70faa23ceb1590da1b3ef0c5,",
-        "bp.button.text.text-color": "S:9f11d9379cf96dbe69da5df0457dd9971e1e31ce,",
-        "bp.button.icon.bg-color": "S:c613fe38effb6116d42c0a7209934cbfd9a9f82e,",
-        "bp.button.icon.text-color": "S:9d31f8eb90ee4d0312873512f418f84083a19b34,",
-        "bp.icon.color": "S:6cb3ad88f43364823b9f656fb14be2eb8006f223,",
-        "bp.input.bg-color": "S:3b449278f6af8c10d1707513aaffa03af1bf0e8d,",
-        "bp.input.border": "S:8ce85b2e5b1e12694ec07e93e8573708445d80f7,",
-        "bp.link.text-color": "S:cdf3abd60f99cc0d274813bb66c4c35c3d3de5f0,",
-        "bp.modal.bg-color": "S:54ecef1045c3bdbe8a29dc9a43e33a1054bfbdfb,",
-        "bp.modal.text-color": "S:601bd02bf2b65f4374d71b77f534acf656a05537,",
-        "bp.outline.color": "S:c0676eeda9c58b1228cc5856ab244ef48761a050,",
-        "bp.outline.primary": "S:605d2ca7e1e7def5985c20e63ccccd29fd9b3b18,",
-        "bp.pagination.text-color": "S:39669921d078ca390d66bb628fb481b93801c14d,",
-        "bp.switch.bg-color": "S:d63ade0eea3990784d37aebdcd1e4903880ececb,",
-        "bp.switch.text-color": "S:5607f52642cd1e68d92289c975ee0b7c39c06e43,",
-        "bp.table.bg-color": "S:c6028ac1081d770abb38e68dee335341e4149aa8,",
-        "bp.table.text-color": "S:c78ea34506ae91d3ae38b071cda3b25f5dd263b4,",
-        "bp.tabs.bg-color": "S:203b3c42984b2473a9f0e2ffffe45d2c0e4994d5,",
-        "bp.tabs.text-color": "S:3df620a5cca091bbea56b31d28acd9ce2b03a3d0,",
-        "bp.text.color": "S:bcd48c2ff7dc8eefa54b7869e8c360ad73e57dd0,",
-        "bp.tooltip.bg-color": "S:62796d429421e373360433ea6571fb2d4255b14f,",
-        "bp.tooltip.icon-color": "S:96cf478b04d00375060ff54e806b0708c60a48e8,",
-        "bp.tooltip.border": "S:022dcad630ad08dd88d47494cb4310a7bc4f9639,",
-        "bp.sys.color.primary.main": "S:9b5218b6decae36984f16fb62ec7517caacc0600,",
-        "bp.sys.color.primary.onMain": "S:4a2b83ae93e5e3362ffc2acced1fa7eca0b62464,",
-        "bp.sys.color.primary.container": "S:24daeec3c127583755f60bc17efe03ee1fe4d78a,",
-        "bp.sys.color.primary.containerVariant": "S:83fe3d98bac94d066184bed0ae17955f596a8587,",
-        "bp.sys.color.primary.onContainer": "S:a909c84a80d564e7d6667642ba93378dae3db31a,",
-        "bp.sys.color.secondary.main": "S:1e80f8155b8d521b8551357198f2cec14a4aec41,",
-        "bp.sys.color.secondary.onMain": "S:d9e4dcfee4dd504c49a5c546c6ec8b63f78583c8,",
-        "bp.sys.color.secondary.container": "S:846d128c13e3ad45f6a8d7a0a89b1147491312f1,",
-        "bp.sys.color.secondary.containerVariant": "S:9f48986fa31373f62c1dfc7b5edc4fc49c6821ce,",
-        "bp.sys.color.secondary.onContainer": "S:20e221a41a564ea63536d50600b576d8e3b4c524,",
-        "bp.sys.color.tertiary.main": "S:62524143bef523c8e53c66a63dc842dfb02a3fd5,",
-        "bp.sys.color.tertiary.onMain": "S:c59bda12250a5de570b43fa3f5ab51c5a34428a1,",
-        "bp.sys.color.tertiary.container": "S:f3ca2da5e8a669182057174fc8ed0ff66b6650c1,",
-        "bp.sys.color.tertiary.containerVariant": "S:d1c56212e51671d4e34581cea793d98f365b188b,",
-        "bp.sys.color.tertiary.onContainer": "S:d99d1899981daebefbc2691ef216f6e427f2f918,",
-        "bp.sys.color.error.main": "S:400f033adfb82948b4501c7d37a96b71ba4aa2b1,",
-        "bp.sys.color.error.onMain": "S:145d3ad4cd4f4f0a99f10fbb1f61195baabbd012,",
-        "bp.sys.color.error.container": "S:b83105b93ad50997aa801f19f459345842300c70,",
-        "bp.sys.color.error.containerVariant": "S:05a9b116da3dd7b1a012417e2c6c7a0d271ca189,",
-        "bp.sys.color.error.onContainer": "S:ec3475694a49aa9d891960a2800c81287e096053,",
-        "bp.sys.color.warning.main": "S:b28950c11434086dc392ec97a9374b2b78ea8796,",
-        "bp.sys.color.warning.onMain": "S:701abd451108b8050011037c5768f0a473f61d21,",
-        "bp.sys.color.warning.container": "S:a70604ad75c623a4a827d46239e8396c48e93a42,",
-        "bp.sys.color.warning.containerVariant": "S:ffa5a228a9926a25f37cb7e153120239c45f59ea,",
-        "bp.sys.color.warning.onContainer": "S:8faea9e96fb9024769e21047dd8094cd28b62e36,",
-        "bp.sys.color.success.main": "S:9dc55ccd1878c6e0f6bc458c678d808e6890eaa1,",
-        "bp.sys.color.success.onMain": "S:d32c070292106db47df2ff91e42440391ae46739,",
-        "bp.sys.color.success.container": "S:31d1b087d2ef53387e5eb7b049d0a6c2a4a82d9e,",
-        "bp.sys.color.success.containerVariant": "S:b709974007943b6488e7adabf84032d524d0ad84,",
-        "bp.sys.color.success.onContainer": "S:aedcf56c9f97ae63ffaf4d014b7c073d75bdda31,",
-        "bp.sys.color.surface.main": "S:0df941efcd3ad895abd57d1453204051240e09d0,",
-        "bp.sys.color.surface.onMain": "S:e112f1f0402e92bdb30a87f3fd650deef7232036,",
-        "bp.sys.color.surface.variant": "S:71b5667a50c48311387a917287c26f1ee6a74547,",
-        "bp.sys.color.surface.onVariant": "S:7316c3829cf5f6e103bf940257c186412430a06d,",
-        "bp.sys.color.background.main": "S:b20b4def25d8c83d22124d000ddbbca610535193,",
-        "bp.sys.color.background.onMain": "S:668ad1923e9efe8df09b6ea6f858cc3648f3c134,",
-        "bp.sys.color.outline.main": "S:a1bac79e6522a2fa5e09fb4642fe96ecfb4e7a4e,",
-        "bp.sys.color.outline.variant": "S:4849f89716569169b974a3b5459047a509c3699d,",
-        "bp.sys.color.outline.primary": "S:2f14a6a171e96e71545c6823c3355c36660d725d,",
-        "bp.sys.color.outline.warning": "S:e820636ca7a0277b970bbd84c0cdb73ba97842b5,",
-        "bp.sys.color.outline.error": "S:2d6fade62f36434f545b32956a3f439b5464d25e,",
-        "bp.sys.color.outline.success": "S:76541dd2cc6a32c07de66733a13443c90f4fdc18,",
-        "bp.sys.color.disabled.main": "S:d798f6223ee297a0390bb86e4b931dfde2d80c3a,",
-        "bp.sys.color.disabled.onMain": "S:9aa646dc75709f695a656a229c5fc04cff72f757,",
-        "bp.sys.dark.theme.primary.main": "S:3b24e868f4a8d8f3ba3b8a734dd57145a9f9adb1,",
-        "bp.sys.dark.theme.primary.onMain": "S:e7eac5393b44daea46a4673d1674e969fc6f491a,",
-        "bp.sys.dark.theme.primary.container": "S:ea4dac7a4a0307c41bb8f00faa135114d0c5c282,",
-        "bp.sys.dark.theme.primary.containerVariant": "S:0744645467f7854574e2ffe8e4033ceff66bab77,",
-        "bp.sys.dark.theme.primary.onContainer": "S:690855ee691e6781848238f00645c83995ae8039,",
-        "bp.sys.dark.theme.secondary.main": "S:3b6bee35526c7ef9414c62d0bfc941727b92c0ba,",
-        "bp.sys.dark.theme.secondary.onMain": "S:3d7d06d0e3b5050a86f3c88b9f095ba9218587ad,",
-        "bp.sys.dark.theme.secondary.container": "S:c76a4925235d20fb318569274dc7d521b0c0a481,",
-        "bp.sys.dark.theme.secondary.containerVariant": "S:12e754a11f9de0f219aa9edee921c081d6ffa462,",
-        "bp.sys.dark.theme.secondary.onContainer": "S:c2c72a9dae7c83dc36e8455a65afc96e71a7c4d3,",
-        "bp.sys.dark.theme.error.main": "S:17e5b4693962f54817904a58d7b3efa17bad0fee,",
-        "bp.sys.dark.theme.error.onMain": "S:603af0c0a52b5737966d3994da2ffbb371689b0f,",
-        "bp.sys.dark.theme.error.container": "S:cc6b405ecbfb5771640ffa64d805d3734b8c870a,",
-        "bp.sys.dark.theme.error.containerVariant": "S:156da16d9da627c4996c7fd0676c46ad7f71fd95,",
-        "bp.sys.dark.theme.error.onContainer": "S:7f4dcecb39e63e6b91988c58647ace13bb0b5fea,",
-        "bp.sys.dark.theme.warning.main": "S:0a734e49a4c174f848a9ef9047baa94551500c6a,",
-        "bp.sys.dark.theme.warning.onMain": "S:9c53adea9f21103b3c7bdb064f7d2a505773c791,",
-        "bp.sys.dark.theme.warning.container": "S:03c15620c37b6bd9628d095973f3da61eb93fde5,",
-        "bp.sys.dark.theme.warning.containerVariant": "S:e196c992d7bf048227263ab8c8e5bc5004b3944d,",
-        "bp.sys.dark.theme.warning.onContainer": "S:a033c5c9cc31f8412bc06c274c3f71de66bc898e,",
-        "bp.sys.dark.theme.success.main": "S:96e0e1bc97e4c7c4953ae56491ded72bd35f66bb,",
-        "bp.sys.dark.theme.success.onMain": "S:dc8ce7ac7a3453cfd42966f1abdfb7ec8f85113b,",
-        "bp.sys.dark.theme.success.container": "S:e7861d8456b72d6bb6036a86d054fe4f551c64f8,",
-        "bp.sys.dark.theme.success.containerVariant": "S:951c25b22237542b0a9de1655ab4f3cd740f51c1,",
-        "bp.sys.dark.theme.success.onContainer": "S:31cb9a26b8bd749a185929c9d0e26f5eb91d043e,",
-        "bp.sys.dark.theme.surface.main": "S:3f755a885aa20a6e15e21242a2bb8dc46213b508,",
-        "bp.sys.dark.theme.surface.onMain": "S:73edc756b8da957df506e271eba324b4c3b684d2,",
-        "bp.sys.dark.theme.surface.variant": "S:6573fa0308498501eb12468a66aaf89696697506,",
-        "bp.sys.dark.theme.surface.onVariant": "S:a19c46235405bd4fc183f94b89296de862ce4b79,",
-        "bp.sys.dark.theme.background.main": "S:593d1cfa0d062d9f9f86be2c85d354c60fc95a4d,",
-        "bp.sys.dark.theme.background.onMain": "S:08e04caadeef565bc25888d01095635c7c62fabe,",
-        "bp.sys.dark.theme.outline.main": "S:f5c607b18aa00069e7aeb99b8c7caa3403ae3b5f,",
-        "bp.sys.dark.theme.outline.variant": "S:68bdf17a61367aec6c8468638aeb3628b74b80e2,",
-        "bp.sys.dark.theme.outline.primary": "S:0343a5d1f508c7021ae3402fe9905157bfcb165f,",
-        "bp.sys.dark.theme.outline.success": "S:ec9f60ab2ad21451fedfe8ab420530d05a51c3f2,",
-        "bp.sys.dark.theme.outline.warning": "S:a9ccf75bc9717226e5b674989496f30b289a9aa5,",
-        "bp.sys.dark.theme.outline.error": "S:3130cb86c0ded9b09c46c21875514c9632da5c84,",
-        "bp.sys.dark.theme.disabled.main": "S:92568d63aadf64a351ecdaac7515ab4a9a03100d,",
-        "bp.sys.dark.theme.disabled.onMain": "S:80d151406b9793646770fbff668d965f29d98fed,",
-        "bp.sys.dark.theme.tertiary.main": "S:cb647ebf6c97e29be0631b33a7b3fde09efba315,",
-        "bp.sys.dark.theme.tertiary.onMain": "S:77cf8d97fbd4efc698dd6c01d484c2cfcad171d3,",
-        "bp.sys.dark.theme.tertiary.container": "S:b211b02f306c9a965220c1fbdf50aa6b16b51863,",
-        "bp.sys.dark.theme.tertiary.containerVariant": "S:3529d3dcef7e88c235bb5b9d17cc2fd91c0f0a4e,",
-        "bp.sys.dark.theme.tertiary.onContainer": "S:9fa2717717e30e5a4bb73f2ca2009a4072f3dfdc,"
+        "bp.accordion.border": "S:8dbb4205db57d788dd4f20903a6cf6c80d005ec1,",
+        "bp.accordion.bg-color": "S:f9a62aed009f99a74f5fcb01355d7554d00f160c,",
+        "bp.background.color": "S:6c7e22b0a04495760e3f24be08901f4825fabe82,",
+        "bp.background.text-color": "S:fa6c89c479412827fa8bb6df1d9a3cb14220559d,",
+        "bp.badge.bg-color": "S:0d4fb69d3c15af75947024408d45c8b3c62e7b30,",
+        "bp.badge.text-color": "S:dd051119b40f9757cc0cc6edf44f19523924a508,",
+        "bp.button.contained.bg-color": "S:e5776138fada21dbf81bc76db59ffc617bad716f,",
+        "bp.button.contained.text-color": "S:27d915bd69364547ab0a02cc045efa0dafa7a61a,",
+        "bp.button.outlined.bg-color": "S:dc5772f16f1eb235845f85a26d9becc9bd616b1e,",
+        "bp.button.outlined.text-color": "S:e37bc23efb5cd153cb189967370f6417ccb94bc9,",
+        "bp.button.outlined.border": "S:2f38b1a91fb1212a8b55da3ccd0229e462cfa907,",
+        "bp.button.text.bg-color": "S:c29402705bbb323dfc7e748beac380e2aa95949c,",
+        "bp.button.text.text-color": "S:de906f3c17ba0e00008a38c0bcf1db24cc863a52,",
+        "bp.button.icon.bg-color": "S:1eb922e04f5c2bac8e91af2cd4344c2c0952a3a0,",
+        "bp.button.icon.text-color": "S:fc15f96d67917d8a03c299ea7a03c12b30619238,",
+        "bp.icon.color": "S:bfca02c8fbdfe0e589ca1a6dc691fb6ad723567a,",
+        "bp.input.bg-color": "S:0dbac794a0f1269eea4aef363e64ddddea54f4ef,",
+        "bp.input.border": "S:c948f76b222ff95854041d37c8d5ec1f6bd52b53,",
+        "bp.link.text-color": "S:e5db456f866356e63212e87c71cf7cc8fa8d4ffb,",
+        "bp.modal.bg-color": "S:41ba861de20eda02d76b4f9b50ab9ee88b7dc487,",
+        "bp.modal.text-color": "S:09b4b0af91a2bbe08bfc6e57421aa7aa81829634,",
+        "bp.outline.color": "S:736cea876d5e6eaeb700fb44b71059179c71d8cc,",
+        "bp.outline.primary": "S:87ae930b42e21ee57d2c29f50e9f39ffd9bfbbe0,",
+        "bp.pagination.text-color": "S:170d91127a4dca24724fe3e86923c98a8dbba21e,",
+        "bp.switch.bg-color": "S:2f4455991691460f7604d85a4eac47d99b445052,",
+        "bp.switch.text-color": "S:b4321c6d30faaf3751461a032f13e5c926b4f75a,",
+        "bp.table.bg-color": "S:7d87fdd13807b0d64c00250c61e5af4bfc699577,",
+        "bp.table.text-color": "S:151f0a000a92d92077935198630f320df12e20f2,",
+        "bp.tabs.bg-color": "S:d742f76f45ec4e298322579cc88dfaffd6fbcc62,",
+        "bp.tabs.text-color": "S:a1dc7b49fbdd716c81ecd528be67c7674898f72d,",
+        "bp.text.color": "S:107bc31b347a883af8e2b12af93dd965bf4733c0,",
+        "bp.tooltip.bg-color": "S:7a15a98fa2797e2bcbc4c68c63ccdbd763211c9a,",
+        "bp.tooltip.icon-color": "S:57517101e41bd4da75caa7789ecffcb1b5bdef07,",
+        "bp.tooltip.border": "S:4af89ba302833ce7a6575dfd5d03cef05dd20b12,",
+        "bp.sys.color.primary.main": "S:65c363af68b5dc115d32750e984142ce901949e2,",
+        "bp.sys.color.primary.onMain": "S:0a7ab85971a7f1a90c4c264135ec329b94b3ecdc,",
+        "bp.sys.color.primary.container": "S:816885c5ba0e93be4d7ca6f307fa31117eb94d01,",
+        "bp.sys.color.primary.containerVariant": "S:8b5c7340a406bc46dfc3501f3c01824c83c05a36,",
+        "bp.sys.color.primary.onContainer": "S:7132d991810b13f1604b3ec5f82ea59c8ecbcd10,",
+        "bp.sys.color.secondary.main": "S:aa6a617e448634c6faa05cf8f214b46a6822e237,",
+        "bp.sys.color.secondary.onMain": "S:279a1f8c8b88aad725a0214bbc96fa7e176f040a,",
+        "bp.sys.color.secondary.container": "S:178384de50fd3ec91ac090fe10a9e21010d4e91a,",
+        "bp.sys.color.secondary.containerVariant": "S:bc31480852eeeb831fb20e7ca51b19ad4f711068,",
+        "bp.sys.color.secondary.onContainer": "S:c1406991f72ea16ba866a1d585d4288707ba812c,",
+        "bp.sys.color.tertiary.main": "S:73322f70f16cff2e4d5d927b97fc51155226369f,",
+        "bp.sys.color.tertiary.onMain": "S:52cf617419cfefd24b67f8dfb8227ed53f2574a4,",
+        "bp.sys.color.tertiary.container": "S:6e480cdc142c6249b8356d913f4934f3768d519b,",
+        "bp.sys.color.tertiary.containerVariant": "S:e247fcbb733cec27e2173091f9fe554e2facaeac,",
+        "bp.sys.color.tertiary.onContainer": "S:7a947e5dcea19970f218106be0dc87c58eec3d73,",
+        "bp.sys.color.error.main": "S:b00b199faa5c0c668342c0656e288fdb34cb1c47,",
+        "bp.sys.color.error.onMain": "S:55081a2e379590f19a6f03c7104af6fe7bf62d49,",
+        "bp.sys.color.error.container": "S:d0b6271cc3c8928ab3d535cd7ec507c053357607,",
+        "bp.sys.color.error.containerVariant": "S:464923b9a333658236ebeb3f9153f2db04f9f590,",
+        "bp.sys.color.error.onContainer": "S:369be1ae155d971d4787ae4062e704394cd9c675,",
+        "bp.sys.color.warning.main": "S:00570565096c90ee59f2aa40bbe398246f1d98b2,",
+        "bp.sys.color.warning.onMain": "S:c7def93c387aa0a41f6e1f27d58aa6b1df808d89,",
+        "bp.sys.color.warning.container": "S:459cd95137251b09d1e8b084e67f76de062d7d2b,",
+        "bp.sys.color.warning.containerVariant": "S:3733637b0db837661acd84173efd886f3b4d9193,",
+        "bp.sys.color.warning.onContainer": "S:53ccdd33f62487f25c0a5ec3d50094a0a81410e5,",
+        "bp.sys.color.success.main": "S:994676495d6726bfbc2d4ed985eb1e17fa48a7a6,",
+        "bp.sys.color.success.onMain": "S:5e43f2293fc45010278d0dd4204e8b49a70cf7fd,",
+        "bp.sys.color.success.container": "S:258737e75ff77f8123c6752e10d8852674a3052d,",
+        "bp.sys.color.success.containerVariant": "S:5a086a834faca9c2f7514c7b4b1fb01413e504ed,",
+        "bp.sys.color.success.onContainer": "S:5a2bfed8d546c262b5d9925badbbab793a614bc8,",
+        "bp.sys.color.surface.main": "S:7db1e3b67de5afe192e1aa787f25779871f15093,",
+        "bp.sys.color.surface.onMain": "S:887b46ed29ab2885b45b33f4856c22ad220c6daa,",
+        "bp.sys.color.surface.variant": "S:b50f39ac3f66085c8a03c23924a60f1bfa667664,",
+        "bp.sys.color.surface.onVariant": "S:0d9569562574b6d616cf9a00f8182df34a49869a,",
+        "bp.sys.color.background.main": "S:00430b27b3f2a289e38427a4da6200cc5d0ea5d5,",
+        "bp.sys.color.background.onMain": "S:ece0166dbe19b5f57082b3f46e8db9fe12372e7e,",
+        "bp.sys.color.outline.main": "S:c02aa40c49c85b15ffade373a654cd62664bfe12,",
+        "bp.sys.color.outline.variant": "S:86e2a0f19b4b2a8a0d858c7a821fbb030ed5a5ac,",
+        "bp.sys.color.outline.primary": "S:93ac25e2799eb6ed48f354155022d48783e60b1f,",
+        "bp.sys.color.outline.warning": "S:09a2aebdbc1af2db536b7f67f6fcd4585f4862d4,",
+        "bp.sys.color.outline.error": "S:1732861237fdb7dfdeb740e1eca2de90cc59d3f0,",
+        "bp.sys.color.outline.success": "S:1aeee5375b4f4910c7e489c58d7cab40a1787a4f,",
+        "bp.sys.color.disabled.main": "S:34d1c2c579fcfa6a5a15fc548f3fba9f0e59c9c9,",
+        "bp.sys.color.disabled.onMain": "S:237cc815ef44589f3803a34073fad274352ef327,",
+        "bp.sys.dark.theme.primary.main": "S:2be5ed79b3dad1d2baa3f1d0f38d4eeef0c351ee,",
+        "bp.sys.dark.theme.primary.onMain": "S:c36be91aaab3a15d81a749de01d4bedeae777391,",
+        "bp.sys.dark.theme.primary.container": "S:e7e86399290a733808a17ba4443ff065403de076,",
+        "bp.sys.dark.theme.primary.containerVariant": "S:b8e99e6b4c3af6b7d5af1837ba5dd46f3fbed0ed,",
+        "bp.sys.dark.theme.primary.onContainer": "S:bbdc14fda544810e87ef5d0fa89f0520ec9d84a1,",
+        "bp.sys.dark.theme.secondary.main": "S:8ce24f0c13e61776df2cf2e03ec6720624df7bb5,",
+        "bp.sys.dark.theme.secondary.onMain": "S:b465e1d5f8a162112a8ec93874cf064deaa93a3a,",
+        "bp.sys.dark.theme.secondary.container": "S:640539b2a758599fc66ab6c80d335e8b8bf437c0,",
+        "bp.sys.dark.theme.secondary.containerVariant": "S:b7a131ed7546304e4d330f630730f96fdb1f1ac9,",
+        "bp.sys.dark.theme.secondary.onContainer": "S:3205bb5eab5a62ba07a0c6a5ff00c1572a77b0c1,",
+        "bp.sys.dark.theme.error.main": "S:e78b56157e9efec8c76ca1ea46ba8e2884689a86,",
+        "bp.sys.dark.theme.error.onMain": "S:13ea633ff9da65f447ae000aa39315cebff8c035,",
+        "bp.sys.dark.theme.error.container": "S:b2ca40498a9c7519e48a04bd4bb2c66e44328e21,",
+        "bp.sys.dark.theme.error.containerVariant": "S:0553c4e403a11a5c2568ec080325f4e9bffdea13,",
+        "bp.sys.dark.theme.error.onContainer": "S:764237cbfc3315a3b988dc69ec8e1e1d37caf277,",
+        "bp.sys.dark.theme.warning.main": "S:eccbed02ab09f119d6d1ad11cdf5696a21e93adc,",
+        "bp.sys.dark.theme.warning.onMain": "S:0b07ea7224333b8d1e14a4ff8f7a48567d9a4ddc,",
+        "bp.sys.dark.theme.warning.container": "S:7915baae60757d84e22a045862f594f8299b9f13,",
+        "bp.sys.dark.theme.warning.containerVariant": "S:d175a962a806f1a883e2aefeeeb7f665ad030b9a,",
+        "bp.sys.dark.theme.warning.onContainer": "S:fe570ea67bb8b0b1adb1f8bf5e05cc4c79fc6254,",
+        "bp.sys.dark.theme.success.main": "S:4363f4bf96facb8c6c5e09b34c15d2915bcc6fcd,",
+        "bp.sys.dark.theme.success.onMain": "S:63edbb6d2d7ab01913f3310665409f3ca399948d,",
+        "bp.sys.dark.theme.success.container": "S:bb003ff50ca82bc56bf88c457b0c4873c9e1d1eb,",
+        "bp.sys.dark.theme.success.containerVariant": "S:fb3491889b50a6bee8945db3062a0bbac63a3977,",
+        "bp.sys.dark.theme.success.onContainer": "S:4f362c63be2bda80daee2d3d93d5eb762107b7e2,",
+        "bp.sys.dark.theme.surface.main": "S:e8be43d9626f5a35785362f3ba8bc0a4fcdc3e7a,",
+        "bp.sys.dark.theme.surface.onMain": "S:53ecdb3ddae6766477e643f27cd44d4af79a0312,",
+        "bp.sys.dark.theme.surface.variant": "S:2a2167ea95c3b54da93e84f844389b14a46af7fb,",
+        "bp.sys.dark.theme.surface.onVariant": "S:c1a393f92d737545e02249e8a01c2dcab6bc3fac,",
+        "bp.sys.dark.theme.background.main": "S:ee4a58cea1c096519bfa994fb81300fbe521685d,",
+        "bp.sys.dark.theme.background.onMain": "S:f0d9b9d3bfa1974188192efb2da0529621d50662,",
+        "bp.sys.dark.theme.outline.main": "S:33144b233af3c4f153eb17596b3a24b6c68f39a5,",
+        "bp.sys.dark.theme.outline.variant": "S:d3b5ccc1f70953062b55d8c62f0742b6fb06f4a3,",
+        "bp.sys.dark.theme.outline.primary": "S:88f24eaf2ec7ca954e0961e18a685e14fec6d7c8,",
+        "bp.sys.dark.theme.outline.success": "S:8a51fa3e37c20efec8ee0f7f18be4aadaa19f4bc,",
+        "bp.sys.dark.theme.outline.warning": "S:01ca67c728ce9d15de9f31fdfedabba00a51f57a,",
+        "bp.sys.dark.theme.outline.error": "S:e8f93852d1bc6e45b799b8f2fe2ecba94f73b7b5,",
+        "bp.sys.dark.theme.disabled.main": "S:aff81f1486cd6aca14829f64bd90d79d9ddffa8c,",
+        "bp.sys.dark.theme.disabled.onMain": "S:690c82ec1ceb989faeadea2470e2006ac2160f62,",
+        "bp.sys.dark.theme.tertiary.main": "S:3cf80133bfa322f7ce633b7ff3664de4fc8ed4c5,",
+        "bp.sys.dark.theme.tertiary.onMain": "S:fd64c0f04668a461911e775129400ec4cab8f805,",
+        "bp.sys.dark.theme.tertiary.container": "S:9e23fb453f5c59ed13dc5780d98962b7fd8a5382,",
+        "bp.sys.dark.theme.tertiary.containerVariant": "S:95e5379709a30ce3ac8272829de172787491c62d,",
+        "bp.sys.dark.theme.tertiary.onContainer": "S:caf980d16ca8e0bfcfe3f2b70c8cbf9e27b64a83,",
+        "bp.text.primary": "S:2f877fb285d5ddba0f3d982c43f969b0de7953ea,",
+        "bp.text.secondary": "S:826bbfb5af615eb23034100e5b2b88ee991b2654,",
+        "bp.sys.heading.h1": "S:67ae786ecb2261b650585e23978938fcf6efb092,",
+        "bp.sys.heading.h2": "S:ea08cc8fffdeb95fe7686b7a19cdc4447fa17b8d,",
+        "bp.sys.heading.h3": "S:8dcf4384afe124dfac43a3b9cbff1a42af900282,",
+        "bp.sys.heading.h4": "S:5ed928a2c7352d12aec62cdf8daa0ea52c1b950b,",
+        "bp.sys.heading.h5": "S:5a23357432aa942f9b9300ac4f3ec0a22c9a0af7,",
+        "bp.sys.heading.h6": "S:01185c3b8c0c0a64dad01cf364ed9aee5b0d8aad,",
+        "bp.sys.label.large": "S:59d321aeabaebabc8ca6b4e4353f77eed8a0d55a,",
+        "bp.sys.label.small": "S:39b3c5256bcc004e91d1ce429a877b7c58b56b13,",
+        "bp.sys.body.base": "S:ed1010ae9e869cc0423e9318dccd6215528aef00,",
+        "bp.sys.body.input": "S:f4dc25ad393ea33fb15591d44c98e4f421c21500,",
+        "bp.sys.body.link": "S:65fb7fb96d0bae15e13525924e9b644c336acd81,",
+        "bp.sys.body.bold": "S:62d7100de2d9540536a635c0a210e528c4a1074a,",
+        "bp.sys.mono.code": "S:fc551dd2abd008cc24cdcfa4a58daa61b3235ddd,",
+        "bp.sys.Navigation.primary": "S:66030c606d7d02882efa57bb2f85d1fe17f3b15e,",
+        "bp.sys.Navigation.secondary": "S:06839cfb78d372f44cf0d026ecd6b5daa87c53e6,",
+        "bp.sys.Card Shadow": "S:733318cb2325ff6bc210134a98e48bb6896a075a,",
+        "bp.sys.Elevation.0": "S:e905266c95b86d64bcd4d4131869b566ba2b0e63,",
+        "bp.sys.Elevation.1": "S:a0f2bdf7c4def87a92389cbebed220b63dc02345,",
+        "bp.sys.Elevation.2": "S:ae65466a20f9854c4cd0e3f5209a555e9605b292,",
+        "bp.sys.Elevation.3": "S:af0272de445b8b1d918d37e5c88acf6c491f4ae7,",
+        "bp.sys.Elevation.4": "S:ac8d6521bb14803649764d1f0dfeca311b60bd1d,",
+        "bp.sys.Elevation.6": "S:fea1738cff1329417efa0054ebca93ea1f996773,",
+        "bp.sys.Elevation.8": "S:7a623330037c3fdf1018067db703b08a76c8a2e8,",
+        "bp.sys.Elevation.9": "S:1a7805aadc45cc14aea8775a85c69b3b4876bc11,",
+        "bp.sys.Elevation.12": "S:1758a962c45944e6cda5ccec2a17ecbb14b47484,",
+        "bp.sys.Elevation.16": "S:626f35d40ff0ea67fc9ed57dfac5fa65f7e22acf,",
+        "bp.sys.Elevation.24": "S:6ba69dd4ed2dfb7a1b1406a8b311a902153b0ce3,",
+        "bp.icon.primary": "S:9a56d58882966550fa00aac7450fd90c795ecc17,",
+        "bp.color.accordion.border": "S:76e87b3ab8557399fd1feea3f899b32061a2d210,",
+        "bp.color.accordion.bg-color": "S:aba2e25fb11528e0ee864626ec29fbde9c34cc95,",
+        "bp.color.background.color": "S:20a8a4e79853eacfa89ed42f973126d5c5c266eb,",
+        "bp.color.background.text-color": "S:14f24f1450c835ae3aa4e8dc4f1efa0000cac6ed,",
+        "bp.color.badge.bg-color": "S:d6d0bcb787221e3ab8518d2b94bc709ff6bff61e,",
+        "bp.color.badge.text-color": "S:b516e68e89a3bf7fe2d788c7e8189d57f70f0074,",
+        "bp.color.button.contained.bg-color": "S:1cc221f5078f0b8f2b916fe718a871353b8e42d0,",
+        "bp.color.button.contained.text-color": "S:04552c71fca2ccd2be234cb11caee9291c87f398,",
+        "bp.color.button.outlined.bg-color": "S:5b39a92b4afb29cd5f2fa597bd1bd317741cd409,",
+        "bp.color.button.outlined.text-color": "S:901e2d3cc0c437bc36c1fdc319253d08dab54ac9,",
+        "bp.color.button.outlined.border": "S:9eef9d5b473eb58ad066f298ae8d444edf73bdf6,",
+        "bp.color.button.text.bg-color": "S:f1b56b327a3f64f3cc79c39a9adfbcce0d37ab90,",
+        "bp.color.button.text.text-color": "S:be14df3057c8b8ebd81d04a40385ef9069534aca,",
+        "bp.color.button.icon.bg-color": "S:20fac4b60824f0754017bb5f8cba84ed25414325,",
+        "bp.color.button.icon.text-color": "S:ce94ba29eed48a81ac26d6e1cbabbf4f981161f5,",
+        "bp.color.icon.primary": "S:3db3be5855f93d6cb7b46659510363ab97a18b44,",
+        "bp.color.link.text-color": "S:b6d522ce07b4efc33050cdabf49ac15a02ebc115,",
+        "bp.color.modal.bg-color": "S:c9c74adc3a6cc5e297e765bef99492b36d60dea4,",
+        "bp.color.modal.text-color": "S:86a9a0423c522f593552aa1e69db001180427541,",
+        "bp.color.outline.color": "S:c434470484bc35df4ae9e4ff3fb0d473839831c9,",
+        "bp.color.outline.primary": "S:1ce4d62a12e275d519aada412284ab0c3c54a94c,",
+        "bp.color.switch.bg-color": "S:8d3b70bdba40a09c65bcdd3c85480b2012d12b4d,",
+        "bp.color.switch.text-color": "S:0d8a5eeb387d6a5e9d8d13b2476520ec85479908,",
+        "bp.color.pagination.text-color": "S:dfb0404d2e49a791ba9d596070216feb49ebf7fd,",
+        "bp.color.table.bg-color": "S:1e4de72499b9e96aa70098fec3c4fbf2a3a3212d,",
+        "bp.color.table.text-color": "S:55a5db102b5da279d34481719fbbfa59c7d00518,",
+        "bp.color.tabs.bg-color": "S:a6e22928d60d1fbd1c439471f79ab56b2e81323c,",
+        "bp.color.tabs.text-color": "S:2fde7235b91b3ad15d03eb8f951d20c07fd8a3e8,",
+        "bp.color.text.primary": "S:03c29d06dbf3d0d2b1d07eaf4ba37bc1d3a0ef5b,",
+        "bp.color.text.placeholder": "S:17c741f345d799cc687373f91043377e86a528c3,",
+        "bp.color.text.input.default": "S:6b4ad9a641a0bd45ce9afdc52ddf29a1eba9a1a7,",
+        "bp.color.text.input.placeholder": "S:afa36300ad0dc528eeedd7535222859e79c7616b,",
+        "bp.color.text.link.default": "S:f2cff5c501f1d47e898714f0df66a28f13260608,",
+        "bp.color.tooltip.bg-color": "S:6bf86e158e385807319aa4e10500b05e85d94aca,",
+        "bp.color.tooltip.icon-color": "S:d01d52ea83ebbf1fabfe0e6ea99b51cbe287a6e1,",
+        "bp.color.tooltip.border": "S:d1d9713ece4d1934994772076d821e1b00a77a9b,"
       }
     }
   ],
