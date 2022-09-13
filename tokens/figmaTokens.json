@@ -4324,12 +4324,28 @@
             "value": "{bp.sys.color.surface.onMain}",
             "type": "color"
           },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
           "primary": {
             "value": "{bp.sys.color.primary.main}",
             "type": "color"
           },
-          "disabled": {
-            "value": "{bp.sys.color.disabled.onMain}",
+          "info": {
+            "value": "{bp.sys.color.primary.onContainer}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{bp.sys.color.success.onContainer}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{bp.sys.color.warning.onContainer}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.error.onContainer}",
             "type": "color"
           },
           "navigation": {
