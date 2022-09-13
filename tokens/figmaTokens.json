@@ -3938,10 +3938,6 @@
               "type": "color"
             }
           },
-          "primary": {
-            "value": "{bp.sys.color.background.main}",
-            "type": "color"
-          },
           "surface": {
             "primary": {
               "value": "{bp.sys.color.surface.main}",
@@ -3951,6 +3947,10 @@
               "value": "{bp.sys.color.surface.variant}",
               "type": "color"
             }
+          },
+          "primary": {
+            "value": "{bp.sys.color.background.main}",
+            "type": "color"
           },
           "disabled": {
             "value": "{bp.sys.color.disabled.main}",
@@ -4041,6 +4041,32 @@
                 "type": "color"
               }
             }
+          },
+          "input": {
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{bp.sys.color.outline.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.main}",
+              "type": "color"
+            },
+            "disabled-selected": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
           }
         },
         "modal": {
@@ -4053,7 +4079,7 @@
             "type": "color"
           }
         },
-        "outline": {
+        "border": {
           "color": {
             "value": "{bp.sys.color.outline.main}",
             "type": "color"
@@ -4081,6 +4107,28 @@
                 "type": "color"
               }
             }
+          },
+          "input": {
+            "default": {
+              "value": "{bp.sys.color.outline.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.outline.main}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{bp.sys.color.outline.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
           }
         },
         "text": {
@@ -4090,6 +4138,10 @@
               "type": "color"
             },
             "placeholder": {
+              "value": "{bp.sys.color.surface.onVariant}",
+              "type": "color"
+            },
+            "label": {
               "value": "{bp.sys.color.surface.onVariant}",
               "type": "color"
             }
@@ -4127,16 +4179,6 @@
             },
             "disabled": {
               "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
-            }
-          },
-          "switch": {
-            "bg-color": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "text-color": {
-              "value": "{bp.sys.color.primary.onMain}",
               "type": "color"
             }
           },
@@ -4178,6 +4220,22 @@
           },
           "disabled": {
             "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
+          "info": {
+            "value": "{bp.sys.color.primary.onContainer}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{bp.sys.color.success.onContainer}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{bp.sys.color.warning.onContainer}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.error.onContainer}",
             "type": "color"
           },
           "navigation": {
