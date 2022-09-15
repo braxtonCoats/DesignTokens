@@ -4357,6 +4357,26 @@
               "value": "{bp.sys.color.secondary.main}",
               "type": "color"
             }
+          },
+          "input": {
+            "default": {
+              "value": "{bp.sys.color.surface.onVariant}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "typography": {
+        "label": {
+          "300": {
+            "value": "{bp.sys.label.large}",
+            "type": "typography"
+          }
+        },
+        "body": {
+          "300": {
+            "value": "{bp.sys.body.input}",
+            "type": "typography"
           }
         }
       }
