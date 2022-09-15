@@ -4067,6 +4067,22 @@
               "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
+          },
+          "success": {
+            "value": "{bp.sys.color.success.containerVariant}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{bp.sys.color.warning.containerVariant}",
+            "type": "color"
+          },
+          "info": {
+            "value": "{bp.sys.color.primary.container}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.error.containerVariant}",
+            "type": "color"
           }
         },
         "modal": {
@@ -4128,7 +4144,27 @@
             "disabled": {
               "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
+            },
+            "error": {
+              "value": "{bp.sys.color.error.main}",
+              "type": "color"
             }
+          },
+          "success": {
+            "value": "{bp.sys.color.success.main}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{bp.sys.color.warning.main}",
+            "type": "color"
+          },
+          "info": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.error.main}",
+            "type": "color"
           }
         },
         "text": {
@@ -4143,6 +4179,14 @@
             },
             "label": {
               "value": "{bp.sys.color.surface.onVariant}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{bp.sys.color.error.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
           },
@@ -4361,6 +4405,10 @@
           "input": {
             "default": {
               "value": "{bp.sys.color.surface.onVariant}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
           }
@@ -4651,7 +4699,48 @@
         "bp.color.outline.button.outlined.default": "S:c04bc4123997326d2dd8cde78e139c6627ec297d,",
         "bp.color.outline.button.outlined.hover": "S:80dfcab282aebecd6d433c514eeca605019b6b92,",
         "bp.color.outline.button.outlined.active": "S:c1fd22dee8ca403992a20f2d2becd8d1bd180428,",
-        "bp.color.outline.button.outlined.disabled": "S:d0db913db3e3493051ade480b69de2304708941c,"
+        "bp.color.outline.button.outlined.disabled": "S:d0db913db3e3493051ade480b69de2304708941c,",
+        "bp.color.background.input.default": "S:9f914448c835d75f48d1e8bd49e01d14cbe93155,",
+        "bp.color.background.input.hover": "S:538f2e2303e96131e40716ac6ece8e977fd4fc9c,",
+        "bp.color.background.input.focus": "S:d16400c3aad93c0ff2f3fdae0c5160ce299a0671,",
+        "bp.color.background.input.selected": "S:51eb828de194523c405cb2e1e1897a58295e8a5b,",
+        "bp.color.background.input.disabled": "S:d9a5df57fcfb92bd244fbfcdccaeefccc8512b82,",
+        "bp.color.background.input.disabled-selected": "S:c8acd1b171b64c96154dbe473a9ad2de20df373e,",
+        "bp.color.border.color": "S:efccc05965f0f4ad02d35466910727c71a00aad9,",
+        "bp.color.border.primary": "S:a6ea5140cad7e55ed6ef743d06420da082b0d66c,",
+        "bp.color.border.button.outlined.default": "S:d8ed51a7037505991d839a41d9aacfaed343678a,",
+        "bp.color.border.button.outlined.hover": "S:c317fec2abdcd2570d549879e9a71533b9c603ec,",
+        "bp.color.border.button.outlined.active": "S:9b86ea7d402b3c49a08191dee70cc705902820da,",
+        "bp.color.border.button.outlined.disabled": "S:86148964a6c748f1f9fd4a97890910a0118a0720,",
+        "bp.color.border.input.default": "S:1fd08a11bc32d39d8012c39517b0075d95589f5d,",
+        "bp.color.border.input.hover": "S:12b4447147932d947e188397fe05dd1565fd8dea,",
+        "bp.color.border.input.focus": "S:283eea8bd1f5bda3de9f5113866270ab4a0c1393,",
+        "bp.color.border.input.selected": "S:f0519a055a8dfd1c48d6151546d896a45aa27e5c,",
+        "bp.color.border.input.disabled": "S:828e570921ff0a3b380aa9034aa926bfe8c34c45,",
+        "bp.color.text.input.label": "S:97e166c0cdf492c72375a21caa4f55ac07fb04ea,",
+        "bp.color.text.info": "S:c4bc30bdf98a75c547bf1e496b703550fe951f52,",
+        "bp.color.text.success": "S:e7587422939565ff609c480b9a4003fd6ff768a7,",
+        "bp.color.text.warning": "S:639a017e94db491f9f5bc740310e81933e301f11,",
+        "bp.color.text.error": "S:b543e2c139ad68643fdbec3f0f43303e52ffa267,",
+        "bp.color.icon.info": "S:d24fd02c5657a95e9fa01a9428751fbf9fbbcac9,",
+        "bp.color.icon.success": "S:f4c82013017092574cd1c2caa2d2801299ee567f,",
+        "bp.color.icon.warning": "S:9a39e262f48d6e4f90c3ec4be933a77ab4262c9b,",
+        "bp.color.icon.error": "S:d8b49cdb00af2e82bf91bdb731e9c1c976d5bc92,",
+        "bp.color.icon.input.default": "S:0e505f6c2d0a0321c1ef9450225e749d3f7fca4f,",
+        "bp.typography.label.300": "S:8c09d747e380379262e1eeee3b620abf9e554d77,",
+        "bp.typography.body.300": "S:67e8c8f0f34c92784ad72ba01ac2454203148892,",
+        "bp.color.border.input.error": "S:0029302db793787571e13b16a692eefc47f2b975,",
+        "bp.color.text.input.error": "S:dc4f7b1a79caacbe93bf874deaa45f5d68193bbb,",
+        "bp.color.text.input.disabled": "S:38c98acf714b406d35dcdf2cd6e9407447b2a30d,",
+        "bp.color.icon.input.disabled": "S:091a5b2ba31762eaa5abbc2c4e96875660fb706a,",
+        "bp.color.background.success": "S:3f72937ad8409dfa5328932c5047e144119ca324,",
+        "bp.color.border.success": "S:2029a766892908fa4222c7f49fbf6362f0273c02,",
+        "bp.color.background.warning": "S:7149af2320008c91500c922823849a8763d5192c,",
+        "bp.color.border.warning": "S:d2c3fce3997f52316178fd4d5825b28b5ae16082,",
+        "bp.color.background.info": "S:9381e9f9418400bc5f312742342524177e6d20b9,",
+        "bp.color.border.info": "S:fcfb7f5265cba220aef15024f4994c7911137e01,",
+        "bp.color.border.error": "S:a1640db802c4e4e707f6287278da1104f55406ae,",
+        "bp.color.background.error": "S:89028b76fdbf9d0ac57c8f28f5c46ab5edc345de,"
       }
     }
   ],
