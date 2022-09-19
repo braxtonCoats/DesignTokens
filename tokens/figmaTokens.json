@@ -4157,6 +4157,10 @@
                 "value": "{bp.sys.color.disabled.onMain}",
                 "type": "color"
               }
+            },
+            "focus": {
+              "value": "{bp.sys.color.outline.primary}",
+              "type": "color"
             }
           },
           "input": {
@@ -4569,6 +4573,20 @@
         "default": {
           "value": "8",
           "type": "spacing"
+        },
+        "button": {
+          "top-bottom": {
+            "value": "6",
+            "type": "spacing"
+          },
+          "left-right": {
+            "value": "8",
+            "type": "spacing"
+          },
+          "icon": {
+            "value": "8",
+            "type": "spacing"
+          }
         }
       }
     }
