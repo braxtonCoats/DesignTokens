@@ -3942,12 +3942,16 @@
             }
           },
           "badge": {
-            "bg-color": {
-              "value": "{bp.sys.color.primary.container}",
+            "default": {
+              "value": "{bp.sys.color.success.container}",
               "type": "color"
             },
-            "text-color": {
-              "value": "{bp.sys.color.primary.onContainer}",
+            "error": {
+              "value": "{bp.sys.color.error.container}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{bp.sys.color.warning.container}",
               "type": "color"
             }
           },
@@ -4214,6 +4218,20 @@
               "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
+          },
+          "badge": {
+            "default": {
+              "value": "{bp.sys.color.success.main}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{bp.sys.color.error.main}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{bp.sys.color.warning.main}",
+              "type": "color"
+            }
           }
         },
         "text": {
@@ -4428,6 +4446,20 @@
               "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
+          },
+          "badge": {
+            "default": {
+              "value": "{bp.sys.color.success.main}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{bp.sys.color.error.main}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{bp.sys.color.warning.main}",
+              "type": "color"
+            }
           }
         },
         "icon": {
@@ -4444,19 +4476,19 @@
             "type": "color"
           },
           "info": {
-            "value": "{bp.sys.color.primary.onContainer}",
+            "value": "{bp.sys.color.primary.main}",
             "type": "color"
           },
           "success": {
-            "value": "{bp.sys.color.success.onContainer}",
+            "value": "{bp.sys.color.success.main}",
             "type": "color"
           },
           "warning": {
-            "value": "{bp.sys.color.warning.onContainer}",
+            "value": "{bp.sys.color.warning.main}",
             "type": "color"
           },
           "error": {
-            "value": "{bp.sys.color.error.onContainer}",
+            "value": "{bp.sys.color.error.main}",
             "type": "color"
           },
           "navigation": {
@@ -4509,6 +4541,34 @@
             "value": "{bp.sys.utility.button}",
             "type": "typography"
           }
+        }
+      },
+      "radius": {
+        "sharp": {
+          "value": "0",
+          "type": "borderRadius"
+        },
+        "soft": {
+          "value": "4",
+          "type": "borderRadius"
+        },
+        "default": {
+          "value": "8",
+          "type": "borderRadius"
+        },
+        "round": {
+          "value": "32",
+          "type": "borderRadius"
+        }
+      },
+      "space": {
+        "tight": {
+          "value": "4",
+          "type": "spacing"
+        },
+        "default": {
+          "value": "8",
+          "type": "spacing"
         }
       }
     }
@@ -4845,7 +4905,16 @@
         "bp.typography.label.default": "S:ef51b8ea973ad6e113d5dc34ceae87e5c2ac0871,",
         "bp.typography.body.default": "S:f559170bf82fceee205c1e9df7228716b6e77ef3,",
         "bp.typography.heading.h4": "S:7512043f0729b1554438df3fa988e1007381f2bd,",
-        "bp.typography.body.input": "S:81e45f7c17188e4eba5c702f27bd093ccf630982,"
+        "bp.typography.body.input": "S:81e45f7c17188e4eba5c702f27bd093ccf630982,",
+        "bp.color.background.badge.default": "S:abbcba83ab71e80a19c5c9277dcd8eba366bad0b,",
+        "bp.color.text.badge.default": "S:dd7c0cc92cacfaaee400062e24493432d144ede9,",
+        "bp.color.border.badge.default": "S:e458d0ed00c8c68346d3f7d8e165b162d5dea2f4,",
+        "bp.color.text.badge.error": "S:ea4a71ca5372ee2e5ad045383ae558d66c02d75f,",
+        "bp.color.background.badge.error": "S:cdafd7b7d363a88a82cbdf653bd30317cb6a7115,",
+        "bp.color.border.badge.error": "S:c849da5e9c8090da7dd9df8dc9eb16e485ad7353,",
+        "bp.color.border.badge.warning": "S:8766ee6d6929cbb06dd67706aaead6129de6b96f,",
+        "bp.color.text.badge.warning": "S:5f1f9cf2e96feeed5f74720f58efe84717b984fc,",
+        "bp.color.background.badge.warning": "S:62211237e1166da8a548a0161c4f6f9336a0494f,"
       }
     }
   ],
