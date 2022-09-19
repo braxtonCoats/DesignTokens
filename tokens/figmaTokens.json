@@ -4538,6 +4538,10 @@
           "h4": {
             "value": "{bp.sys.heading.h4}",
             "type": "typography"
+          },
+          "h5": {
+            "value": "{bp.sys.heading.h5}",
+            "type": "typography"
           }
         },
         "button": {
@@ -4932,7 +4936,8 @@
         "bp.color.border.badge.error": "S:c849da5e9c8090da7dd9df8dc9eb16e485ad7353,",
         "bp.color.border.badge.warning": "S:8766ee6d6929cbb06dd67706aaead6129de6b96f,",
         "bp.color.text.badge.warning": "S:5f1f9cf2e96feeed5f74720f58efe84717b984fc,",
-        "bp.color.background.badge.warning": "S:62211237e1166da8a548a0161c4f6f9336a0494f,"
+        "bp.color.background.badge.warning": "S:62211237e1166da8a548a0161c4f6f9336a0494f,",
+        "bp.color.border.button.focus": "S:1616d7db74e198cd0c17abe824a7d68dc6b86fb6,"
       }
     }
   ],
