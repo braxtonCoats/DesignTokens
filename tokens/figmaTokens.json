@@ -3965,14 +3965,6 @@
               "type": "color"
             }
           },
-          "primary": {
-            "value": "{bp.sys.color.background.main}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{bp.sys.color.disabled.main}",
-            "type": "color"
-          },
           "tooltip": {
             "default": {
               "value": "{bp.sys.color.surface.variant}",
@@ -4085,6 +4077,14 @@
               "type": "color"
             }
           },
+          "primary": {
+            "value": "{bp.sys.color.background.main}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.main}",
+            "type": "color"
+          },
           "success": {
             "value": "{bp.sys.color.success.containerVariant}",
             "type": "color"
@@ -4118,27 +4118,29 @@
               "value": "{bp.sys.color.disabled.main}",
               "type": "color"
             }
-          }
-        },
-        "modal": {
-          "bg-color": {
-            "value": "{bp.sys.color.surface.main}",
-            "type": "color"
           },
-          "text-color": {
-            "value": "{bp.sys.color.surface.onMain}",
-            "type": "color"
+          "modal": {
+            "header": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "footer": {
+              "value": "{bp.sys.color.surface.variant}",
+              "type": "color"
+            }
+          },
+          "pill": {
+            "default": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
           }
         },
         "border": {
-          "color": {
-            "value": "{bp.sys.color.outline.main}",
-            "type": "color"
-          },
-          "primary": {
-            "value": "{bp.sys.color.outline.primary}",
-            "type": "color"
-          },
           "button": {
             "outlined": {
               "default": {
@@ -4189,6 +4191,14 @@
               "type": "color"
             }
           },
+          "primary": {
+            "value": "{bp.sys.color.outline.primary}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{bp.sys.color.outline.main}",
+            "type": "color"
+          },
           "success": {
             "value": "{bp.sys.color.success.main}",
             "type": "color"
@@ -4234,6 +4244,18 @@
             },
             "warning": {
               "value": "{bp.sys.color.warning.main}",
+              "type": "color"
+            }
+          },
+          "modal": {
+            "header": {
+              "value": "{bp.sys.color.outline.variant}",
+              "type": "color"
+            }
+          },
+          "pill": {
+            "default": {
+              "value": "{bp.sys.color.primary.main}",
               "type": "color"
             }
           }
@@ -4464,6 +4486,22 @@
               "value": "{bp.sys.color.warning.main}",
               "type": "color"
             }
+          },
+          "modal": {
+            "header": {
+              "value": "{bp.sys.color.surface.onMain}",
+              "type": "color"
+            }
+          },
+          "pill": {
+            "default": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            }
           }
         },
         "icon": {
@@ -4512,6 +4550,16 @@
             },
             "disabled": {
               "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          },
+          "pill": {
+            "default": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.onMain}",
               "type": "color"
             }
           }
@@ -4937,7 +4985,20 @@
         "bp.color.border.badge.warning": "S:8766ee6d6929cbb06dd67706aaead6129de6b96f,",
         "bp.color.text.badge.warning": "S:5f1f9cf2e96feeed5f74720f58efe84717b984fc,",
         "bp.color.background.badge.warning": "S:62211237e1166da8a548a0161c4f6f9336a0494f,",
-        "bp.color.border.button.focus": "S:1616d7db74e198cd0c17abe824a7d68dc6b86fb6,"
+        "bp.color.border.button.focus": "S:1616d7db74e198cd0c17abe824a7d68dc6b86fb6,",
+        "bp.color.background.modal.footer.default": "S:72c86bd80a88155bcadafbe57eb4c486331a30ff,",
+        "bp.typography.heading.h5": "S:3688057bbc61f8c82758611c134dbbafd9153cda,",
+        "bp.color.background.modal.header": "S:3e10afdf0fbd588845b1f744aeef7b86e7d5700e,",
+        "bp.color.background.modal.footer": "S:a62f8b024ca0acf81c475c90b435ceb8c5a92ae1,",
+        "bp.color.border.modal.header": "S:3df96a8159438ec4f2520984579997d9ef99d60a,",
+        "bp.color.text.modal.header": "S:5fe4baf04dbcb51f48002dfccd4597c333e297dd,",
+        "bp.color.background.pill.default": "S:dc7f862e828898f975f8badff6457f8bc466cd3f,",
+        "bp.color.border.pill.default": "S:20538df1f521efe942240feec7252cacb86dd7c4,",
+        "bp.color.background.pill.selected": "S:369c2981f201343271a89dc8f8a80761b7ffad06,",
+        "bp.color.text.pill.default": "S:645232d60a6eef7e9c9543e3df1582731418a899,",
+        "bp.color.text.pill.selected": "S:d4f5a9b8612feeea2385a3a98896faac69134fd4,",
+        "bp.color.icon.pill.default": "S:d13730dcab1eaaf922b582b1898dbda3ba04a142,",
+        "bp.color.icon.pill.selected": "S:8923a11b05794aadcca4f87519d6470bff35bbec,"
       }
     }
   ],
