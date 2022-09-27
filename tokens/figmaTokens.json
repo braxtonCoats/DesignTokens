@@ -5102,7 +5102,9 @@
         "bp.color.background.table.header": "S:0ad057942fa80e2850bce08309778468b4337a32,",
         "bp.color.background.table.cell": "S:7ff40487d25c0de5922803fe05f263d7212a8ed4,",
         "bp.color.text.table.header": "S:e9d21d972920ca56256c4b3630b1330d1fbd9fbc,",
-        "bp.color.text.table.cell": "S:f17a7ba781aa7cabe4af14da300c719c908015ee,"
+        "bp.color.text.table.cell": "S:f17a7ba781aa7cabe4af14da300c719c908015ee,",
+        "bp.color.background.accordion.default": "S:2fae66f230e72cfc2aff50c81ae6c9ff79d56fc7,",
+        "bp.color.background.accordion.features": "S:34fb13eb0aad53d1fc6c8df8bbc7d6644bacb7bb,"
       }
     }
   ],
