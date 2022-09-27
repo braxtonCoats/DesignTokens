@@ -3931,6 +3931,30 @@
     "bp": {
       "color": {
         "background": {
+          "primary": {
+            "value": "{bp.sys.color.background.main}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.main}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{bp.sys.color.success.containerVariant}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{bp.sys.color.warning.containerVariant}",
+            "type": "color"
+          },
+          "info": {
+            "value": "{bp.sys.color.primary.container}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.error.containerVariant}",
+            "type": "color"
+          },
           "accordion": {
             "default": {
               "value": "{bp.sys.color.surface.main}",
@@ -4077,30 +4101,6 @@
               "type": "color"
             }
           },
-          "primary": {
-            "value": "{bp.sys.color.background.main}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{bp.sys.color.disabled.main}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{bp.sys.color.success.containerVariant}",
-            "type": "color"
-          },
-          "warning": {
-            "value": "{bp.sys.color.warning.containerVariant}",
-            "type": "color"
-          },
-          "info": {
-            "value": "{bp.sys.color.primary.container}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{bp.sys.color.error.containerVariant}",
-            "type": "color"
-          },
           "chip": {
             "default": {
               "value": "{bp.sys.color.surface.main}",
@@ -4183,6 +4183,42 @@
           }
         },
         "border": {
+          "default": {
+            "value": "{bp.sys.color.outline.variant}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{bp.sys.color.outline.primary}",
+            "type": "color"
+          },
+          "primary": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{bp.sys.color.outline.main}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{bp.sys.color.success.main}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{bp.sys.color.warning.main}",
+            "type": "color"
+          },
+          "info": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.error.main}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
           "button": {
             "outlined": {
               "default": {
@@ -4233,30 +4269,6 @@
               "type": "color"
             }
           },
-          "primary": {
-            "value": "{bp.sys.color.primary.main}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{bp.sys.color.outline.main}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{bp.sys.color.success.main}",
-            "type": "color"
-          },
-          "warning": {
-            "value": "{bp.sys.color.warning.main}",
-            "type": "color"
-          },
-          "info": {
-            "value": "{bp.sys.color.primary.main}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{bp.sys.color.error.main}",
-            "type": "color"
-          },
           "chip": {
             "default": {
               "value": "{bp.sys.color.outline.main}",
@@ -4301,18 +4313,6 @@
               "type": "color"
             }
           },
-          "default": {
-            "value": "{bp.sys.color.outline.variant}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{bp.sys.color.disabled.onMain}",
-            "type": "color"
-          },
-          "focus": {
-            "value": "{bp.sys.color.outline.primary}",
-            "type": "color"
-          },
           "tab": {
             "default": {
               "value": "{bp.sys.color.outline.variant}",
@@ -4335,6 +4335,30 @@
           }
         },
         "text": {
+          "primary": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          },
+          "info": {
+            "value": "{bp.sys.color.primary.onContainer}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{bp.sys.color.success.onContainer}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{bp.sys.color.warning.onContainer}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.error.onContainer}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
           "input": {
             "default": {
               "value": "{bp.sys.color.surface.onMain}",
@@ -4414,30 +4438,6 @@
               "value": "{bp.sys.color.surface.onMain}",
               "type": "color"
             }
-          },
-          "primary": {
-            "value": "{bp.sys.color.surface.onMain}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{bp.sys.color.disabled.onMain}",
-            "type": "color"
-          },
-          "info": {
-            "value": "{bp.sys.color.primary.onContainer}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{bp.sys.color.success.onContainer}",
-            "type": "color"
-          },
-          "warning": {
-            "value": "{bp.sys.color.warning.onContainer}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{bp.sys.color.error.onContainer}",
-            "type": "color"
           },
           "navigation": {
             "default": {
@@ -4593,10 +4593,6 @@
             "value": "{bp.sys.color.surface.onMain}",
             "type": "color"
           },
-          "disabled": {
-            "value": "{bp.sys.color.disabled.onMain}",
-            "type": "color"
-          },
           "primary": {
             "value": "{bp.sys.color.primary.main}",
             "type": "color"
@@ -4615,6 +4611,10 @@
           },
           "error": {
             "value": "{bp.sys.color.error.main}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
             "type": "color"
           },
           "navigation": {
