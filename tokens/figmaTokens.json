@@ -3932,12 +3932,12 @@
       "color": {
         "background": {
           "accordion": {
-            "border": {
-              "value": "{bp.sys.color.outline.variant}",
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
               "type": "color"
             },
-            "bg-color": {
-              "value": "{bp.sys.color.surface.main}",
+            "features": {
+              "value": "{bp.sys.color.surface.variant}",
               "type": "color"
             }
           },
