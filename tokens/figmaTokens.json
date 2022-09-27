@@ -4138,6 +4138,48 @@
               "value": "{bp.sys.color.primary.main}",
               "type": "color"
             }
+          },
+          "radio": {
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.main}",
+              "type": "color"
+            }
+          },
+          "switch": {
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          },
+          "table": {
+            "header": {
+              "value": "{bp.sys.color.surface.variant}",
+              "type": "color"
+            },
+            "cell": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            }
           }
         },
         "border": {
@@ -4192,7 +4234,7 @@
             }
           },
           "primary": {
-            "value": "{bp.sys.color.outline.primary}",
+            "value": "{bp.sys.color.primary.main}",
             "type": "color"
           },
           "color": {
@@ -4258,6 +4300,38 @@
               "value": "{bp.sys.color.primary.main}",
               "type": "color"
             }
+          },
+          "default": {
+            "value": "{bp.sys.color.outline.variant}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{bp.sys.color.outline.primary}",
+            "type": "color"
+          },
+          "tab": {
+            "default": {
+              "value": "{bp.sys.color.outline.variant}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.primary.onContainer}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          },
+          "table": {
+            "default": {
+              "value": "{bp.sys.color.outline.main}",
+              "type": "color"
+            }
           }
         },
         "text": {
@@ -4316,16 +4390,6 @@
             },
             "disabled": {
               "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
-            }
-          },
-          "table": {
-            "bg-color": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "text-color": {
-              "value": "{bp.sys.color.primary.onMain}",
               "type": "color"
             }
           },
@@ -4500,6 +4564,26 @@
             },
             "selected": {
               "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            }
+          },
+          "switch": {
+            "default": {
+              "value": "{bp.sys.color.surface.onVariant}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            }
+          },
+          "table": {
+            "header": {
+              "value": "{bp.sys.color.surface.onVariant}",
+              "type": "color"
+            },
+            "cell": {
+              "value": "{bp.sys.color.surface.onMain}",
               "type": "color"
             }
           }
@@ -4998,7 +5082,27 @@
         "bp.color.text.pill.default": "S:645232d60a6eef7e9c9543e3df1582731418a899,",
         "bp.color.text.pill.selected": "S:d4f5a9b8612feeea2385a3a98896faac69134fd4,",
         "bp.color.icon.pill.default": "S:d13730dcab1eaaf922b582b1898dbda3ba04a142,",
-        "bp.color.icon.pill.selected": "S:8923a11b05794aadcca4f87519d6470bff35bbec,"
+        "bp.color.icon.pill.selected": "S:8923a11b05794aadcca4f87519d6470bff35bbec,",
+        "bp.color.background.radio.default": "S:aba2774cc52c3e6b6f91e5adbe3a052a44b5ff50,",
+        "bp.color.background.radio.hover": "S:1012f263298b3e983625371e429cd0f583898b5f,",
+        "bp.color.background.radio.focus": "S:c448b6d393eafde82521b648b0bc73bd69143628,",
+        "bp.color.background.radio.selected": "S:1358e113da2ea3e6474cc94d6fceb9f812638b6c,",
+        "bp.color.background.radio.disabled": "S:fc0c69dc28a2cdd8355cc09c6a0930408135f179,",
+        "bp.color.border.default": "S:3c510402d24b083f965964da65cd5bc94f225398,",
+        "bp.color.border.disabled": "S:54282928ed0371ef14f9504a6c3daef12038a8e4,",
+        "bp.color.border.focus": "S:2d80b1cd259a082b74fb810b3ce423f9332c6ad0,",
+        "bp.color.background.switch.default": "S:cb4612f183ef202e7a4ea7b0342f03b93c10d7ce,",
+        "bp.color.background.switch.selected": "S:b0525f5fce125139432874ef1bb4615a3c773055,",
+        "bp.color.text.switch.default": "S:d2e37eeb50e72fce9873433ca15ec408d8d16e0b,",
+        "bp.color.text.switch.selected": "S:e6d7ff15010f11ae322c0610cbbf00c99a30f1ff,",
+        "bp.color.border.tab.default": "S:ef01fac8ec3bd88f7704b3973cf880f7f31f4ff8,",
+        "bp.color.border.tab.hover": "S:f44f53a7ec8046abecf9949591e76b01f1e037be,",
+        "bp.color.border.tab.selected": "S:b340f9ac4b14845ee19031df7fc113253c9a0139,",
+        "bp.color.border.table.default": "S:a2bda2519b046a52d1444bc73eed133835121a53,",
+        "bp.color.background.table.header": "S:0ad057942fa80e2850bce08309778468b4337a32,",
+        "bp.color.background.table.cell": "S:7ff40487d25c0de5922803fe05f263d7212a8ed4,",
+        "bp.color.text.table.header": "S:e9d21d972920ca56256c4b3630b1330d1fbd9fbc,",
+        "bp.color.text.table.cell": "S:f17a7ba781aa7cabe4af14da300c719c908015ee,"
       }
     }
   ],
