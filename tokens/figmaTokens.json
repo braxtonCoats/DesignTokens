@@ -3481,7 +3481,7 @@
               "fontSize": "$bp.sys.font-size.1",
               "letterSpacing": "$bp.sys.letter-spacing.0",
               "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
-              "textCase": "$bp.sys.text-case.none",
+              "textCase": "$bp.sys.text-case.uppercase",
               "textDecoration": "$bp.sys.text-decoration.none"
             },
             "type": "typography"
