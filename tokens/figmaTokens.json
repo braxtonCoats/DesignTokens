@@ -3346,6 +3346,10 @@
           "7": {
             "value": "28",
             "type": "fontSizes"
+          },
+          "-1": {
+            "value": "11",
+            "type": "fontSizes"
           }
         },
         "letter-spacing": {
@@ -3478,7 +3482,7 @@
               "fontFamily": "$overpass",
               "fontWeight": "{bp.sys.font-weight.700}",
               "lineHeight": "$bp.sys.line-height.4",
-              "fontSize": "$bp.sys.font-size.1",
+              "fontSize": "$bp.sys.font-size.-1",
               "letterSpacing": "$bp.sys.letter-spacing.0",
               "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
               "textCase": "$bp.sys.text-case.uppercase",
