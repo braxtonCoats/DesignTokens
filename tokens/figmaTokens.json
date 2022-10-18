@@ -3959,22 +3959,6 @@
             "value": "{bp.sys.color.error.containerVariant}",
             "type": "color"
           },
-          "surface": {
-            "primary": {
-              "value": "{bp.sys.color.surface.main}",
-              "type": "color"
-            },
-            "secondary": {
-              "value": "{bp.sys.color.surface.variant}",
-              "type": "color"
-            }
-          },
-          "tooltip": {
-            "default": {
-              "value": "{bp.sys.color.surface.variant}",
-              "type": "color"
-            }
-          },
           "navigation": {
             "default": {
               "value": "{bp.sys.color.secondary.main}",
@@ -3997,52 +3981,6 @@
                 "value": "{bp.sys.color.secondary.onContainer}",
                 "type": "color"
               }
-            }
-          },
-          "button": {
-            "contained": {
-              "default": {
-                "value": "{bp.sys.color.primary.main}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{bp.sys.color.primary.onContainer}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{bp.sys.color.secondary.main}",
-                "type": "color"
-              },
-              "disabled": {
-                "value": "{bp.sys.color.disabled.main}",
-                "type": "color"
-              }
-            }
-          },
-          "input": {
-            "default": {
-              "value": "{bp.sys.color.surface.main}",
-              "type": "color"
-            },
-            "hover": {
-              "value": "{bp.sys.color.surface.main}",
-              "type": "color"
-            },
-            "focus": {
-              "value": "{bp.sys.color.surface.main}",
-              "type": "color"
-            },
-            "selected": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{bp.sys.color.disabled.main}",
-              "type": "color"
-            },
-            "disabled-selected": {
-              "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
             }
           },
           "chip": {
@@ -4083,7 +4021,69 @@
               "type": "color"
             }
           },
-          "radio": {
+          "switch": {
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          }
+        },
+        "accordion": {
+          "background": {
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "features": {
+              "value": "{bp.sys.color.surface.variant}",
+              "type": "color"
+            }
+          }
+        },
+        "surface": {
+          "primary": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{bp.sys.color.surface.variant}",
+            "type": "color"
+          }
+        },
+        "input": {
+          "background": {
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "focus": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.main}",
+              "type": "color"
+            },
+            "disabled-selected": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          }
+        },
+        "radio": {
+          "background": {
             "default": {
               "value": "{bp.sys.color.surface.main}",
               "type": "color"
@@ -4104,36 +4104,16 @@
               "value": "{bp.sys.color.disabled.main}",
               "type": "color"
             }
-          },
-          "switch": {
-            "default": {
-              "value": "{bp.sys.color.surface.main}",
-              "type": "color"
-            },
-            "selected": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            }
-          },
-          "table": {
+          }
+        },
+        "table": {
+          "background": {
             "header": {
               "value": "{bp.sys.color.surface.variant}",
               "type": "color"
             },
             "cell": {
               "value": "{bp.sys.color.surface.main}",
-              "type": "color"
-            }
-          }
-        },
-        "accordion": {
-          "background": {
-            "default": {
-              "value": "{bp.sys.color.surface.main}",
-              "type": "color"
-            },
-            "features": {
-              "value": "{bp.sys.color.surface.variant}",
               "type": "color"
             }
           }
