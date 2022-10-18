@@ -3959,30 +3959,6 @@
             "value": "{bp.sys.color.error.containerVariant}",
             "type": "color"
           },
-          "accordion": {
-            "default": {
-              "value": "{bp.sys.color.surface.main}",
-              "type": "color"
-            },
-            "features": {
-              "value": "{bp.sys.color.surface.variant}",
-              "type": "color"
-            }
-          },
-          "badge": {
-            "default": {
-              "value": "{bp.sys.color.success.container}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{bp.sys.color.error.container}",
-              "type": "color"
-            },
-            "warning": {
-              "value": "{bp.sys.color.warning.container}",
-              "type": "color"
-            }
-          },
           "surface": {
             "primary": {
               "value": "{bp.sys.color.surface.main}",
@@ -4025,42 +4001,6 @@
           },
           "button": {
             "contained": {
-              "default": {
-                "value": "{bp.sys.color.primary.main}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{bp.sys.color.primary.onContainer}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{bp.sys.color.secondary.main}",
-                "type": "color"
-              },
-              "disabled": {
-                "value": "{bp.sys.color.disabled.main}",
-                "type": "color"
-              }
-            },
-            "outlined": {
-              "default": {
-                "value": "{bp.sys.color.primary.onMain}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{bp.sys.color.primary.main}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{bp.sys.color.secondary.main}",
-                "type": "color"
-              },
-              "disabled": {
-                "value": "{bp.sys.color.disabled.main}",
-                "type": "color"
-              }
-            },
-            "icon": {
               "default": {
                 "value": "{bp.sys.color.primary.main}",
                 "type": "color"
@@ -4186,6 +4126,168 @@
             }
           }
         },
+        "accordion": {
+          "background": {
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "features": {
+              "value": "{bp.sys.color.surface.variant}",
+              "type": "color"
+            }
+          }
+        },
+        "badge": {
+          "background": {
+            "default": {
+              "value": "{bp.sys.color.success.container}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{bp.sys.color.error.container}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{bp.sys.color.warning.container}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{bp.sys.color.success.main}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{bp.sys.color.error.main}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{bp.sys.color.warning.main}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{bp.sys.color.success.main}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{bp.sys.color.error.main}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{bp.sys.color.warning.main}",
+              "type": "color"
+            }
+          }
+        },
+        "button": {
+          "outlined": {
+            "background": {
+              "default": {
+                "value": "{bp.sys.color.surface.main}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.secondary.main}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.main}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.onMain}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.onMain}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.primary.onMain}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.onMain}",
+                "type": "color"
+              }
+            }
+          },
+          "contained": {
+            "background": {
+              "default": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.onContainer}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.primary.onContainer}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.main}",
+                "type": "color"
+              }
+            },
+            "border": {
+              "default": {
+                "value": "{bp.sys.color.primary.main}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.sys.color.primary.onContainer}",
+                "type": "color"
+              },
+              "active": {
+                "value": "{bp.sys.color.primary.onContainer}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.main}",
+                "type": "color"
+              }
+            },
+            "text": {
+              "default": {
+                "value": "{bp.sys.color.primary.onMain}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{bp.sys.color.disabled.onMain}",
+                "type": "color"
+              }
+            }
+          }
+        },
         "border": {
           "default": {
             "value": "{bp.sys.color.outline.variant}",
@@ -4224,24 +4326,6 @@
             "type": "color"
           },
           "button": {
-            "outlined": {
-              "default": {
-                "value": "{bp.sys.color.primary.main}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{bp.sys.color.primary.main}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{bp.sys.color.primary.main}",
-                "type": "color"
-              },
-              "disabled": {
-                "value": "{bp.sys.color.disabled.onMain}",
-                "type": "color"
-              }
-            },
             "focus": {
               "value": "{bp.sys.color.outline.primary}",
               "type": "color"
@@ -4288,20 +4372,6 @@
             },
             "disabled": {
               "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
-            }
-          },
-          "badge": {
-            "default": {
-              "value": "{bp.sys.color.success.main}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{bp.sys.color.error.main}",
-              "type": "color"
-            },
-            "warning": {
-              "value": "{bp.sys.color.warning.main}",
               "type": "color"
             }
           },
@@ -4437,12 +4507,6 @@
               "type": "color"
             }
           },
-          "accordion": {
-            "primary": {
-              "value": "{bp.sys.color.surface.onMain}",
-              "type": "color"
-            }
-          },
           "navigation": {
             "default": {
               "value": "{bp.sys.color.secondary.onMain}",
@@ -4471,24 +4535,6 @@
             "contained": {
               "default": {
                 "value": "{bp.sys.color.primary.onMain}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{bp.sys.color.primary.onMain}",
-                "type": "color"
-              },
-              "active": {
-                "value": "{bp.sys.color.primary.onMain}",
-                "type": "color"
-              },
-              "disabled": {
-                "value": "{bp.sys.color.disabled.onMain}",
-                "type": "color"
-              }
-            },
-            "outlined": {
-              "default": {
-                "value": "{bp.sys.color.primary.main}",
                 "type": "color"
               },
               "hover": {
@@ -4538,20 +4584,6 @@
             },
             "disabled": {
               "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
-            }
-          },
-          "badge": {
-            "default": {
-              "value": "{bp.sys.color.success.main}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{bp.sys.color.error.main}",
-              "type": "color"
-            },
-            "warning": {
-              "value": "{bp.sys.color.warning.main}",
               "type": "color"
             }
           },
