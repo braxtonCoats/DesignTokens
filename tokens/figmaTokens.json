@@ -3931,7 +3931,7 @@
       }
     }
   },
-  "light": {
+  "BluePrint": {
     "bp": {
       "color": {
         "background": {
@@ -4739,7 +4739,7 @@
         "reference": "source",
         "BP v1.0": "disabled",
         "system": "enabled",
-        "light": "enabled"
+        "BluePrint": "enabled"
       },
       "$figmaStyleReferences": {
         "bp.accordion.border": "S:8dbb4205db57d788dd4f20903a6cf6c80d005ec1,",
@@ -5117,7 +5117,7 @@
       "reference",
       "BP v1.0",
       "system",
-      "light"
+      "BluePrint"
     ]
   }
 }
