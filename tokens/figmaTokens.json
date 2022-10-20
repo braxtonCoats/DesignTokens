@@ -4393,8 +4393,8 @@
             "value": "{bp.sys.color.primary.main}",
             "type": "color"
           },
-          "color": {
-            "value": "{bp.sys.color.outline.main}",
+          "secondary": {
+            "value": "{bp.sys.color.secondary.main}",
             "type": "color"
           },
           "success": {
@@ -4469,8 +4469,12 @@
           }
         },
         "text": {
-          "primary": {
+          "default": {
             "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          },
+          "primary": {
+            "value": "{bp.sys.color.primary.main}",
             "type": "color"
           },
           "placeholder": {
@@ -4488,50 +4492,6 @@
           "disabled": {
             "value": "{bp.sys.color.disabled.onMain}",
             "type": "color"
-          },
-          "input": {
-            "placeholder": {
-              "value": "{bp.sys.color.surface.onVariant}",
-              "type": "color"
-            },
-            "label": {
-              "value": "{bp.sys.color.surface.onVariant}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
-            }
-          },
-          "pagination": {
-            "default": {
-              "value": "{bp.sys.color.surface.onMain}",
-              "type": "color"
-            },
-            "active": {
-              "value": "{bp.sys.color.primary.containerVariant}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
-            }
-          },
-          "tabs": {
-            "bg-color": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "text-color": {
-              "value": "{bp.sys.color.primary.onMain}",
-              "type": "color"
-            }
-          },
-          "tooltip": {
-            "default": {
-              "value": "{bp.sys.color.surface.onMain}",
-              "type": "color"
-            }
           },
           "navigation": {
             "default": {
@@ -4721,6 +4681,30 @@
           },
           "disabled": {
             "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          }
+        },
+        "tab": {
+          "text": {
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.secondary.main}",
+              "type": "color"
+            }
+          }
+        },
+        "tooltip": {
+          "background": {
+            "value": "{bp.sys.color.surface.variant}",
             "type": "color"
           }
         }
