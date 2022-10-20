@@ -3992,6 +3992,16 @@
               "value": "{bp.sys.color.secondary.onMain}",
               "type": "color"
             }
+          },
+          "icon": {
+            "default": {
+              "value": "{bp.sys.color.secondary.onMain}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.secondary.main}",
+              "type": "color"
+            }
           }
         },
         "secondary-navigation": {
@@ -4033,6 +4043,16 @@
               "type": "color"
             },
             "disabled-selected": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{bp.sys.color.surface.onVariant}",
+              "type": "color"
+            },
+            "disabled": {
               "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
@@ -4078,6 +4098,16 @@
             },
             "selected": {
               "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.onMain}",
               "type": "color"
             }
           }
@@ -4654,36 +4684,6 @@
           "disabled": {
             "value": "{bp.sys.color.disabled.onMain}",
             "type": "color"
-          },
-          "navigation": {
-            "default": {
-              "value": "{bp.sys.color.secondary.onMain}",
-              "type": "color"
-            },
-            "active": {
-              "value": "{bp.sys.color.secondary.main}",
-              "type": "color"
-            }
-          },
-          "input": {
-            "default": {
-              "value": "{bp.sys.color.surface.onVariant}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
-            }
-          },
-          "pill": {
-            "default": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "selected": {
-              "value": "{bp.sys.color.primary.onMain}",
-              "type": "color"
-            }
           }
         }
       },
