@@ -4030,10 +4030,6 @@
               "value": "{bp.sys.color.surface.main}",
               "type": "color"
             },
-            "focus": {
-              "value": "{bp.sys.color.surface.main}",
-              "type": "color"
-            },
             "selected": {
               "value": "{bp.sys.color.primary.main}",
               "type": "color"
@@ -4043,6 +4039,84 @@
               "type": "color"
             },
             "disabled-selected": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{bp.sys.color.surface.onVariant}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{bp.sys.color.outline.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.outline.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{bp.sys.color.error.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          }
+        },
+        "dropdown": {
+          "background": {
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.main}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{bp.sys.color.outline.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.outline.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{bp.sys.color.error.main}",
+              "type": "color"
+            },
+            "disabled": {
               "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
@@ -4119,10 +4193,6 @@
               "type": "color"
             },
             "hover": {
-              "value": "{bp.sys.color.surface.main}",
-              "type": "color"
-            },
-            "focus": {
               "value": "{bp.sys.color.surface.main}",
               "type": "color"
             },
@@ -4346,38 +4416,6 @@
           "disabled": {
             "value": "{bp.sys.color.disabled.onMain}",
             "type": "color"
-          },
-          "button": {
-            "focus": {
-              "value": "{bp.sys.color.outline.primary}",
-              "type": "color"
-            }
-          },
-          "input": {
-            "default": {
-              "value": "{bp.sys.color.outline.main}",
-              "type": "color"
-            },
-            "hover": {
-              "value": "{bp.sys.color.outline.main}",
-              "type": "color"
-            },
-            "focus": {
-              "value": "{bp.sys.color.primary.containerVariant}",
-              "type": "color"
-            },
-            "selected": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
-            },
-            "error": {
-              "value": "{bp.sys.color.error.main}",
-              "type": "color"
-            }
           },
           "chip": {
             "default": {
