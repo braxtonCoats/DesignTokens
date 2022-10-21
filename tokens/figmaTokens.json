@@ -3988,6 +3988,10 @@
               "value": "{bp.sys.color.secondary.main}",
               "type": "color"
             },
+            "hover": {
+              "value": "{bp.sys.color.secondary.onMain}",
+              "type": "color"
+            },
             "active": {
               "value": "{bp.sys.color.secondary.onMain}",
               "type": "color"
@@ -4000,6 +4004,24 @@
             },
             "active": {
               "value": "{bp.sys.color.secondary.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.color.border.error}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{bp.sys.color.secondary.onMain}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.secondary.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.error.main}",
               "type": "color"
             }
           }
