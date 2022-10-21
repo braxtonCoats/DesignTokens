@@ -4334,7 +4334,7 @@
           "contained": {
             "background": {
               "default": {
-                "value": "{bp.sys.color.tertiary.main}",
+                "value": "{bp.sys.color.primary.main}",
                 "type": "color"
               },
               "hover": {
