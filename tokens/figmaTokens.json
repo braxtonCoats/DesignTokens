@@ -3024,15 +3024,15 @@
             "type": "spacing"
           },
           "med": {
-            "value": "32",
+            "value": "24",
             "type": "spacing"
           },
           "lg": {
-            "value": "64",
+            "value": "32",
             "type": "spacing"
           },
           "x-lg": {
-            "value": "104",
+            "value": "64",
             "type": "spacing"
           }
         },
@@ -4850,7 +4850,7 @@
             }
           },
           "border": {
-            "focus": {
+            "active": {
               "value": "{bp.sys.color.secondary.main}",
               "type": "color"
             }
@@ -4867,13 +4867,27 @@
               "type": "color"
             },
             "active": {
-              "value": "{bp.sys.color.secondary.onContainer}",
+              "value": "{bp.sys.color.primary.container}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.secondary.onMain}",
               "type": "color"
             }
           },
           "text": {
             "default": {
               "value": "{bp.sys.color.surface.onMain}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "active": {
+              "value": "{bp.sys.color.secondary.main}",
               "type": "color"
             }
           }
@@ -5708,12 +5722,42 @@
                 "y": "2",
                 "blur": "3",
                 "spread": "-2",
-                "color": "#000000",
+                "color": "#00000035",
                 "type": "dropShadow"
               },
               "type": "boxShadow"
             }
           }
+        }
+      },
+      "spacing": {
+        "none": {
+          "value": "0",
+          "type": "spacing"
+        },
+        "xx-sm": {
+          "value": "4",
+          "type": "spacing"
+        },
+        "x-sm": {
+          "value": "8",
+          "type": "spacing"
+        },
+        "sm": {
+          "value": "16",
+          "type": "spacing"
+        },
+        "med": {
+          "value": "24",
+          "type": "spacing"
+        },
+        "lg": {
+          "value": "32",
+          "type": "spacing"
+        },
+        "x-lg": {
+          "value": "64",
+          "type": "spacing"
         }
       }
     }
