@@ -4007,7 +4007,7 @@
               "type": "color"
             },
             "hover": {
-              "value": "{bp.color.border.error}",
+              "value": "{bp.sys.color.secondary.main}",
               "type": "color"
             }
           },
@@ -4021,7 +4021,7 @@
               "type": "color"
             },
             "hover": {
-              "value": "{bp.sys.color.error.main}",
+              "value": "{bp.sys.color.secondary.main}",
               "type": "color"
             }
           }
