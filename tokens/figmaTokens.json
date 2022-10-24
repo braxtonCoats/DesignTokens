@@ -2918,21 +2918,27 @@
             }
           }
         },
-        "x-sm": {
-          "value": "{size.8}",
-          "type": "borderRadius"
-        },
-        "sm": {
-          "value": "{size.16}",
-          "type": "borderRadius"
-        },
-        "med": {
-          "value": "{size.32}",
-          "type": "borderRadius"
-        },
-        "lg": {
-          "value": "{size.64}",
-          "type": "borderRadius"
+        "border-radius": {
+          "sharp": {
+            "value": "0",
+            "type": "borderRadius"
+          },
+          "x-soft": {
+            "value": "{size.4}",
+            "type": "borderRadius"
+          },
+          "soft": {
+            "value": "{size.8}",
+            "type": "borderRadius"
+          },
+          "semi-round": {
+            "value": "{size.16}",
+            "type": "borderRadius"
+          },
+          "rounded": {
+            "value": "{size.32}",
+            "type": "borderRadius"
+          }
         },
         "size": {
           "0": {
@@ -4799,21 +4805,25 @@
         "navigation": {
           "background": {
             "default": {
-              "value": "{bp.sys.color.secondary.main}",
+              "value": "{bp.sys.color.surface.main}",
               "type": "color"
             },
             "hover": {
-              "value": "{bp.sys.color.secondary.onMain}",
+              "value": "{bp.sys.color.primary.container}",
               "type": "color"
             },
             "active": {
-              "value": "{bp.sys.color.secondary.onMain}",
+              "value": "{bp.sys.color.secondary.container}",
+              "type": "color"
+            },
+            "emergency": {
+              "value": "{bw.ref.color-palette.orange.55}",
               "type": "color"
             }
           },
           "icon": {
             "default": {
-              "value": "{bp.sys.color.secondary.onMain}",
+              "value": "{bp.sys.color.primary.main}",
               "type": "color"
             },
             "hover": {
@@ -4821,13 +4831,13 @@
               "type": "color"
             },
             "active": {
-              "value": "{bp.sys.color.secondary.main}",
+              "value": "{bp.sys.color.secondary.onContainer}",
               "type": "color"
             }
           },
           "text": {
             "default": {
-              "value": "{bp.sys.color.secondary.onMain}",
+              "value": "{bp.sys.color.surface.onMain}",
               "type": "color"
             },
             "hover": {
@@ -4835,6 +4845,12 @@
               "type": "color"
             },
             "active": {
+              "value": "{bp.sys.color.secondary.onContainer}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "focus": {
               "value": "{bp.sys.color.secondary.main}",
               "type": "color"
             }
@@ -4843,15 +4859,21 @@
         "secondary-navigation": {
           "background": {
             "default": {
-              "value": "{bp.sys.color.secondary.container}",
+              "value": "{bp.sys.color.primary.container}",
               "type": "color"
             },
             "hover": {
-              "value": "{bp.sys.color.secondary.containerVariant}",
+              "value": "{bp.sys.color.surface.main}",
               "type": "color"
             },
             "active": {
               "value": "{bp.sys.color.secondary.onContainer}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{bp.sys.color.surface.onMain}",
               "type": "color"
             }
           }
@@ -5221,10 +5243,6 @@
             "value": "{bp.sys.color.outline.variant}",
             "type": "color"
           },
-          "focus": {
-            "value": "{bp.sys.color.outline.primary}",
-            "type": "color"
-          },
           "primary": {
             "value": "{bp.sys.color.primary.main}",
             "type": "color"
@@ -5302,6 +5320,12 @@
               "value": "{bp.sys.color.outline.main}",
               "type": "color"
             }
+          }
+        },
+        "outline": {
+          "focus": {
+            "value": "{bp.sys.color.outline.primary}",
+            "type": "color"
           }
         },
         "alert": {
@@ -5401,81 +5425,294 @@
             "value": "{bp.sys.color.surface.variant}",
             "type": "color"
           }
+        },
+        "logo": {
+          "icon": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          }
         }
       },
       "typography": {
+        "heading": {
+          "h1": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "{bp.sys.font-weight.600}",
+              "lineHeight": "$bp.sys.line-height.8",
+              "fontSize": "$bp.sys.font-size.6",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          },
+          "h2": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "{bp.sys.font-weight.600}",
+              "lineHeight": "$bp.sys.line-height.1",
+              "fontSize": "$bp.sys.font-size.5",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          },
+          "h3": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "{bp.sys.font-weight.600}",
+              "lineHeight": "$bp.sys.line-height.1",
+              "fontSize": "$bp.sys.font-size.4",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          },
+          "h4": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "{bp.sys.font-weight.600}",
+              "lineHeight": "$bp.sys.line-height.2",
+              "fontSize": "$bp.sys.font-size.3",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          },
+          "h5": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "{bp.sys.font-weight.600}",
+              "lineHeight": "$bp.sys.line-height.3",
+              "fontSize": "$bp.sys.font-size.2",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          },
+          "h6": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "{bp.sys.font-weight.600}",
+              "lineHeight": "$bp.sys.line-height.4",
+              "fontSize": "$bp.sys.font-size.0",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          }
+        },
         "label": {
-          "default": {
-            "value": "{bp.sys.label.large}",
+          "large": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "{bp.sys.font-weight.700}",
+              "lineHeight": "$bp.sys.line-height.4",
+              "fontSize": "$bp.sys.font-size.-1",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.uppercase",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          },
+          "small": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "$bp.sys.font-weight.400",
+              "lineHeight": "$bp.sys.line-height.6",
+              "fontSize": "$bp.sys.font-size.0",
+              "letterSpacing": "$bp.sys.letter-spacing.1",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.uppercase",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
             "type": "typography"
           }
         },
         "body": {
-          "default": {
-            "value": "{bp.sys.body.input}",
+          "base": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "{bp.sys.font-weight.400}",
+              "lineHeight": "$bp.sys.line-height.2",
+              "fontSize": "$bp.sys.font-size.2",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
             "type": "typography"
           },
           "input": {
-            "value": "{bp.sys.body.input}",
-            "type": "typography"
-          }
-        },
-        "heading": {
-          "h4": {
-            "value": "{bp.sys.heading.h4}",
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "{bp.sys.font-weight.400}",
+              "lineHeight": "$bp.sys.line-height.3",
+              "fontSize": "$bp.sys.font-size.1",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
             "type": "typography"
           },
-          "h5": {
-            "value": "{bp.sys.heading.h5}",
+          "link": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "$bp.sys.font-weight.400",
+              "lineHeight": "$bp.sys.line-height.7",
+              "fontSize": "$bp.sys.font-size.2",
+              "letterSpacing": "$bp.sys.letter-spacing.1",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.underline"
+            },
+            "type": "typography"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "$bp.sys.font-weight.overpass-3",
+              "lineHeight": "$bp.sys.line-height.3",
+              "fontSize": "$bp.sys.font-size.2",
+              "letterSpacing": "$bp.sys.letter-spacing.1",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
             "type": "typography"
           }
         },
-        "button": {
+        "navigation": {
+          "primary": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "$bp.sys.font-weight.600",
+              "lineHeight": "$bp.sys.line-height.5",
+              "fontSize": "$bp.sys.font-size.3",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.1",
+              "textCase": "$bp.sys.text-case.titlecase",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          },
+          "secondary": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "$bp.sys.font-weight.400",
+              "lineHeight": "$bp.sys.line-height.3",
+              "fontSize": "$bp.sys.font-size.1",
+              "letterSpacing": "$bp.sys.letter-spacing.1",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$textCase.title",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          }
+        },
+        "utility": {
+          "mono": {
+            "value": {
+              "fontFamily": "$overpassMono",
+              "fontWeight": "$bp.sys.font-weight.400",
+              "lineHeight": "$bp.sys.line-height.2",
+              "fontSize": "$bp.sys.font-size.2",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          },
+          "button": {
+            "value": {
+              "fontFamily": "{overpass}",
+              "fontWeight": "{bp.sys.font-weight.400}",
+              "lineHeight": "{bp.sys.line-height.3}",
+              "fontSize": "{bp.sys.font-size.1}",
+              "letterSpacing": "{bp.sys.letter-spacing.0}",
+              "paragraphSpacing": "{bp.sys.paragraph-spacing.0}",
+              "textDecoration": "{bp.sys.text-decoration.none}",
+              "textCase": "{bp.sys.text-case.uppercase}"
+            },
+            "type": "typography"
+          }
+        },
+        "space": {
+          "tight": {
+            "value": "4",
+            "type": "spacing"
+          },
           "default": {
-            "value": "{bp.sys.utility.button}",
-            "type": "typography"
+            "value": "8",
+            "type": "spacing"
+          },
+          "button": {
+            "top-bottom": {
+              "value": "6",
+              "type": "spacing"
+            },
+            "left-right": {
+              "value": "8",
+              "type": "spacing"
+            },
+            "icon": {
+              "value": "8",
+              "type": "spacing"
+            }
           }
         }
       },
-      "radius": {
-        "sharp": {
-          "value": "0",
-          "type": "borderRadius"
-        },
-        "soft": {
-          "value": "4",
-          "type": "borderRadius"
-        },
-        "default": {
-          "value": "8",
-          "type": "borderRadius"
-        },
-        "round": {
-          "value": "32",
+      "border-radius": {
+        "navigation": {
+          "value": "{bp.sys.border-radius.soft}",
           "type": "borderRadius"
         }
       },
-      "space": {
-        "tight": {
+      "outline-width": {
+        "focus": {
           "value": "4",
-          "type": "spacing"
-        },
-        "default": {
-          "value": "8",
-          "type": "spacing"
-        },
-        "button": {
-          "top-bottom": {
-            "value": "6",
-            "type": "spacing"
-          },
-          "left-right": {
-            "value": "8",
-            "type": "spacing"
-          },
-          "icon": {
-            "value": "8",
-            "type": "spacing"
+          "type": "borderWidth"
+        }
+      },
+      "border-width": {
+        "active": {
+          "value": "2",
+          "type": "borderWidth"
+        }
+      },
+      "shadow": {
+        "navigation": {
+          "secondary": {
+            "hover": {
+              "value": {
+                "x": "0",
+                "y": "2",
+                "blur": "3",
+                "spread": "-2",
+                "color": "#000000",
+                "type": "dropShadow"
+              },
+              "type": "boxShadow"
+            }
           }
         }
       }
@@ -5845,7 +6082,6 @@
         "bp.color.background.radio.disabled": "S:fc0c69dc28a2cdd8355cc09c6a0930408135f179,",
         "bp.color.border.default": "S:3c510402d24b083f965964da65cd5bc94f225398,",
         "bp.color.border.disabled": "S:54282928ed0371ef14f9504a6c3daef12038a8e4,",
-        "bp.color.border.focus": "S:2d80b1cd259a082b74fb810b3ce423f9332c6ad0,",
         "bp.color.background.switch.default": "S:cb4612f183ef202e7a4ea7b0342f03b93c10d7ce,",
         "bp.color.background.switch.selected": "S:b0525f5fce125139432874ef1bb4615a3c773055,",
         "bp.color.text.switch.default": "S:d2e37eeb50e72fce9873433ca15ec408d8d16e0b,",
@@ -5859,7 +6095,8 @@
         "bp.color.text.table.header": "S:e9d21d972920ca56256c4b3630b1330d1fbd9fbc,",
         "bp.color.text.table.cell": "S:f17a7ba781aa7cabe4af14da300c719c908015ee,",
         "bp.color.background.accordion.default": "S:2fae66f230e72cfc2aff50c81ae6c9ff79d56fc7,",
-        "bp.color.background.accordion.features": "S:34fb13eb0aad53d1fc6c8df8bbc7d6644bacb7bb,"
+        "bp.color.background.accordion.features": "S:34fb13eb0aad53d1fc6c8df8bbc7d6644bacb7bb,",
+        "bp.color.outline.focus": "S:2d80b1cd259a082b74fb810b3ce423f9332c6ad0,"
       }
     },
     {
