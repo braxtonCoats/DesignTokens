@@ -5711,6 +5711,10 @@
         "active": {
           "value": "2",
           "type": "borderWidth"
+        },
+        "navigation-seperator": {
+          "value": "1",
+          "type": "borderWidth"
         }
       },
       "shadow": {
