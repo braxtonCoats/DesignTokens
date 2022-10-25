@@ -4946,6 +4946,16 @@
               "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
+          },
+          "text": {
+            "placeholder": {
+              "value": "{bp.sys.color.surface.onVariant}",
+              "type": "color"
+            },
+            "input": {
+              "value": "{bp.sys.color.surface.onMain}",
+              "type": "color"
+            }
           }
         },
         "dropdown": {
@@ -5250,6 +5260,24 @@
                 "type": "color"
               }
             }
+          },
+          "text": {
+            "default": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.secondary.main}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.secondary.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
           }
         },
         "border": {
@@ -5447,6 +5475,24 @@
           },
           "text": {
             "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "placeholder": {
+            "value": "{bp.sys.color.surface.onVariant}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.error.main}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
             "type": "color"
           }
         }
@@ -5692,6 +5738,12 @@
               "value": "8",
               "type": "spacing"
             }
+          }
+        },
+        "button": {
+          "default": {
+            "value": "{bp.typography.utility.button}",
+            "type": "typography"
           }
         }
       },
