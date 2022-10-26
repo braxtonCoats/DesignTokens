@@ -5129,6 +5129,10 @@
             "warning": {
               "value": "{bp.sys.color.warning.container}",
               "type": "color"
+            },
+            "admin": {
+              "value": "{bw.ref.color-palette.blue.50}",
+              "type": "color"
             }
           },
           "text": {
@@ -5156,6 +5160,12 @@
             },
             "warning": {
               "value": "{bp.sys.color.warning.main}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "admin": {
+              "value": "{bp.sys.color.surface.main}",
               "type": "color"
             }
           }
@@ -5499,6 +5509,20 @@
             "value": "{bp.sys.color.disabled.onMain}",
             "type": "color"
           }
+        },
+        "admin-navigation": {
+          "background": {
+            "default": {
+              "value": "{bp.sys.color.surface.onMain}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            }
+          }
         }
       },
       "typography": {
@@ -5718,6 +5742,19 @@
               "textCase": "{bp.sys.text-case.uppercase}"
             },
             "type": "typography"
+          },
+          "badge": {
+            "value": {
+              "fontFamily": "{overpass}",
+              "fontWeight": "{bp.sys.font-weight.400}",
+              "lineHeight": "{bp.sys.line-height.3}",
+              "fontSize": "{bp.sys.font-size.1}",
+              "letterSpacing": "{bp.sys.letter-spacing.0}",
+              "paragraphSpacing": "{bp.sys.paragraph-spacing.0}",
+              "textDecoration": "{bp.sys.text-decoration.none}",
+              "textCase": "{bp.sys.text-case.uppercase}"
+            },
+            "type": "typography"
           }
         },
         "space": {
@@ -5759,6 +5796,12 @@
         "dropdown": {
           "value": "{bp.sys.border-radius.x-soft}",
           "type": "borderRadius"
+        },
+        "badge": {
+          "admin": {
+            "value": "{bp.sys.border-radius.rounded}",
+            "type": "borderRadius"
+          }
         }
       },
       "outline-width": {
