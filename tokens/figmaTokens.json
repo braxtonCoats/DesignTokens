@@ -3765,11 +3765,11 @@
           },
           "secondary": {
             "main": {
-              "value": "{bw.ref.color-palette.grey.90}",
+              "value": "{bw.ref.color-palette.blue.50}",
               "type": "color"
             },
             "onMain": {
-              "value": "{bw.ref.color-palette.blue.2}",
+              "value": "{bw.ref.color-palette.grey.90}",
               "type": "color"
             },
             "container": {
