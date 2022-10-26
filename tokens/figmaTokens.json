@@ -3099,6 +3099,14 @@
             "value": "Bold",
             "type": "fontWeights"
           },
+          "800": {
+            "value": "{bp.sys.font-weight.overpass-3}",
+            "type": "fontWeights"
+          },
+          "900": {
+            "value": "Heavy",
+            "type": "fontWeights"
+          },
           "overpass-mono-4": {
             "value": "Regular",
             "type": "fontWeights"
@@ -3165,6 +3173,10 @@
           },
           "1": {
             "value": "0",
+            "type": "letterSpacing"
+          },
+          "2": {
+            "value": "1.75",
             "type": "letterSpacing"
           }
         },
@@ -3245,12 +3257,12 @@
           "h4": {
             "value": {
               "fontFamily": "$overpass",
-              "fontWeight": "{bp.sys.font-weight.600}",
+              "fontWeight": "{bp.sys.font-weight.overpass-3}",
               "lineHeight": "$bp.sys.line-height.2",
               "fontSize": "$bp.sys.font-size.3",
-              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "letterSpacing": "$bp.sys.letter-spacing.2",
               "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
-              "textCase": "$bp.sys.text-case.none",
+              "textCase": "$bp.sys.text-case.uppercase",
               "textDecoration": "$bp.sys.text-decoration.none"
             },
             "type": "typography"
@@ -5508,6 +5520,10 @@
           "disabled": {
             "value": "{bp.sys.color.disabled.onMain}",
             "type": "color"
+          },
+          "h1": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
           }
         },
         "admin-navigation": {
@@ -5530,8 +5546,8 @@
           "h1": {
             "value": {
               "fontFamily": "$overpass",
-              "fontWeight": "{bp.sys.font-weight.600}",
-              "lineHeight": "$bp.sys.line-height.8",
+              "fontWeight": "{bp.sys.font-weight.300}",
+              "lineHeight": "$bp.sys.line-height.1",
               "fontSize": "$bp.sys.font-size.6",
               "letterSpacing": "$bp.sys.letter-spacing.0",
               "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
@@ -5543,7 +5559,7 @@
           "h2": {
             "value": {
               "fontFamily": "$overpass",
-              "fontWeight": "{bp.sys.font-weight.600}",
+              "fontWeight": "{bp.sys.font-weight.700}",
               "lineHeight": "$bp.sys.line-height.1",
               "fontSize": "$bp.sys.font-size.5",
               "letterSpacing": "$bp.sys.letter-spacing.0",
@@ -5556,7 +5572,7 @@
           "h3": {
             "value": {
               "fontFamily": "$overpass",
-              "fontWeight": "{bp.sys.font-weight.600}",
+              "fontWeight": "{bp.sys.font-weight.400}",
               "lineHeight": "$bp.sys.line-height.1",
               "fontSize": "$bp.sys.font-size.4",
               "letterSpacing": "$bp.sys.letter-spacing.0",
@@ -5569,12 +5585,12 @@
           "h4": {
             "value": {
               "fontFamily": "$overpass",
-              "fontWeight": "{bp.sys.font-weight.600}",
+              "fontWeight": "{bp.sys.font-weight.900}",
               "lineHeight": "$bp.sys.line-height.2",
               "fontSize": "$bp.sys.font-size.3",
-              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "letterSpacing": "$bp.sys.letter-spacing.2",
               "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
-              "textCase": "$bp.sys.text-case.none",
+              "textCase": "$bp.sys.text-case.uppercase",
               "textDecoration": "$bp.sys.text-decoration.none"
             },
             "type": "typography"
@@ -5582,9 +5598,9 @@
           "h5": {
             "value": {
               "fontFamily": "$overpass",
-              "fontWeight": "{bp.sys.font-weight.600}",
+              "fontWeight": "{bp.sys.font-weight.800}",
               "lineHeight": "$bp.sys.line-height.3",
-              "fontSize": "$bp.sys.font-size.2",
+              "fontSize": "$body.lg",
               "letterSpacing": "$bp.sys.letter-spacing.0",
               "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
               "textCase": "$bp.sys.text-case.none",
@@ -5755,30 +5771,6 @@
               "textCase": "{bp.sys.text-case.uppercase}"
             },
             "type": "typography"
-          }
-        },
-        "space": {
-          "tight": {
-            "value": "4",
-            "type": "spacing"
-          },
-          "default": {
-            "value": "8",
-            "type": "spacing"
-          },
-          "button": {
-            "top-bottom": {
-              "value": "6",
-              "type": "spacing"
-            },
-            "left-right": {
-              "value": "8",
-              "type": "spacing"
-            },
-            "icon": {
-              "value": "8",
-              "type": "spacing"
-            }
           }
         },
         "button": {
