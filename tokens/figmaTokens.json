@@ -2878,6 +2878,10 @@
               "value": "{bw.ref.color-palette.grey.60}",
               "type": "color",
               "description": ""
+            },
+            "variant": {
+              "value": "{bw.ref.color-palette.grey.5}",
+              "type": "color"
             }
           },
           "outline": {
@@ -4768,7 +4772,7 @@
       "color": {
         "background": {
           "primary": {
-            "value": "{bp.sys.color.background.main}",
+            "value": "{bp.sys.color.background.variant}",
             "type": "color"
           },
           "disabled": {
@@ -5636,6 +5640,19 @@
             },
             "type": "typography"
           },
+          "in-line": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "{bp.sys.font-weight.700}",
+              "lineHeight": "$bp.sys.line-height.4",
+              "fontSize": "$body.med",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          },
           "small": {
             "value": {
               "fontFamily": "$overpass",
@@ -5655,8 +5672,8 @@
             "value": {
               "fontFamily": "$overpass",
               "fontWeight": "{bp.sys.font-weight.400}",
-              "lineHeight": "$bp.sys.line-height.2",
-              "fontSize": "$bp.sys.font-size.2",
+              "lineHeight": "$bp.sys.line-height.3",
+              "fontSize": "$body.med",
               "letterSpacing": "$bp.sys.letter-spacing.0",
               "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
               "textCase": "$bp.sys.text-case.none",
