@@ -2919,6 +2919,10 @@
             "success": {
               "value": "{bw.ref.color-palette.green.20}",
               "type": "color"
+            },
+            "seperator": {
+              "value": "{bw.ref.color-palette.grey.20}",
+              "type": "color"
             }
           },
           "disabled": {
@@ -5331,6 +5335,10 @@
           },
           "secondary": {
             "value": "{bp.sys.color.secondary.main}",
+            "type": "color"
+          },
+          "seperator": {
+            "value": "{bp.sys.color.outline.seperator}",
             "type": "color"
           },
           "success": {
