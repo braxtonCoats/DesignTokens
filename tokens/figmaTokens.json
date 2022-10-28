@@ -1336,6 +1336,10 @@
       "none": {
         "value": "none",
         "type": "textDecoration"
+      },
+      "underline": {
+        "value": "UNDERLINE",
+        "type": "textDecoration"
       }
     },
     "x-sm": {
@@ -1444,6 +1448,12 @@
       "sm": {
         "value": "12",
         "type": "fontSizes"
+      }
+    },
+    "italic": {
+      "regular": {
+        "value": "Italic",
+        "type": "fontWeights"
       }
     }
   },
@@ -5543,6 +5553,46 @@
               "type": "color"
             }
           }
+        },
+        "inline-radio": {
+          "background": {
+            "default": {
+              "value": "{bp.color.surface.primary}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.primary.container}",
+              "type": "color"
+            }
+          },
+          "outline": {
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.primary.container}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{bp.sys.color.surface.onMain}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "help-text": {
+              "value": "{bp.sys.color.surface.onVariant}",
+              "type": "color"
+            }
+          }
         }
       },
       "typography": {
@@ -5672,6 +5722,19 @@
             "value": {
               "fontFamily": "$overpass",
               "fontWeight": "{bp.sys.font-weight.400}",
+              "lineHeight": "$bp.sys.line-height.3",
+              "fontSize": "$body.med",
+              "letterSpacing": "$bp.sys.letter-spacing.0",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$bp.sys.text-case.none",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          },
+          "help-text": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "{italic.regular}",
               "lineHeight": "$bp.sys.line-height.3",
               "fontSize": "$body.med",
               "letterSpacing": "$bp.sys.letter-spacing.0",
@@ -5811,6 +5874,14 @@
             "value": "{bp.sys.border-radius.rounded}",
             "type": "borderRadius"
           }
+        },
+        "inline-radio": {
+          "value": "14",
+          "type": "borderRadius"
+        },
+        "inline-radio-large": {
+          "value": "{x-sm}",
+          "type": "borderRadius"
         }
       },
       "outline-width": {
