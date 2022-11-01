@@ -5950,11 +5950,11 @@
           "value": "0",
           "type": "spacing"
         },
-        "xx-sm": {
+        "xxx-sm": {
           "value": "4",
           "type": "spacing"
         },
-        "x-sm": {
+        "xx-sm": {
           "value": "8",
           "type": "spacing"
         },
@@ -5972,6 +5972,10 @@
         },
         "x-lg": {
           "value": "64",
+          "type": "spacing"
+        },
+        "x-sm": {
+          "value": "12",
           "type": "spacing"
         }
       }
