@@ -5460,6 +5460,12 @@
               "value": "{bp.sys.color.primary.onContainer}",
               "type": "color"
             }
+          },
+          "background": {
+            "hover": {
+              "value": "{bp.sys.color.primary.container}",
+              "type": "color"
+            }
           }
         },
         "icon": {
@@ -5889,6 +5895,10 @@
         },
         "inline-radio-large": {
           "value": "{x-sm}",
+          "type": "borderRadius"
+        },
+        "link": {
+          "value": "16",
           "type": "borderRadius"
         }
       },
