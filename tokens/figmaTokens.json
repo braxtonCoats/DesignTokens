@@ -4843,11 +4843,15 @@
               "type": "color"
             },
             "active": {
-              "value": "{bp.sys.color.secondary.container}",
+              "value": "{bp.sys.color.primary.container}",
               "type": "color"
             },
             "emergency": {
               "value": "{bw.ref.color-palette.orange.55}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.secondary.container}",
               "type": "color"
             }
           },
