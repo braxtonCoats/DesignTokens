@@ -4989,6 +4989,10 @@
             "input": {
               "value": "{bp.sys.color.surface.onMain}",
               "type": "color"
+            },
+            "requried": {
+              "value": "{bp.sys.color.error.main}",
+              "type": "color"
             }
           }
         },
@@ -5611,6 +5615,18 @@
               "type": "color"
             }
           }
+        },
+        "label": {
+          "background": {
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.main}",
+              "type": "color"
+            }
+          }
         }
       },
       "typography": {
@@ -5904,11 +5920,23 @@
         "link": {
           "value": "16",
           "type": "borderRadius"
+        },
+        "label": {
+          "value": "{bp.sys.border-radius.rounded}",
+          "type": "borderRadius"
+        },
+        "input": {
+          "value": "{bp.sys.border-radius.x-soft}",
+          "type": "borderRadius"
         }
       },
       "outline-width": {
         "focus": {
           "value": "4",
+          "type": "borderWidth"
+        },
+        "input-focus": {
+          "value": "2",
           "type": "borderWidth"
         }
       },
@@ -5921,9 +5949,9 @@
           "value": "1",
           "type": "borderWidth"
         },
-        "dropdown": {
+        "input": {
           "default": {
-            "value": "1",
+            "value": "2",
             "type": "borderWidth"
           },
           "active": {
@@ -5954,12 +5982,20 @@
           "value": "0",
           "type": "spacing"
         },
+        "xxxx-sm": {
+          "value": "2",
+          "type": "spacing"
+        },
         "xxx-sm": {
           "value": "4",
           "type": "spacing"
         },
         "xx-sm": {
           "value": "8",
+          "type": "spacing"
+        },
+        "x-sm": {
+          "value": "12",
           "type": "spacing"
         },
         "sm": {
@@ -5976,10 +6012,6 @@
         },
         "x-lg": {
           "value": "64",
-          "type": "spacing"
-        },
-        "x-sm": {
-          "value": "12",
           "type": "spacing"
         }
       }
