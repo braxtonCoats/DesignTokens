@@ -5627,6 +5627,20 @@
               "type": "color"
             }
           }
+        },
+        "status-dot": {
+          "success": {
+            "value": "{bp.sys.color.success.main}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{bp.sys.color.warning.main}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.error.main}",
+            "type": "color"
+          }
         }
       },
       "typography": {
@@ -5927,6 +5941,10 @@
         },
         "input": {
           "value": "{bp.sys.border-radius.x-soft}",
+          "type": "borderRadius"
+        },
+        "status-dot": {
+          "value": "{bp.sys.border-radius.rounded}",
           "type": "borderRadius"
         }
       },
