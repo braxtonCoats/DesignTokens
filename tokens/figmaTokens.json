@@ -5699,11 +5699,11 @@
             "value": {
               "fontFamily": "$overpass",
               "fontWeight": "{bp.sys.font-weight.700}",
-              "lineHeight": "$bp.sys.line-height.4",
-              "fontSize": "$bp.sys.font-size.-1",
+              "lineHeight": "$bp.sys.line-height.3",
+              "fontSize": "$bp.sys.font-size.1",
               "letterSpacing": "$bp.sys.letter-spacing.0",
               "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
-              "textCase": "$bp.sys.text-case.uppercase",
+              "textCase": "$bp.sys.text-case.titlecase",
               "textDecoration": "$bp.sys.text-decoration.none"
             },
             "type": "typography"
