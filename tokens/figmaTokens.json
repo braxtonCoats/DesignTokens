@@ -5526,7 +5526,7 @@
         },
         "tooltip": {
           "background": {
-            "value": "{bp.sys.color.surface.variant}",
+            "value": "{bp.sys.color.surface.main}",
             "type": "color"
           }
         },
