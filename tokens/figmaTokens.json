@@ -5139,6 +5139,46 @@
             "selected": {
               "value": "{bp.sys.color.primary.main}",
               "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.primary.container}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.main}",
+              "type": "color"
+            },
+            "disabled-selected": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{bp.color.icon.default}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{bp.color.border.default}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
             }
           }
         },
