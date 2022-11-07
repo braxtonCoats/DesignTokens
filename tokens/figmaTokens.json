@@ -6607,7 +6607,14 @@
         "bp.typography.utility.mono": "S:0a9b68f82d92ba1c57ef0b283da8add9b73f55d5,",
         "bp.typography.utility.button": "S:157f604522d80f6938ac6d18f7bd59172a7a99a6,",
         "bp.typography.utility.badge": "S:3e99360ea4e24e77ffe06c75c7be13886b17ab79,",
-        "bp.shadow.navigation.secondary.hover": "S:11113c0462fc4903da8e690876fbdd924d359c1d,"
+        "bp.shadow.navigation.secondary.hover": "S:11113c0462fc4903da8e690876fbdd924d359c1d,",
+        "bp.color.button.icon.background.default": "S:4ec56d608ee4f18f2ad9a4c4d7eec17d1e0e0294,",
+        "bp.color.button.icon.background.hover": "S:2a6fe1f58001572be9edfa33219d7d3aeea2e75d,",
+        "bp.color.button.icon.background.focus": "S:e9a5aec4bdbcce8d378cf152e0cc4898e4cf3c39,",
+        "bp.color.button.icon.background.active": "S:2cf5061354fb080fee390e594a82d0f246f3d590,",
+        "bp.color.button.icon.background.disabled": "S:57ecf7c5bbccd164d7b23e7254b2bdf42bfa3c92,",
+        "bp.color.icon.on-primary": "S:f8d02898cb5038cde9d802968340efa10e8ee4ff,",
+        "bp.color.button.icon.border.active": "S:27ac10496e6f4b8b0bcf2d9668bc75e9b07199b5,"
       }
     },
     {
