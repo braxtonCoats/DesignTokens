@@ -5837,6 +5837,19 @@
               "textDecoration": "$bp.sys.text-decoration.none"
             },
             "type": "typography"
+          },
+          "table-heading": {
+            "value": {
+              "fontFamily": "{overpass}",
+              "fontWeight": "{bp.sys.font-weight.800}",
+              "lineHeight": "{bp.sys.line-height.2}",
+              "fontSize": "{body.lg}",
+              "letterSpacing": "{bp.sys.letter-spacing.0}",
+              "paragraphSpacing": "{bp.sys.paragraph-spacing.0}",
+              "textDecoration": "{bp.sys.text-decoration.none}",
+              "textCase": "{bp.sys.text-case.none}"
+            },
+            "type": "typography"
           }
         },
         "body": {
