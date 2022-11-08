@@ -6020,6 +6020,10 @@
         "status-dot": {
           "value": "{bp.sys.border-radius.rounded}",
           "type": "borderRadius"
+        },
+        "slim-navigation": {
+          "value": "{bp.sys.border-radius.rounded}",
+          "type": "borderRadius"
         }
       },
       "outline-width": {
