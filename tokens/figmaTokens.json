@@ -6041,7 +6041,7 @@
       },
       "outline-width": {
         "focus": {
-          "value": "4",
+          "value": "2",
           "type": "borderWidth"
         },
         "input-focus": {
