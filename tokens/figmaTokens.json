@@ -2896,9 +2896,8 @@
           },
           "outline": {
             "main": {
-              "value": "{bw.ref.color-palette.grey.5}",
-              "type": "color",
-              "description": ""
+              "value": "{bw.ref.color-palette.grey.20}",
+              "type": "color"
             },
             "variant": {
               "value": "{bw.ref.color-palette.grey.50}",
@@ -5939,6 +5938,19 @@
               "fontWeight": "$bp.sys.font-weight.400",
               "lineHeight": "$bp.sys.line-height.3",
               "fontSize": "$bp.sys.font-size.1",
+              "letterSpacing": "$bp.sys.letter-spacing.1",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
+              "textCase": "$textCase.title",
+              "textDecoration": "$bp.sys.text-decoration.none"
+            },
+            "type": "typography"
+          },
+          "copyright": {
+            "value": {
+              "fontFamily": "$overpass",
+              "fontWeight": "$bp.sys.font-weight.400",
+              "lineHeight": "$bp.sys.line-height.3",
+              "fontSize": "$body.sm",
               "letterSpacing": "$bp.sys.letter-spacing.1",
               "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
               "textCase": "$textCase.title",
