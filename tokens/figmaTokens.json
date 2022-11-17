@@ -4552,6 +4552,14 @@
               }
             }
           }
+        },
+        "drag-item": {
+          "icon": {
+            "default": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          }
         }
       },
       "typography": {
