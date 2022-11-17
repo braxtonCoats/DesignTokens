@@ -3811,7 +3811,7 @@
               "value": "{bp.sys.color.surface.main}",
               "type": "color"
             },
-            "selected": {
+            "enabled": {
               "value": "{bp.sys.color.success.main}",
               "type": "color"
             },
@@ -3821,6 +3821,28 @@
             },
             "disabled": {
               "value": "{bp.sys.color.disabled.main}",
+              "type": "color"
+            },
+            "messaging": {
+              "value": "{bw.ref.color-palette.green.20}",
+              "type": "color"
+            },
+            "voice": {
+              "value": "{bw.ref.color-palette.purple.50}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "enabled": {
+              "value": "{bp.sys.color.success.onMain}",
+              "type": "color"
+            },
+            "messaging": {
+              "value": "{bp.color.alert.text.success}",
+              "type": "color"
+            },
+            "voice": {
+              "value": "{bp.color.surface.primary}",
               "type": "color"
             }
           }
@@ -4148,94 +4170,6 @@
                 "value": "{bp.sys.color.primary.main}",
                 "type": "color"
               }
-            }
-          }
-        },
-        "border": {
-          "default": {
-            "value": "{bp.sys.color.outline.main}",
-            "type": "color"
-          },
-          "primary": {
-            "value": "{bp.sys.color.primary.main}",
-            "type": "color"
-          },
-          "secondary": {
-            "value": "{bp.sys.color.secondary.main}",
-            "type": "color"
-          },
-          "seperator": {
-            "value": "{bp.sys.color.outline.seperator}",
-            "type": "color"
-          },
-          "success": {
-            "value": "{bp.sys.color.success.main}",
-            "type": "color"
-          },
-          "warning": {
-            "value": "{bp.sys.color.warning.main}",
-            "type": "color"
-          },
-          "info": {
-            "value": "{bp.sys.color.primary.main}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{bp.sys.color.error.main}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{bp.sys.color.disabled.onMain}",
-            "type": "color"
-          },
-          "chip": {
-            "default": {
-              "value": "{bp.sys.color.outline.main}",
-              "type": "color"
-            },
-            "success": {
-              "value": "{bp.sys.color.success.main}",
-              "type": "color"
-            },
-            "selected-hover": {
-              "value": "{bp.sys.color.error.main}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
-            }
-          },
-          "modal": {
-            "header": {
-              "value": "{bp.sys.color.outline.variant}",
-              "type": "color"
-            }
-          },
-          "pill": {
-            "default": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            }
-          },
-          "tab": {
-            "default": {
-              "value": "{bp.sys.color.outline.variant}",
-              "type": "color"
-            },
-            "hover": {
-              "value": "{bp.sys.color.primary.onContainer}",
-              "type": "color"
-            },
-            "selected": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            }
-          },
-          "table": {
-            "default": {
-              "value": "{bp.sys.color.outline.main}",
-              "type": "color"
             }
           }
         },
@@ -4909,6 +4843,19 @@
             "value": "{bp.typography.utility.button}",
             "type": "typography"
           }
+        },
+        "chip": {
+          "value": {
+            "fontFamily": "{overpass}",
+            "fontWeight": "{bp.sys.font-weight.700}",
+            "lineHeight": "12",
+            "fontSize": "{bp.sys.font-size.0}",
+            "letterSpacing": "{bp.sys.letter-spacing.0}",
+            "paragraphSpacing": "{bp.sys.paragraph-spacing.0}",
+            "textDecoration": "{bp.sys.text-decoration.none}",
+            "textCase": "{bp.sys.text-case.uppercase}"
+          },
+          "type": "typography"
         }
       },
       "border-radius": {
@@ -4952,6 +4899,10 @@
         },
         "slim-navigation": {
           "value": "{bp.sys.border-radius.rounded}",
+          "type": "borderRadius"
+        },
+        "chip": {
+          "value": "{bp.sys.border-radius.x-soft}",
           "type": "borderRadius"
         }
       },
@@ -5472,7 +5423,6 @@
         "bp.color.dropdown.icon.default": "S:3b697b82278ca37779c4b0981ec3dd7ebcd41b59,",
         "bp.color.dropdown.icon.disabled": "S:f644b688f99085e112ff8c2e3980b42fc85d6153,",
         "bp.color.chip.background.default": "S:f3478d618aa39a18b9b34a6fc899459400aac052,",
-        "bp.color.chip.background.selected": "S:57908838863d60a032bb4c21abcafddd3217aeb2,",
         "bp.color.chip.background.selected-hover": "S:cfe2004234340236c1e0ec2309367b6597fcc54a,",
         "bp.color.chip.background.disabled": "S:83cdb492fbac725d436f891d6a9edbd55aa730c0,",
         "bp.color.modal.background.header": "S:b6b1f931bca1ef5125450ef5cb348b121778edff,",
