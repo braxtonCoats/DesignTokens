@@ -3940,7 +3940,7 @@
           },
           "border": {
             "default": {
-              "value": "{bp.color.border.default}",
+              "value": "{bp.sys.color.outline.main}",
               "type": "color"
             },
             "selected": {
