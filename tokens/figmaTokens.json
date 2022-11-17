@@ -4760,11 +4760,11 @@
           "primary": {
             "value": {
               "fontFamily": "$overpass",
-              "fontWeight": "$bp.sys.font-weight.600",
+              "fontWeight": "$bp.sys.font-weight.400",
               "lineHeight": "$bp.sys.line-height.5",
-              "fontSize": "$bp.sys.font-size.2",
+              "fontSize": "$bp.sys.font-size.1",
               "letterSpacing": "$bp.sys.letter-spacing.0",
-              "paragraphSpacing": "$bp.sys.paragraph-spacing.1",
+              "paragraphSpacing": "$bp.sys.paragraph-spacing.0",
               "textCase": "$bp.sys.text-case.titlecase",
               "textDecoration": "$bp.sys.text-decoration.none"
             },
