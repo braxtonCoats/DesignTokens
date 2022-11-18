@@ -3888,15 +3888,25 @@
               "type": "color"
             },
             "hover": {
-              "value": "{bp.sys.color.surface.main}",
+              "value": "{bp.sys.color.primary.container}",
               "type": "color"
             },
             "selected": {
-              "value": "{bp.sys.color.surface.main}",
+              "value": "{bp.sys.color.secondary.main}",
               "type": "color"
             },
             "disabled": {
               "value": "{bp.sys.color.disabled.main}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{bp.sys.color.secondary.main}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.secondary.main}",
               "type": "color"
             }
           }
