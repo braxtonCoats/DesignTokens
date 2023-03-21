@@ -678,6 +678,24 @@
               "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
+          },
+          "icon": {
+            "default": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
           }
         },
         "text": {
@@ -714,10 +732,6 @@
               "value": "{bp.sys.color.primary.container}",
               "type": "color"
             },
-            "focus": {
-              "value": "{bp.color.surface.primary}",
-              "type": "color"
-            },
             "active": {
               "value": "{bp.sys.color.primary.container}",
               "type": "color"
@@ -730,6 +744,24 @@
           "border": {
             "active": {
               "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.primary.onContainer}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
           }
@@ -1098,6 +1130,24 @@
               "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
+          },
+          "icon": {
+            "default": {
+              "value": "{bp.sys.color.error.onMain}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.error.onMain}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.error.onMain}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
           }
         },
         "text": {
@@ -1125,15 +1175,11 @@
               "type": "color"
             },
             "hover": {
-              "value": "{bp.sys.color.primary.container}",
-              "type": "color"
-            },
-            "focus": {
-              "value": "{bp.color.surface.primary}",
+              "value": "{bp.sys.color.error.container}",
               "type": "color"
             },
             "active": {
-              "value": "{bp.sys.color.primary.container}",
+              "value": "{bp.sys.color.error.container}",
               "type": "color"
             },
             "disabled": {
@@ -1143,7 +1189,25 @@
           },
           "border": {
             "active": {
-              "value": "{bp.sys.color.primary.main}",
+              "value": "{bp.sys.color.error.onContainer}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{bp.sys.color.error.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.error.onContainer}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.error.onContainer}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
           }
@@ -1594,6 +1658,17 @@
           "value": "{bp.elevation.01}",
           "type": "boxShadow"
         }
+      },
+      "focus": {
+        "value": {
+          "color": "#079cee",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "2"
+        },
+        "type": "boxShadow"
       }
     },
     "spacing": {

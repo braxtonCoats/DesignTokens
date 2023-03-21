@@ -524,7 +524,6 @@
       "bp.shadow.navigation.secondary.hover": "S:c965387d0084709b5b598075fb9ca486f455e545,",
       "bp.color.button.icon.background.default": "S:f310c2c659df304097a0821ea65c0b41d0d66ce3,",
       "bp.color.button.icon.background.hover": "S:e9a7ecdcc428115242a5dc5df78fb5fd3f750012,",
-      "bp.color.button.icon.background.focus": "S:f19ff9e595a23037b0cb602696963f231e5f0093,",
       "bp.color.button.icon.background.active": "S:0740e5bedec9a279b22f03edb37d613ea6ad001d,",
       "bp.color.button.icon.background.disabled": "S:e1623d030109a773333d1ffddd498eed18d15ee0,",
       "bp.color.icon.on-primary": "S:d09ee7a5775c3f44cb6d87846c5a165389ca47ef,",
@@ -579,7 +578,6 @@
       "bp.color.destructive-button.text.disabled": "S:6ab3598a95f7842ce9ffd097b09c4b4dfb091123,",
       "bp.color.destructive-button.icon.background.default": "S:ab4f5ad2ce533a52bd3dcdc2551d15e0c3676238,",
       "bp.color.destructive-button.icon.background.hover": "S:caf0c4a099f68ce51c77542a9e74d781b6c9fdff,",
-      "bp.color.destructive-button.icon.background.focus": "S:d85e544193b1ad90618134db69a7910f23dfc21c,",
       "bp.color.destructive-button.icon.background.active": "S:c131e028381d486fa54bc72e02c799a24abb3315,",
       "bp.color.destructive-button.icon.background.disabled": "S:00e80615c6486f88fe07d856417a71128d6bdcf9,",
       "bp.color.destructive-button.icon.border.active": "S:12cb5ac04fc87faff7d2c9909ca2844b46181194,",
@@ -638,7 +636,16 @@
       "bp.elevation.04": "S:51ba89e09e73e9b7c6bfcc15920c0c67eb020f94,",
       "bp.elevation.06": "S:5dbb06a48ee5c1610074d4ec0623e17bea019d48,",
       "bp.elevation.08": "S:63d6756a5b1f379fd31ecd6ebf09f9dfb0cb75a6,",
-      "bp.elevation.09": "S:d441d9abd7667d54b1dc35371854ff063b09bd95,"
+      "bp.elevation.09": "S:d441d9abd7667d54b1dc35371854ff063b09bd95,",
+      "bp.color.button.icon.icon.default": "S:ffa3b9614d52cc1727e740abedcfe1610bf17461,",
+      "bp.color.button.icon.icon.hover": "S:82e09f3e624857fbe8bbea7513f5eb63446a9804,",
+      "bp.color.button.icon.icon.active": "S:a4ade4196591c81e8efc29ceee638f3ed27eb33d,",
+      "bp.color.button.icon.icon.disabled": "S:3d31f7311ad0288c250e060307181da176390b8f,",
+      "bp.color.destructive-button.icon.icon.default": "S:e314b84c398d302a1ede25adb785a0c5ee36309f,",
+      "bp.color.destructive-button.icon.icon.hover": "S:d0e71ba31de1a311aff92f84d54e1ec6e2b2ad6d,",
+      "bp.shadow.focus": "S:a08187696adb17ac220f76b70515eeb658a5e43e,",
+      "bp.color.destructive-button.icon.icon.active": "S:0ca8197009d16a46b3f1321abfd2ab89f708c180,",
+      "bp.color.destructive-button.icon.icon.disabled": "S:7f8ccca224c7322dddf44ca25547d47d0dc4d0db,"
     }
   },
   {
