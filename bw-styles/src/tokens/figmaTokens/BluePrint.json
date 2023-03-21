@@ -433,12 +433,16 @@
             "value": "{bp.sys.color.surface.main}",
             "type": "color"
           },
+          "hover": {
+            "value": "{bp.sys.color.primary.container}",
+            "type": "color"
+          },
           "selected": {
             "value": "{bp.sys.color.primary.main}",
             "type": "color"
           },
-          "hover": {
-            "value": "{bp.sys.color.primary.container}",
+          "selected-hover": {
+            "value": "{bp.sys.color.secondary.main}",
             "type": "color"
           },
           "disabled": {
@@ -471,6 +475,10 @@
           },
           "selected": {
             "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "selected-hover": {
+            "value": "{bp.sys.color.secondary.main}",
             "type": "color"
           },
           "disabled": {
