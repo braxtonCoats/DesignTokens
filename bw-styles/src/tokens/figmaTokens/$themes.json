@@ -686,7 +686,25 @@
       "bp.color.checkbox.icon.selected": "S:19b69b9546b3469fea391f034424c6120588c464,",
       "bp.color.checkbox.icon.active": "S:388c7fa518073571863a8f97f0d2b2c0998716a4,",
       "bp.color.checkbox.icon.disabled": "S:fe3bef94a5b052e7fe9eac4cec75bbb7180da28b,",
-      "bp.color.checkbox.icon.disabled-selected": "S:3b27c639aa1b766348a2af564efa7c78d41ebfb0,"
+      "bp.color.checkbox.icon.disabled-selected": "S:3b27c639aa1b766348a2af564efa7c78d41ebfb0,",
+      "bp.color.radio.background.active": "S:56a20dafe6d0c5c0207e13bcdac0484356fcfec0,",
+      "bp.color.radio.background.selected-hover": "S:7ae01175cc690177e7328a577f7210c0ad3510f2,",
+      "bp.color.radio.background.selected-active": "S:d7c37a0603c6420ddb1f3e5d0b1b3cb20ac2b360,",
+      "bp.color.radio.border.hover": "S:cb1ec39100b24aeffcbb94eb1805b0aa94b0f4e1,",
+      "bp.color.radio.border.active": "S:f230c29a9cd70952e29a82b11a2f6804cc04582d,",
+      "bp.color.radio.border.selected-hover": "S:de7607f7a7f93caf4b1e1ec62fcd1318549c638d,",
+      "bp.color.radio.border.selected-active": "S:7fafbf1603c729d06c0b171cc759e6cd1c1f8926,",
+      "bp.color.switch.background.selected-hover": "S:df4fd4936db7f85d6f57b09732b726125f34815e,",
+      "bp.color.switch.border.selected-hover": "S:613e49b2c95a53dc858df3d80e001a59c39ed472,",
+      "bp.color.checkbox.background.selected-hover": "S:d112b4db7e668cfd2003ec28ddfbcbd04bd7d68a,",
+      "bp.color.checkbox.border.selected-hover": "S:7f9891b2564fde05f5c3081af095ccabaeb8e5cd,",
+      "bp.color.list-item.background.default": "S:178e89a43773153467ca4e52ca553013c2905b55,",
+      "bp.color.list-item.background.hover": "S:18b554587ba90f4629c189591b5d24e5373c0439,",
+      "bp.color.list-item.background.selected": "S:92b9258ce27fd21b0c1b2919c7cfb7ace03d7242,",
+      "bp.color.list-item.border.default": "S:a4433391e42f036a843fabf666ee5b3fc74a1b6d,",
+      "bp.color.list-item.border.selected": "S:c41431e76e9440dec2adf47da0036d3bd47326fb,",
+      "bp.color.link.icon.default": "S:27659ca3a2eec19a7055ec846a78f411da6eaf3d,",
+      "bp.color.link.icon.visited": "S:e9486f10c4a0e0690a33e51d02709cc50ef5c01e,"
     }
   },
   {
