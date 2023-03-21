@@ -375,26 +375,54 @@
             "value": "{bp.sys.color.primary.container}",
             "type": "color"
           },
+          "active": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
+          },
           "selected": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "selected-hover": {
             "value": "{bp.sys.color.secondary.main}",
             "type": "color"
           },
           "disabled": {
             "value": "{bp.sys.color.disabled.main}",
             "type": "color"
+          },
+          "selected-active": {
+            "value": "{bp.sys.color.secondary.main}",
+            "type": "color"
           }
         },
         "border": {
           "default": {
+            "value": "{bp.sys.color.outline.main}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{bp.sys.color.outline.main}",
+            "type": "color"
+          },
+          "active": {
             "value": "{bp.sys.color.secondary.main}",
             "type": "color"
           },
           "selected": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "selected-hover": {
             "value": "{bp.sys.color.secondary.main}",
             "type": "color"
           },
           "disabled": {
             "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
+          "selected-active": {
+            "value": "{bp.sys.color.primary.main}",
             "type": "color"
           }
         }
