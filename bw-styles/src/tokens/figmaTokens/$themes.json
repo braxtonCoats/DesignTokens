@@ -685,7 +685,8 @@
       "bp.color.checkbox.icon.hover": "S:d05d30ecff868f6d268d13a095bc0692f66e4109,",
       "bp.color.checkbox.icon.selected": "S:19b69b9546b3469fea391f034424c6120588c464,",
       "bp.color.checkbox.icon.active": "S:388c7fa518073571863a8f97f0d2b2c0998716a4,",
-      "bp.color.checkbox.icon.disabled": "S:fe3bef94a5b052e7fe9eac4cec75bbb7180da28b,"
+      "bp.color.checkbox.icon.disabled": "S:fe3bef94a5b052e7fe9eac4cec75bbb7180da28b,",
+      "bp.color.checkbox.icon.disabled-selected": "S:3b27c639aa1b766348a2af564efa7c78d41ebfb0,"
     }
   },
   {

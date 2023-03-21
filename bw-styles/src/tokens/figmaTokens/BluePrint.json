@@ -1720,6 +1720,10 @@
       "card": {
         "value": "{bp.ref.border-radius.x-soft}",
         "type": "borderRadius"
+      },
+      "checkbox": {
+        "value": "{bp.ref.border-radius.x-soft}",
+        "type": "borderRadius"
       }
     },
     "outline-width": {
