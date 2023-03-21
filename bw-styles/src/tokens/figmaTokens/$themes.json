@@ -709,7 +709,10 @@
       "bp.color.label.text.required": "S:91199d5755902d58dd068a6440a410e981b74923,",
       "bp.color.label.text.disabled": "S:d299f4a475611c12c279dd86d1495fd5a4f62332,",
       "bp.color.radio.background.disabled-selected": "S:3dc5aaf8cbf0325c2493fde1ca9439a3bf8a53e6,",
-      "bp.color.radio.border.disabled-selected": "S:0044dd3b310c640acd38e5de22ce9d62c9ca3989,"
+      "bp.color.radio.border.disabled-selected": "S:0044dd3b310c640acd38e5de22ce9d62c9ca3989,",
+      "bp.color.list-item.text.default": "S:197d311962069cd4de4a471a3cfa241cade7dde1,",
+      "bp.color.table.icons.default": "S:a573a50c505d82806933fb308329e0ffd28240da,",
+      "bp.color.table.icons.active": "S:1ac8e0187a2a106386b8053dd15353ad7e2fdf30,"
     }
   },
   {

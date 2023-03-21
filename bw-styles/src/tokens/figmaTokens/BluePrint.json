@@ -511,6 +511,16 @@
             "value": "{bp.sys.color.outline.main}",
             "type": "color"
           }
+        },
+        "icons": {
+          "default": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          }
         }
       },
       "badge": {
@@ -1493,6 +1503,12 @@
           },
           "selected": {
             "value": "{bp.sys.color.outline.primary}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{bp.sys.color.surface.onMain}",
             "type": "color"
           }
         }
