@@ -1337,6 +1337,10 @@
             "value": "{bp.sys.color.primary.main}",
             "type": "color"
           },
+          "selected-hover": {
+            "value": "{bp.sys.color.primary.onContainer}",
+            "type": "color"
+          },
           "disabled": {
             "value": "{bp.sys.color.disabled.main}",
             "type": "color"
@@ -1357,6 +1361,10 @@
           },
           "selected": {
             "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "selected-hover": {
+            "value": "{bp.sys.color.primary.onContainer}",
             "type": "color"
           },
           "error": {
