@@ -704,7 +704,10 @@
       "bp.color.list-item.border.default": "S:a4433391e42f036a843fabf666ee5b3fc74a1b6d,",
       "bp.color.list-item.border.selected": "S:c41431e76e9440dec2adf47da0036d3bd47326fb,",
       "bp.color.link.icon.default": "S:27659ca3a2eec19a7055ec846a78f411da6eaf3d,",
-      "bp.color.link.icon.visited": "S:e9486f10c4a0e0690a33e51d02709cc50ef5c01e,"
+      "bp.color.link.icon.visited": "S:e9486f10c4a0e0690a33e51d02709cc50ef5c01e,",
+      "bp.color.label.text.default": "S:66b4bf95a90ea1085f196065fe5e0178894f211b,",
+      "bp.color.label.text.required": "S:91199d5755902d58dd068a6440a410e981b74923,",
+      "bp.color.label.text.disabled": "S:d299f4a475611c12c279dd86d1495fd5a4f62332,"
     }
   },
   {

@@ -1093,6 +1093,20 @@
             "value": "{bp.sys.color.disabled.main}",
             "type": "color"
           }
+        },
+        "text": {
+          "default": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          },
+          "required": {
+            "value": "{bp.sys.color.error.main}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          }
         }
       },
       "status-dot": {
