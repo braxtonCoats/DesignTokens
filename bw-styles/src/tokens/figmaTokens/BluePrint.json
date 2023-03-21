@@ -911,6 +911,16 @@
             "value": "{bp.sys.color.primary.container}",
             "type": "color"
           }
+        },
+        "icon": {
+          "default": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{bp.sys.color.secondary.main}",
+            "type": "color"
+          }
         }
       },
       "icon": {
