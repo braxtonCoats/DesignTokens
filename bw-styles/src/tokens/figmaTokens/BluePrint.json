@@ -1402,6 +1402,32 @@
             "type": "color"
           }
         }
+      },
+      "list-item": {
+        "background": {
+          "default": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{bp.sys.color.primary.container}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{bp.sys.color.primary.container}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{bp.sys.color.outline.main}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{bp.sys.color.outline.primary}",
+            "type": "color"
+          }
+        }
       }
     },
     "typography": {
