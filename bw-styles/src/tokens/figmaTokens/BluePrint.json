@@ -391,6 +391,10 @@
             "value": "{bp.sys.color.disabled.main}",
             "type": "color"
           },
+          "disabled-selected": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
           "selected-active": {
             "value": "{bp.sys.color.secondary.main}",
             "type": "color"
@@ -418,6 +422,10 @@
             "type": "color"
           },
           "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
+          "disabled-selected": {
             "value": "{bp.sys.color.disabled.onMain}",
             "type": "color"
           },

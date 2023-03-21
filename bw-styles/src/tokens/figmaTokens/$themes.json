@@ -707,7 +707,9 @@
       "bp.color.link.icon.visited": "S:e9486f10c4a0e0690a33e51d02709cc50ef5c01e,",
       "bp.color.label.text.default": "S:66b4bf95a90ea1085f196065fe5e0178894f211b,",
       "bp.color.label.text.required": "S:91199d5755902d58dd068a6440a410e981b74923,",
-      "bp.color.label.text.disabled": "S:d299f4a475611c12c279dd86d1495fd5a4f62332,"
+      "bp.color.label.text.disabled": "S:d299f4a475611c12c279dd86d1495fd5a4f62332,",
+      "bp.color.radio.background.disabled-selected": "S:3dc5aaf8cbf0325c2493fde1ca9439a3bf8a53e6,",
+      "bp.color.radio.border.disabled-selected": "S:0044dd3b310c640acd38e5de22ce9d62c9ca3989,"
     }
   },
   {
