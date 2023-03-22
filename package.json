@@ -1,0 +1,28 @@
+
+{
+  "type": "commonjs",
+
+  "scripts": {
+
+    "transform-light": "npx token-transformer bw-styles/src/tokens/figmaTokens transformed/tokens/output/light.json reference,system,BluePrint reference --expandTypography",
+    "transform-dark": "npx token-transformer bw-styles/src/tokens/figmaTokens transformed/tokens/output/dark.json reference,systemDark,BluePrint reference --expandTypography",
+    "transform-test": "npx token-transformer bw-styles/src/tokens/figmaTokens transformed/tokens/output/lightTest.json reference,system,BluePrint,test reference --expandTypography",
+
+    "transform": "npm run transform-light && npm run transform-dark",
+    "build-tokens": "cd bw-styles/src/tokens && node buildTokens.js && cd ../../ && mv transformed/tokens/output/scss/light.scss ./src/scss/_theme.scss && mv src/tokens/output/scss/dark.scss ./src/scss/_themeDark.scss"
+  },
+  "dependencies": {
+    "mdb-ui-kit": "^6.1.0",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier-eslint": "^15.0.1",
+    "prettier-eslint-cli": "^7.1.0",
+    "sass": "^1.57.1",
+    "token-transformer": "^0.0.27",
+    "@changesets/cli": "^2.22.0",
+    "style-dictionary": "^3.7.0"
+  }
+}
