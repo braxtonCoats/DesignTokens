@@ -3,7 +3,7 @@
       "color": {
         "background": {
           "primary": {
-            "value": "{bp.sys.color.background.variant}",
-            "type": "color"
+            "$value": "{bp.sys.color.background.variant}",
+            "$type": "color"
           }
         }}}}
