@@ -5,6 +5,10 @@
           "primary": {
             "$value": "{bp.sys.color.background.variant}",
             "$type": "color"
+          },"primary-test": {
+            "$type": "color",
+            "$value": "{bp.sys.color.background.variant}"
+            
           },
           "disabled": {
             "$value": "{bp.sys.color.disabled.main}",
