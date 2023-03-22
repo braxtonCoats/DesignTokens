@@ -1,9 +1,9 @@
 {
-    "$bp": {
+    "bp": {
       "color": {
         "background": {
           "primary": {
-            "$value": "{bp.sys.color.background.variant}",
+            "$value": "#00bef0",
             "$type": "color"
           }
         }}}}
