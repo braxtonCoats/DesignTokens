@@ -1265,7 +1265,7 @@
           },
           "icon": {
             "default": {
-              "value": "{bp.sys.color.error.main}",
+              "value": "{bp.sys.color.error.onMain}",
               "type": "color"
             },
             "hover": {
