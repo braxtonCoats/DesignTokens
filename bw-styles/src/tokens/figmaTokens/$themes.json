@@ -712,7 +712,27 @@
       "bp.color.radio.border.disabled-selected": "S:0044dd3b310c640acd38e5de22ce9d62c9ca3989,",
       "bp.color.list-item.text.default": "S:197d311962069cd4de4a471a3cfa241cade7dde1,",
       "bp.color.table.icons.default": "S:a573a50c505d82806933fb308329e0ffd28240da,",
-      "bp.color.table.icons.active": "S:1ac8e0187a2a106386b8053dd15353ad7e2fdf30,"
+      "bp.color.table.icons.active": "S:1ac8e0187a2a106386b8053dd15353ad7e2fdf30,",
+      "m24": "S:e9f794f45747873ce4e9330d7727a852f29b8460,",
+      "m16": "S:ff2cfde0a51c2f87964d02c76b7e57e394308eab,",
+      "m12": "S:bb91e823bb35c75b24052ef52188ae6e09a54646,",
+      "m09": "S:9b27c7f6f823ecc02f8971a5e3e30aa20b962c40,",
+      "m08": "S:9eb3d6bd870c20c64c221e7ed4085d2e00ca849a,",
+      "m06": "S:a8b9cbb51f7eb80b3344f00330d8b0cf3399ae1e,",
+      "m04": "S:3ee45f5f23ad3372e04a1ee8d5a10b69b3b26383,",
+      "m03": "S:e0f295e933752c4c555f1e8bc0c6e6489139ebf0,",
+      "m02": "S:df5235cc5cc9ca22c17266870d608585d3b18475,",
+      "m01": "S:09656850e34341f2cf24c0cfa31cedde5b9eb484,",
+      "bp.sys.m01": "S:6302c1c62e18e925095fa6fce22a2f0fc5afcea0,",
+      "bp.sys.m02": "S:7c6690320f4c1c3e1b955464e09f3d6090cf4dca,",
+      "bp.sys.m03": "S:c45bd598e9628b6807cff2287d47d9888fe6c006,",
+      "bp.sys.m04": "S:ec072e4dda493e82ee6824cf70b9948106b05173,",
+      "bp.sys.m06": "S:f372ea4dd22ef81d5557f22c09cdaa2453b9ea6b,",
+      "bp.sys.m08": "S:294000a40ad9136fb049af8d071b9dbd75d7e8d4,",
+      "bp.sys.m09": "S:e669dfcb10a9a8e5dc32032a5a8412bee79afe4f,",
+      "bp.sys.m12": "S:f98436c064b2623d510a6e52c9a5f0b6019af261,",
+      "bp.sys.m16": "S:dd2add04210e33c81c2e51cc0014eafe9bc5f1e3,",
+      "bp.sys.m24": "S:79e3f4f8e034d440a3acb3d5d756f1754f5b174e,"
     }
   },
   {
