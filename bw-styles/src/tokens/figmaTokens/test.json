@@ -2,7 +2,7 @@
     "bp": {
       "color": {
         "background": {
-          "primary": {
+          "$primary": {
             "$value": "{bp.sys.color.background.variant}",
             "$type": "color"
           }
