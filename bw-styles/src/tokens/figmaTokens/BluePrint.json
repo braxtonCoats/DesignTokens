@@ -1110,6 +1110,10 @@
           "disabled": {
             "value": "{bp.sys.color.disabled.main}",
             "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
           }
         },
         "text": {
@@ -1123,6 +1127,10 @@
           },
           "disabled": {
             "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.error.main}",
             "type": "color"
           }
         }
