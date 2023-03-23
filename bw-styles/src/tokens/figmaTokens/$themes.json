@@ -521,7 +521,6 @@
       "bp.typography.body.link": "S:d9a6154263571ea3b7bc3560f72153f423095cfa,",
       "bp.typography.navigation.primary": "S:22b843438a56e3cb9a7b9a6cfeaa06ff4389d177,",
       "bp.typography.navigation.secondary": "S:334f140a1a6a6181fa1d110a8eab6210a904892c,",
-      "bp.shadow.navigation.secondary.hover": "S:c965387d0084709b5b598075fb9ca486f455e545,",
       "bp.color.button.icon.background.default": "S:f310c2c659df304097a0821ea65c0b41d0d66ce3,",
       "bp.color.button.icon.background.hover": "S:e9a7ecdcc428115242a5dc5df78fb5fd3f750012,",
       "bp.color.button.icon.background.active": "S:0740e5bedec9a279b22f03edb37d613ea6ad001d,",
@@ -732,7 +731,22 @@
       "bp.sys.m09": "S:e669dfcb10a9a8e5dc32032a5a8412bee79afe4f,",
       "bp.sys.m12": "S:f98436c064b2623d510a6e52c9a5f0b6019af261,",
       "bp.sys.m16": "S:dd2add04210e33c81c2e51cc0014eafe9bc5f1e3,",
-      "bp.sys.m24": "S:79e3f4f8e034d440a3acb3d5d756f1754f5b174e,"
+      "bp.sys.m24": "S:79e3f4f8e034d440a3acb3d5d756f1754f5b174e,",
+      "bp.color.label.background.error": "S:faf58292adb2c3dcb8d1975132f0d38ac1ef2e11,",
+      "bp.color.label.text.error": "S:377be62c8d34d317dd172ba77bda2e9da93b85e6,",
+      "bp.color.navigation.icon.selected": "S:1d632e19898093302d38a59f51f05ce559819033,",
+      "bp.color.navigation.background.slim.default": "S:f920720778a314e944466a9669980157dcf0d65e,",
+      "bp.color.navigation.background.slim.hover": "S:e63ae5ee375f5091c27f802a553f64bc47a27c3c,",
+      "bp.color.navigation.background.slim.active": "S:1fc65fe1100c64532ea8a6932431e1d75145911b,",
+      "bp.color.navigation.background.slim.emergency": "S:e90fc34115f421b2ec541bcbeaa342e71ebf6535,",
+      "bp.color.navigation.background.slim.selected": "S:20b740420e5da8be8ea6e46c62a5123f1115b9a4,",
+      "bp.color.navigation.icon.slim.default": "S:0b9f259ccf5c2177ca1f33301858e8b5a1417e43,",
+      "bp.color.navigation.icon.slim.hover": "S:81ea3b0fadf99b4f021d74a3d80118ee02108f04,",
+      "bp.color.navigation.icon.slim.active": "S:4e8ca209f3607b5d24cde0dc79a8037d7cd84ebf,",
+      "bp.color.navigation.icon.slim.selected": "S:19dd42be88a2be7db1ee21ce4d64c6f4376985d7,",
+      "bp.shadow.navigation.secondary.old-hover": "S:a799a8886679cceeabcf4f00ad50086e3a41c321,",
+      "bp.shadow.navigation.secondary.hover": "S:c965387d0084709b5b598075fb9ca486f455e545,",
+      "bp.color.secondary-navigation.text.active": "S:97cea5427c4d8fa20ae4401c61705ffde046415c,"
     }
   },
   {

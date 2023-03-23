@@ -69,13 +69,35 @@
             "value": "{bp.sys.color.primary.container}",
             "type": "color"
           },
+          "selected": {
+            "value": "{bp.sys.color.secondary.container}",
+            "type": "color"
+          },
           "emergency": {
             "value": "{bp.ref.color-palette.orange.55}",
             "type": "color"
           },
-          "selected": {
-            "value": "{bp.sys.color.secondary.container}",
-            "type": "color"
+          "slim": {
+            "default": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.secondary.container}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.secondary.container}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.secondary.container}",
+              "type": "color"
+            },
+            "emergency": {
+              "value": "{bp.ref.color-palette.orange.55}",
+              "type": "color"
+            }
           }
         },
         "icon": {
@@ -84,12 +106,34 @@
             "type": "color"
           },
           "hover": {
-            "value": "{bp.sys.color.secondary.main}",
+            "value": "{bp.sys.color.primary.onContainer}",
             "type": "color"
           },
           "active": {
-            "value": "{bp.sys.color.secondary.onContainer}",
+            "value": "{bp.sys.color.primary.onContainer}",
             "type": "color"
+          },
+          "selected": {
+            "value": "{bp.sys.color.primary.onMain}",
+            "type": "color"
+          },
+          "slim": {
+            "default": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            },
+            "selected": {
+              "value": "{bp.sys.color.primary.onMain}",
+              "type": "color"
+            }
           }
         },
         "text": {
@@ -143,6 +187,10 @@
           },
           "selected": {
             "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{bp.sys.color.primary.onContainer}",
             "type": "color"
           }
         },
@@ -833,7 +881,7 @@
           },
           "border": {
             "active": {
-              "value": "{bp.sys.color.primary.main}",
+              "value": "{bp.sys.color.primary.onContainer}",
               "type": "color"
             }
           },
@@ -847,7 +895,7 @@
               "type": "color"
             },
             "active": {
-              "value": "{bp.sys.color.primary.main}",
+              "value": "{bp.sys.color.primary.onContainer}",
               "type": "color"
             },
             "disabled": {
@@ -1894,12 +1942,16 @@
       "button": {
         "value": "2px",
         "type": "borderWidth"
+      },
+      "navigation": {
+        "value": "2px",
+        "type": "borderWidth"
       }
     },
     "shadow": {
       "navigation": {
         "secondary": {
-          "hover": {
+          "old-hover": {
             "value": {
               "x": "0",
               "y": "2",
@@ -1908,6 +1960,10 @@
               "color": "#00000035",
               "type": "dropShadow"
             },
+            "type": "boxShadow"
+          },
+          "hover": {
+            "value": "{bp.elevation.02}",
             "type": "boxShadow"
           }
         },
