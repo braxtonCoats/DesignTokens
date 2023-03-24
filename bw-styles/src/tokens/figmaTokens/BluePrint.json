@@ -2094,6 +2094,16 @@
         "value": "{bp.sys.m09}",
         "type": "boxShadow"
       }
+    },
+    "border": {
+      "table": {
+        "value": {
+          "color": "{bp.color.table.border.default}",
+          "width": "1px",
+          "style": "solid"
+        },
+        "type": "border"
+      }
     }
   }
 }
