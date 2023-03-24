@@ -1898,6 +1898,10 @@
       "checkbox": {
         "value": "{bp.ref.border-radius.x-soft}",
         "type": "borderRadius"
+      },
+      "table": {
+        "value": "4px",
+        "type": "borderRadius"
       }
     },
     "outline-width": {
@@ -1945,6 +1949,10 @@
       },
       "navigation": {
         "value": "2px",
+        "type": "borderWidth"
+      },
+      "table": {
+        "value": "1px",
         "type": "borderWidth"
       }
     },
