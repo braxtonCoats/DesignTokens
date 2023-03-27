@@ -1698,7 +1698,7 @@
             "fontFamily": "{bp.ref.font.overpass}",
             "fontWeight": "{bp.ref.font-weight.italic.400}",
             "lineHeight": "$bp.ref.line-height.20",
-            "fontSize": "$bp.ref.font-size.0",
+            "fontSize": "$bp.ref.font-size.1",
             "letterSpacing": "$bp.ref.letter-spacing.none",
             "paragraphSpacing": "$bp.ref.paragraph-spacing.none",
             "textCase": "$bp.ref.text-case.none",
@@ -2013,6 +2013,30 @@
           "spread": "2"
         },
         "type": "boxShadow"
+      },
+      "table": {
+        "scroll-left": {
+          "value": {
+            "x": "5",
+            "y": "0",
+            "blur": "10",
+            "spread": "0",
+            "color": "#00000024",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow"
+        },
+        "scroll-right": {
+          "value": {
+            "color": "#00000024",
+            "type": "innerShadow",
+            "x": "-5",
+            "y": "0",
+            "blur": "10",
+            "spread": "0"
+          },
+          "type": "boxShadow"
+        }
       }
     },
     "spacing": {

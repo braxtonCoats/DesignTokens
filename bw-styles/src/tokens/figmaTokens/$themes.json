@@ -746,7 +746,9 @@
       "bp.color.navigation.icon.slim.selected": "S:19dd42be88a2be7db1ee21ce4d64c6f4376985d7,",
       "bp.shadow.navigation.secondary.old-hover": "S:a799a8886679cceeabcf4f00ad50086e3a41c321,",
       "bp.shadow.navigation.secondary.hover": "S:c965387d0084709b5b598075fb9ca486f455e545,",
-      "bp.color.secondary-navigation.text.active": "S:97cea5427c4d8fa20ae4401c61705ffde046415c,"
+      "bp.color.secondary-navigation.text.active": "S:97cea5427c4d8fa20ae4401c61705ffde046415c,",
+      "bp.shadow.table.scroll-left": "S:970662625fd75a6e136fef5de53dcfcdfea92c60,",
+      "bp.shadow.table.scroll-right": "S:0a5cb2e94f9e4a482927de7a0b8d12a938d643c9,"
     }
   },
   {
