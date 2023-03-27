@@ -1,0 +1,20 @@
+{
+  "vb": {
+    "color": {
+      "background": {
+        "default": {
+          "value": "{bp.color.surface.primary}",
+          "type": "color"
+        }
+      },
+      "node": {
+        "background": {
+          "default": {
+            "value": "{bp.color.surface.primary}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
