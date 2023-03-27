@@ -15,6 +15,30 @@
           }
         }
       }
+    },
+    "border": {
+      "node": {
+        "default": {
+          "value": {
+            "color": "{bp.sys.color.outline.main}",
+            "width": "1px",
+            "style": "solid"
+          },
+          "type": "border"
+        }
+      }
+    },
+    "shadow": {
+      "node": {
+        "default": {
+          "value": "{bp.elevation.04}",
+          "type": "boxShadow"
+        },
+        "hover": {
+          "value": "{bp.elevation.09}",
+          "type": "boxShadow"
+        }
+      }
     }
   }
 }
