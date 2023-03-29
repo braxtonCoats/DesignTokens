@@ -13,6 +13,76 @@
             "value": "{bp.color.surface.primary}",
             "type": "color"
           }
+        },
+        "content": {
+          "background": {
+            "default": {
+              "value": "{bp.sys.color.primary.container}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.primary.container}",
+              "type": "color"
+            },
+            "open": {
+              "value": "{bp.sys.color.primary.container}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.main}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "default": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "unique-node": {
+        "start": {
+          "background": {
+            "default": {
+              "value": "{bp.sys.color.success.container}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{bp.sys.color.success.main}",
+              "type": "color"
+            }
+          }
+        },
+        "end": {
+          "background": {
+            "default": {
+              "value": "{bp.sys.color.error.container}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{bp.sys.color.error.main}",
+              "type": "color"
+            }
+          }
         }
       }
     },
@@ -36,6 +106,35 @@
         },
         "hover": {
           "value": "{bp.elevation.09}",
+          "type": "boxShadow"
+        },
+        "selected": {
+          "value": [
+            {
+              "color": "#079cee",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 9,
+              "blur": 12,
+              "spread": 0
+            },
+            {
+              "color": "#079cee",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 3,
+              "blur": 16,
+              "spread": 0
+            },
+            {
+              "color": "#079cee",
+              "type": "dropShadow",
+              "x": 0,
+              "y": 5,
+              "blur": 6,
+              "spread": 0
+            }
+          ],
           "type": "boxShadow"
         }
       }
