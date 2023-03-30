@@ -96,6 +96,12 @@
             }
           }
         }
+      },
+      "arrow": {
+        "default": {
+          "value": "{bp.sys.color.success.main}",
+          "type": "color"
+        }
       }
     },
     "border": {
