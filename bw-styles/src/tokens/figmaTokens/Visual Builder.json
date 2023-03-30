@@ -59,10 +59,18 @@
               "type": "color"
             }
           },
-          "grabber": {
-            "default": {
-              "value": "{bp.sys.color.success.main}",
-              "type": "color"
+          "drag-area": {
+            "grabber": {
+              "default": {
+                "value": "{bp.sys.color.success.main}",
+                "type": "color"
+              }
+            },
+            "background": {
+              "default": {
+                "value": "{bp.sys.color.primary.onMain}",
+                "type": "color"
+              }
             }
           }
         }
@@ -101,6 +109,10 @@
         "default": {
           "value": "{bp.sys.color.success.main}",
           "type": "color"
+        },
+        "url": {
+          "value": "{bp.color.alert.border.warning}",
+          "type": "color"
         }
       }
     },
@@ -131,26 +143,26 @@
             {
               "color": "#079cee",
               "type": "dropShadow",
-              "x": 0,
-              "y": 9,
-              "blur": 12,
-              "spread": 0
+              "x": "0",
+              "y": "9",
+              "blur": "12",
+              "spread": "0"
             },
             {
               "color": "#079cee",
               "type": "dropShadow",
-              "x": 0,
-              "y": 3,
-              "blur": 16,
-              "spread": 0
+              "x": "0",
+              "y": "3",
+              "blur": "16",
+              "spread": "0"
             },
             {
               "color": "#079cee",
               "type": "dropShadow",
-              "x": 0,
-              "y": 5,
-              "blur": 6,
-              "spread": 0
+              "x": "0",
+              "y": "5",
+              "blur": "6",
+              "spread": "0"
             }
           ],
           "type": "boxShadow"
