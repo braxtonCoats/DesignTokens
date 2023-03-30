@@ -52,6 +52,18 @@
               "value": "{bp.sys.color.disabled.onMain}",
               "type": "color"
             }
+          },
+          "border": {
+            "open": {
+              "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            }
+          },
+          "grabber": {
+            "default": {
+              "value": "{bp.sys.color.success.main}",
+              "type": "color"
+            }
           }
         }
       },
