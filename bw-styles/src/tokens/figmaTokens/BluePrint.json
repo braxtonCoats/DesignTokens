@@ -1078,13 +1078,31 @@
           "value": "{bp.sys.color.disabled.onMain}",
           "type": "color"
         },
-        "h1": {
-          "value": "{bp.sys.color.primary.main}",
-          "type": "color"
-        },
-        "h4": {
-          "value": "{bp.sys.color.primary.main}",
-          "type": "color"
+        "heading": {
+          "h1": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "h2": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          },
+          "h3": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          },
+          "h4": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "h5": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          },
+          "h6": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          }
         },
         "help-text": {
           "value": "{bp.sys.color.surface.onVariant}",
