@@ -1695,6 +1695,32 @@
             "textCase": "{bp.ref.text-case.none}"
           },
           "type": "typography"
+        },
+        "form-label": {
+          "value": {
+            "fontFamily": "{bp.ref.font.overpass}",
+            "fontWeight": "{bp.ref.font-weight.700}",
+            "lineHeight": "{bp.ref.line-height.20}",
+            "fontSize": "{bp.ref.font-size.1}",
+            "letterSpacing": "{bp.ref.letter-spacing.none}",
+            "paragraphSpacing": "{bp.ref.paragraph-spacing.none}",
+            "textDecoration": "{bp.ref.text-decoration.none}",
+            "textCase": "{bp.ref.text-case.none}"
+          },
+          "type": "typography"
+        },
+        "input-label": {
+          "value": {
+            "fontFamily": "{bp.ref.font.overpass}",
+            "fontWeight": "{bp.ref.font-weight.400}",
+            "lineHeight": "{bp.ref.line-height.21}",
+            "fontSize": "{bp.ref.font-size.1}",
+            "letterSpacing": "{bp.ref.letter-spacing.none}",
+            "paragraphSpacing": "{bp.ref.paragraph-spacing.none}",
+            "textDecoration": "{bp.ref.text-decoration.none}",
+            "textCase": "{bp.ref.text-case.none}"
+          },
+          "type": "typography"
         }
       },
       "body": {
