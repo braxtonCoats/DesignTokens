@@ -1732,6 +1732,20 @@
             "type": "color"
           }
         }
+      },
+      "multi-select-option": {
+        "background": {
+          "default": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "selected": {
+            "value": "{bp.sys.color.outline.main}",
+            "type": "color"
+          }
+        }
       }
     },
     "typography": {
@@ -2098,6 +2112,10 @@
         "type": "borderRadius"
       },
       "table": {
+        "value": "4px",
+        "type": "borderRadius"
+      },
+      "multi-select-item": {
         "value": "4px",
         "type": "borderRadius"
       }
