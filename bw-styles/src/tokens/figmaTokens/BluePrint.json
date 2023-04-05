@@ -2049,12 +2049,23 @@
       },
       "focus": {
         "value": {
-          "color": "#079cee",
-          "type": "dropShadow",
           "x": "0",
           "y": "0",
           "blur": "0",
-          "spread": "2"
+          "spread": "2",
+          "color": "{bp.ref.color-palette.blue.50}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "focus-visible": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "2",
+          "color": "{bp.ref.color-palette.blue.50}",
+          "type": "dropShadow"
         },
         "type": "boxShadow"
       },

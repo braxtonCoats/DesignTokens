@@ -754,7 +754,10 @@
       "bp.color.text.heading.h3": "S:d8c43f90d411b7aa81ab7cada67888dda6d0e753,",
       "bp.color.text.heading.h4": "S:f620be83363a0f1fb1d61090310e97b335ac651d,",
       "bp.color.text.heading.h5": "S:cfe6bce77d4b0455e6d478939b5e1dc7f4377f50,",
-      "bp.color.text.heading.h6": "S:be008147dd5469cb3c863de356a769696ae752f8,"
+      "bp.color.text.heading.h6": "S:be008147dd5469cb3c863de356a769696ae752f8,",
+      "bp.typography.label.form-label": "S:4e6ffe2d05989534ab2649e98ef9f60ebffa1ea6,",
+      "bp.typography.label.input-label": "S:57f0d58430521579a211e2da1a82cff6a4e3d05e,",
+      "bp.shadow.focus-visible": "S:19b2960ee7de8ec3f591458ba130948e34bab388,"
     }
   },
   {
