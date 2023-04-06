@@ -491,7 +491,6 @@
       "bp.color.tab.border.selected": "S:0ff2d4bb795a2b50326a589077027f72add71238,",
       "bp.color.tab.border.hover": "S:5f1a204e67a32312f788f12ea21ba7b1a6d17a8b,",
       "bp.color.tooltip.background": "S:9dc45c5d1b47209960337bffd3c7f05390b9c438,",
-      "bp.color.logo.icon": "S:9e1ad95588c4646fac03ba056f30928d579a6e6a,",
       "bp.color.logo.text": "S:5bf2a6847d80f634884dc8e5287809778d2ac355,",
       "bp.color.text.default": "S:f2068f43a283863ef53e8faa8419ad01e0dfe78f,",
       "bp.color.text.h1": "S:3a925e5e16a27bbd101cd9a6ba3328d3a1bc9adf,",
@@ -790,7 +789,8 @@
       "bp.color.select-option.background.hover": "S:7fb03a574dc7621a44dd873a0985bdeb9c7ae069,",
       "bp.color.select-option.background.selected": "S:7c96874c0b8afe8a6d380b7fcabd7cd048235879,",
       "bp.color.multi-select-option.background.default": "S:50d0668201d094428772e1880d7504f63df8d311,",
-      "bp.color.multi-select-option.border.selected": "S:c2473d963ba83a7fba0e0f99a2bfe0dee3970a6e,"
+      "bp.color.multi-select-option.border.selected": "S:c2473d963ba83a7fba0e0f99a2bfe0dee3970a6e,",
+      "bp.color.logo.mark": "S:9e1ad95588c4646fac03ba056f30928d579a6e6a,"
     }
   },
   {

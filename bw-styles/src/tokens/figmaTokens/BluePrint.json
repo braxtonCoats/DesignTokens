@@ -1052,11 +1052,15 @@
         }
       },
       "logo": {
-        "icon": {
+        "mark": {
           "value": "{bp.sys.color.primary.main}",
           "type": "color"
         },
         "text": {
+          "value": "{bp.sys.color.primary.main}",
+          "type": "color"
+        },
+        "seperator": {
           "value": "{bp.sys.color.primary.main}",
           "type": "color"
         }
