@@ -2135,6 +2135,17 @@
       "09": {
         "value": "{bp.sys.m09}",
         "type": "boxShadow"
+      },
+      "00": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{bp.sys.color.surface.onMain}",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
       }
     },
     "border": {
