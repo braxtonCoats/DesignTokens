@@ -1750,6 +1750,76 @@
             "type": "color"
           }
         }
+      },
+      "file-upload": {
+        "background": {
+          "default": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.main}",
+            "type": "color"
+          },
+          "disabled-selected": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{bp.sys.color.surface.onVariant}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{bp.sys.color.outline.main}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{bp.sys.color.outline.main}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{bp.sys.color.primary.main}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{bp.sys.color.error.main}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "placeholder": {
+            "value": "{bp.sys.color.surface.onVariant}",
+            "type": "color"
+          },
+          "input": {
+            "value": "{bp.sys.color.surface.onMain}",
+            "type": "color"
+          },
+          "requried": {
+            "value": "{bp.sys.color.error.main}",
+            "type": "color"
+          }
+        }
       }
     },
     "typography": {
