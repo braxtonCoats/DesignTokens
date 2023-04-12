@@ -790,7 +790,23 @@
       "bp.color.select-option.background.selected": "S:7c96874c0b8afe8a6d380b7fcabd7cd048235879,",
       "bp.color.multi-select-option.background.default": "S:50d0668201d094428772e1880d7504f63df8d311,",
       "bp.color.multi-select-option.border.selected": "S:c2473d963ba83a7fba0e0f99a2bfe0dee3970a6e,",
-      "bp.color.logo.mark": "S:9e1ad95588c4646fac03ba056f30928d579a6e6a,"
+      "bp.color.logo.mark": "S:ca5d197b6aa2c77b5ea6fb3dbebcf939290dd57e,",
+      "bp.color.logo.seperator": "S:7aab0c39f8674bb51f4b9c1f122beff9b8ae9ce3,",
+      "bp.color.file-upload.background.default": "S:2d7998cdb7fceee30ed14e290853724558fbc58a,",
+      "bp.color.file-upload.background.hover": "S:4ee5b29a25bea47eefaa3e11079f39c8a0568256,",
+      "bp.color.file-upload.background.selected": "S:e4b9a78a2d5206f842741e33ba17ae0a4f5a60a5,",
+      "bp.color.file-upload.background.disabled": "S:eedf1847ea1ed8b9f30dcd709f7ee3e2e5517212,",
+      "bp.color.file-upload.background.disabled-selected": "S:542c870fee678bcfb5a333658a4b3be45835ca48,",
+      "bp.color.file-upload.icon.default": "S:a737089079ca5be064831793be46434c57a91771,",
+      "bp.color.file-upload.icon.disabled": "S:48c12bf9485bf6d5da6a7787fe968ea93d6cc7b1,",
+      "bp.color.file-upload.border.default": "S:9b3952b7cce77723039b0d2dc518e26e44fe6542,",
+      "bp.color.file-upload.border.hover": "S:e8e45a32e649bd6932cc77628a5263d8206c34ee,",
+      "bp.color.file-upload.border.selected": "S:976bb72c663d19055c4d6f5ae016a2354d4b1790,",
+      "bp.color.file-upload.border.error": "S:c487035a8649fe76735d9a1a3af32774a8f33d93,",
+      "bp.color.file-upload.border.disabled": "S:3d3a1205d0e180b92893c71c85fd38803221f59b,",
+      "bp.color.file-upload.text.placeholder": "S:d3cfe896edbf96198a46c50fde3414b7ec5df4b5,",
+      "bp.color.file-upload.text.input": "S:f74cb40d6cccad266a725154b3d17bafe32a6007,",
+      "bp.color.file-upload.text.requried": "S:e29058aa240f2bcaa26d195956cf9a2ee08f08fe,"
     }
   },
   {
