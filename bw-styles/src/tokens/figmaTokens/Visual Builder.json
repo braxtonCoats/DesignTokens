@@ -114,6 +114,64 @@
           "value": "{bp.color.alert.border.warning}",
           "type": "color"
         }
+      },
+      "node-container": {
+        "background": {
+          "default": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
+          }
+        },
+        "item": {
+          "background": {
+            "voice": {
+              "default": {
+                "value": "{bp.ref.color-palette.purple.10}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.ref.color-palette.purple.15}",
+                "type": "color"
+              }
+            }
+          },
+          "text": {
+            "voice": {
+              "defaultg": {
+                "value": "{bp.ref.color-palette.purple.65}",
+                "type": "color"
+              }
+            }
+          },
+          "icon": {
+            "voice": {
+              "default": {
+                "value": "{bp.ref.color-palette.purple.65}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "drawer": {
+          "background": {
+            "default": {
+              "value": "{bp.color.surface.primary}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          },
+          "icon": {
+            "disabled": {
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          }
+        }
       }
     },
     "border": {
@@ -166,6 +224,36 @@
             }
           ],
           "type": "boxShadow"
+        }
+      },
+      "node-container": {
+        "item": {
+          "hover": {
+            "value": "{bp.sys.m03}",
+            "type": "boxShadow"
+          }
+        }
+      }
+    },
+    "border-radius": {
+      "node-container": {
+        "item": {
+          "value": "{bp.ref.border-radius.x-soft}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "spacing": {
+      "node-container": {
+        "item": {
+          "gap": {
+            "value": "{bp.spacing.sm}",
+            "type": "spacing"
+          },
+          "padding": {
+            "value": "{bp.ref.spacing.x-sm}",
+            "type": "spacing"
+          }
         }
       }
     }
