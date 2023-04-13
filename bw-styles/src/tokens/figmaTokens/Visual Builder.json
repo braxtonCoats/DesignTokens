@@ -133,6 +133,16 @@
                 "value": "{bp.ref.color-palette.purple.15}",
                 "type": "color"
               }
+            },
+            "messaging": {
+              "default": {
+                "value": "{bp.ref.color-palette.green.10}",
+                "type": "color"
+              },
+              "hover": {
+                "value": "{bp.ref.color-palette.green.15}",
+                "type": "color"
+              }
             }
           },
           "text": {
@@ -141,12 +151,24 @@
                 "value": "{bp.ref.color-palette.purple.65}",
                 "type": "color"
               }
+            },
+            "messaging": {
+              "defaultg": {
+                "value": "{bp.ref.color-palette.green.65}",
+                "type": "color"
+              }
             }
           },
           "icon": {
             "voice": {
               "default": {
                 "value": "{bp.ref.color-palette.purple.65}",
+                "type": "color"
+              }
+            },
+            "messaging": {
+              "default": {
+                "value": "{bp.ref.color-palette.green.65}",
                 "type": "color"
               }
             }
@@ -168,6 +190,12 @@
           "icon": {
             "disabled": {
               "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{bp.sys.color.outline.main}",
               "type": "color"
             }
           }
@@ -252,6 +280,12 @@
           },
           "padding": {
             "value": "{bp.ref.spacing.x-sm}",
+            "type": "spacing"
+          }
+        },
+        "drawer": {
+          "padding": {
+            "value": "{bp.spacing.xxx-sm}",
             "type": "spacing"
           }
         }
