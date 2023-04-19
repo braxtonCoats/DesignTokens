@@ -143,18 +143,30 @@
                 "value": "{bp.ref.color-palette.green.15}",
                 "type": "color"
               }
+            },
+            "integration": {
+              "default": {
+                "value": "{bp.ref.color-palette.blue.5}",
+                "type": "color"
+              }
             }
           },
           "text": {
             "voice": {
               "defaultg": {
-                "value": "{bp.ref.color-palette.purple.65}",
+                "value": "{bp.ref.color-palette.purple.75}",
                 "type": "color"
               }
             },
             "messaging": {
               "defaultg": {
-                "value": "{bp.ref.color-palette.green.65}",
+                "value": "{bp.ref.color-palette.green.75}",
+                "type": "color"
+              }
+            },
+            "integration": {
+              "default": {
+                "value": "{bp.ref.color-palette.blue.75}",
                 "type": "color"
               }
             }
@@ -162,13 +174,19 @@
           "icon": {
             "voice": {
               "default": {
-                "value": "{bp.ref.color-palette.purple.65}",
+                "value": "{bp.ref.color-palette.purple.75}",
                 "type": "color"
               }
             },
             "messaging": {
               "default": {
-                "value": "{bp.ref.color-palette.green.65}",
+                "value": "{bp.ref.color-palette.green.75}",
+                "type": "color"
+              }
+            },
+            "integration": {
+              "default": {
+                "value": "{bp.ref.color-palette.blue.75}",
                 "type": "color"
               }
             }
@@ -257,7 +275,11 @@
       "node-container": {
         "item": {
           "hover": {
-            "value": "{bp.sys.m03}",
+            "value": "{bp.sys.m01}",
+            "type": "boxShadow"
+          },
+          "hover-copy": {
+            "value": "{bp.sys.m02}",
             "type": "boxShadow"
           }
         }
