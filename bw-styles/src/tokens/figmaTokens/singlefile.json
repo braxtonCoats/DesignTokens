@@ -2992,6 +2992,10 @@
               "disabled": {
                 "value": "{bp.sys.color.disabled.main}",
                 "type": "color"
+              },
+              "test": {
+                "value": "{bp.sys.color.tertiary.container}",
+                "type": "color"
               }
             },
             "border": {
