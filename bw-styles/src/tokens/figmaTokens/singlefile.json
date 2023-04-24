@@ -3051,7 +3051,7 @@
               "type": "color"
             },
             "hover": {
-              "value": "{bp.sys.color.primary.onContainer}",
+              "value": "{bp.sys.color.secondary.container}",
               "type": "color"
             },
             "active": {
@@ -3059,11 +3059,15 @@
               "type": "color"
             },
             "disabled": {
-              "value": "{bp.sys.color.disabled.onMain}",
+              "value": "{bp.sys.color.surface.onVariant}",
               "type": "color"
             },
             "background": {
               "hover": {
+                "value": "{bp.sys.color.primary.container}",
+                "type": "color"
+              },
+              "active": {
                 "value": "{bp.sys.color.primary.container}",
                 "type": "color"
               }
@@ -3074,7 +3078,7 @@
                 "type": "color"
               },
               "hover": {
-                "value": "{bp.sys.color.primary.onContainer}",
+                "value": "{bp.sys.color.secondary.container}",
                 "type": "color"
               },
               "active": {
@@ -3082,7 +3086,7 @@
                 "type": "color"
               },
               "disabled": {
-                "value": "{bp.sys.color.disabled.onMain}",
+                "value": "{bp.sys.color.surface.onVariant}",
                 "type": "color"
               }
             }
@@ -3624,6 +3628,10 @@
             },
             "background": {
               "hover": {
+                "value": "{bp.sys.color.error.container}",
+                "type": "color"
+              },
+              "active": {
                 "value": "{bp.sys.color.error.container}",
                 "type": "color"
               }
