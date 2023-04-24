@@ -4687,13 +4687,24 @@
       }
     }
   },
-  "$themes": [],
   "$metadata": {
-    "tokenSetOrder": [
-      "reference",
-      "system",
-      "systemDark",
-      "BluePrint"
-    ]
+    "tokenSetOrder": {
+      "0": {
+        "value": "reference",
+        "type": "other"
+      },
+      "1": {
+        "value": "system",
+        "type": "other"
+      },
+      "2": {
+        "value": "systemDark",
+        "type": "other"
+      },
+      "3": {
+        "value": "BluePrint",
+        "type": "other"
+      }
+    }
   }
 }

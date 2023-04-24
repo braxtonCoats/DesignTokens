@@ -4,6 +4,7 @@
     "system",
     "systemDark",
     "BluePrint",
-    "Visual Builder"
+    "Visual Builder",
+    "singlefile"
   ]
 }
