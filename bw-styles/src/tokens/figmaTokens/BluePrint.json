@@ -759,7 +759,7 @@
               "type": "color"
             },
             "hover": {
-              "value": "{bp.sys.color.primary.onContainer}",
+              "value": "{bp.sys.color.tertiary.container}",
               "type": "color"
             },
             "active": {
