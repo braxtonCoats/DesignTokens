@@ -216,11 +216,11 @@
         },
         "disabled": {
           "main": {
-            "value": "{bp.ref.color-palette.grey.5}",
+            "value": "{bp.ref.color-palette.grey.15}",
             "type": "color"
           },
           "onMain": {
-            "value": "{bp.ref.color-palette.grey.60}",
+            "value": "{bp.ref.color-palette.grey.65}",
             "type": "color"
           }
         }

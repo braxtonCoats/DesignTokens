@@ -1572,6 +1572,10 @@
           "selected": {
             "value": "{bp.sys.color.primary.container}",
             "type": "color"
+          },
+          "disabled": {
+            "value": "{bp.sys.color.disabled.main}",
+            "type": "color"
           }
         },
         "border": {
