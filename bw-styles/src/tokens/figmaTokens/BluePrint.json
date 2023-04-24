@@ -839,6 +839,10 @@
             "hover": {
               "value": "{bp.sys.color.primary.container}",
               "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.primary.container}",
+              "type": "color"
             }
           },
           "icon": {
@@ -1375,6 +1379,10 @@
           },
           "background": {
             "hover": {
+              "value": "{bp.sys.color.error.container}",
+              "type": "color"
+            },
+            "active": {
               "value": "{bp.sys.color.error.container}",
               "type": "color"
             }
