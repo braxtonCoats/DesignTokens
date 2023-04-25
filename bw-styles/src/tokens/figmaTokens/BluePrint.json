@@ -685,7 +685,25 @@
               "type": "color"
             },
             "hover": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "active": {
+              "value": "{bp.sys.color.surface.main}",
+              "type": "color"
+            },
+            "disabled": {
+              "value": "{bp.sys.color.background.variant}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
               "value": "{bp.sys.color.primary.main}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{bp.sys.color.secondary.container}",
               "type": "color"
             },
             "active": {
@@ -697,35 +715,17 @@
               "type": "color"
             }
           },
-          "border": {
-            "default": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "hover": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "active": {
-              "value": "{bp.sys.color.primary.main}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
-            }
-          },
           "text": {
             "default": {
               "value": "{bp.sys.color.primary.main}",
               "type": "color"
             },
             "hover": {
-              "value": "{bp.sys.color.primary.onMain}",
+              "value": "{bp.sys.color.secondary.container}",
               "type": "color"
             },
             "active": {
-              "value": "{bp.sys.color.primary.onMain}",
+              "value": "{bp.sys.color.secondary.main}",
               "type": "color"
             },
             "disabled": {
@@ -739,11 +739,11 @@
               "type": "color"
             },
             "hover": {
-              "value": "{bp.sys.color.primary.onMain}",
+              "value": "{bp.sys.color.secondary.container}",
               "type": "color"
             },
             "active": {
-              "value": "{bp.sys.color.secondary.onMain}",
+              "value": "{bp.sys.color.secondary.main}",
               "type": "color"
             },
             "disabled": {
@@ -777,7 +777,7 @@
               "type": "color"
             },
             "hover": {
-              "value": "{bp.sys.color.primary.onContainer}",
+              "value": "{bp.sys.color.secondary.container}",
               "type": "color"
             },
             "active": {
