@@ -1929,6 +1929,19 @@
           },
           "type": "typography"
         },
+        "tab": {
+          "value": {
+            "fontFamily": "{bp.ref.font.overpass}",
+            "fontWeight": "{bp.ref.font-weight.700}",
+            "lineHeight": "$bp.ref.line-height.20",
+            "fontSize": "$bp.ref.font-size.1",
+            "letterSpacing": "$bp.ref.letter-spacing.none",
+            "paragraphSpacing": "$bp.ref.paragraph-spacing.none",
+            "textCase": "$bp.ref.text-case.upper",
+            "textDecoration": "$bp.ref.text-decoration.none"
+          },
+          "type": "typography"
+        },
         "table-heading": {
           "value": {
             "fontFamily": "{bp.ref.font.overpass}",
