@@ -2157,6 +2157,20 @@
         },
         "type": "border"
       }
+    },
+    "composition": {
+      "text": {
+        "body": {
+          "default": {
+            "value": {
+              "typography": "{bp.typography.body.default}",
+              "fill": "{bp.color.text.default}"
+            },
+            "type": "composition",
+            "description": "Test composition token for BluePrint default body text"
+          }
+        }
+      }
     }
   }
 }

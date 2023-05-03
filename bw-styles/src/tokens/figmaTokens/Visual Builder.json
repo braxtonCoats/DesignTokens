@@ -98,7 +98,71 @@
         },
         "anchor": {
           "default": {
+            "value": "{vb.color.node.border.bw}",
+            "type": "color"
+          },
+          "voice": {
+            "value": "{vb.color.node.border.voice}",
+            "type": "color"
+          },
+          "messaging": {
+            "value": "{vb.color.node.border.messaging}",
+            "type": "color"
+          },
+          "numbers": {
+            "value": "{vb.color.node.border.numbers}",
+            "type": "color"
+          },
+          "emergency": {
+            "value": "{vb.color.node.border.emergency}",
+            "type": "color"
+          },
+          "connected": {
+            "start": {
+              "value": "{bp.ref.color-palette.green.65}",
+              "type": "color"
+            },
+            "": {
+              "value": "{vb.color.node.anchor.voice}",
+              "type": "color"
+            },
+            "messaging": {
+              "value": "{vb.color.node.anchor.messaging}",
+              "type": "color"
+            },
+            "numbers": {
+              "value": "{vb.color.node.anchor.numbers}",
+              "type": "color"
+            },
+            "emergency": {
+              "value": "{vb.color.node.anchor.emergency}",
+              "type": "color"
+            }
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{bp.sys.color.surface.main}",
+            "type": "color"
+          },
+          "bw": {
             "value": "{bp.ref.color-palette.blue.50}",
+            "type": "color"
+          },
+          "voice": {
+            "value": "{bp.ref.color-palette.purple.50}",
+            "type": "color"
+          },
+          "messaging": {
+            "value": "{bp.ref.color-palette.green.50}",
+            "type": "color"
+          },
+          "numbers": {
+            "value": "{bp.ref.color-palette.maroon.50}",
+            "type": "color"
+          },
+          "emergency": {
+            "value": "{bp.ref.color-palette.orange.50}",
             "type": "color"
           }
         }
