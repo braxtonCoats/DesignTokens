@@ -1,5 +1,27 @@
 {
   "vb": {
+    "brand-colors": {
+    "bw": {
+      "value": "{bp.ref.color-palette.blue.50}",
+      "type": "color"
+    },
+    "voice": {
+      "value": "{bp.ref.color-palette.purple.50}",
+      "type": "color"
+    },
+    "messaging": {
+      "value": "{bp.ref.color-palette.green.50}",
+      "type": "color"
+    },
+    "numbers": {
+      "value": "{bp.ref.color-palette.maroon.50}",
+      "type": "color"
+    },
+    "emergency": {
+      "value": "{bp.ref.color-palette.orange.50}",
+      "type": "color"
+    }
+  },
     "color": {
       "background": {
         "default": {
@@ -432,28 +454,7 @@
           }
         }
       }
-    },
-    "brand-colors": {
-      "bw": {
-        "value": "{bp.ref.color-palette.blue.50}",
-        "type": "color"
-      },
-      "voice": {
-        "value": "{bp.ref.color-palette.purple.50}",
-        "type": "color"
-      },
-      "messaging": {
-        "value": "{bp.ref.color-palette.green.50}",
-        "type": "color"
-      },
-      "numbers": {
-        "value": "{bp.ref.color-palette.maroon.50}",
-        "type": "color"
-      },
-      "emergency": {
-        "value": "{bp.ref.color-palette.orange.50}",
-        "type": "color"
-      }
     }
+    
   }
 }
