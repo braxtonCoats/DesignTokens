@@ -97,6 +97,10 @@
             "numbers": {
               "value": "{bp.ref.color-palette.maroon.75}",
               "type": "color"
+            },
+            "bw": {
+              "value": "{bp.ref.color-palette.blue.85}",
+              "type": "color"
             }
           },
           "border": {
