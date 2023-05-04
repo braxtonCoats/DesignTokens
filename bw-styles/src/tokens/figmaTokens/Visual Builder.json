@@ -35,8 +35,16 @@
             "value": "{bp.color.surface.primary}",
             "type": "color"
           },
+          "bw": {
+            "value": "{bp.ref.color-palette.blue.5}",
+            "type": "color"
+          },
           "voice": {
             "value": "{bp.ref.color-palette.purple.5}",
+            "type": "color"
+          },
+          "numbers": {
+            "value": "{bp.ref.color-palette.maroon.5}",
             "type": "color"
           }
         },
@@ -84,6 +92,10 @@
             },
             "disabled": {
               "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            },
+            "numbers": {
+              "value": "{bp.ref.color-palette.maroon.75}",
               "type": "color"
             }
           },
