@@ -2383,6 +2383,12 @@
           },
           "type": "boxShadow"
         }
+      },
+      "modal": {
+        "default": {
+          "value": "{bp.sys.m24}",
+          "type": "boxShadow"
+        }
       }
     },
     "spacing": {
