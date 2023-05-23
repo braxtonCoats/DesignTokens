@@ -2427,6 +2427,18 @@
       "x-lg": {
         "value": "{bp.ref.spacing.lg}",
         "type": "spacing"
+      },
+      "drag-item": {
+        "weight-box": {
+          "top-bottom": {
+            "value": "{bp.spacing.xxx-sm}",
+            "type": "spacing"
+          },
+          "left-right": {
+            "value": "{bp.spacing.xx-sm}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "elevation": {
