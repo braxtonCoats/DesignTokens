@@ -277,113 +277,79 @@
         "item": {
           "background": {
             "voice": {
-              "default": {
-                "value": "{bp.ref.color-palette.purple.10}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{bp.ref.color-palette.purple.15}",
-                "type": "color"
-              }
+              "value": "{bp.ref.color-palette.purple.10}",
+              "type": "color"
             },
             "messaging": {
-              "default": {
-                "value": "{bp.ref.color-palette.green.10}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{bp.ref.color-palette.green.15}",
-                "type": "color"
-              }
+              "value": "{bp.ref.color-palette.green.10}",
+              "type": "color"
             },
             "integration": {
-              "default": {
-                "value": "{bp.ref.color-palette.blue.5}",
-                "type": "color"
-              }
+              "value": "{bp.ref.color-palette.blue.5}",
+              "type": "color"
             },
             "numbers": {
-              "default": {
-                "value": "{bp.ref.color-palette.maroon.5}",
-                "type": "color"
-              },
-              "hover": {
-                "value": "{bp.ref.color-palette.maroon.10}",
-                "type": "color"
-              }
+              "value": "{bp.ref.color-palette.maroon.5}",
+              "type": "color"
             },
             "disabled": {
-              "default": {
-                "value": "{bp.sys.color.disabled.main}",
-                "type": "color"
-              }
+              "value": "{bp.sys.color.disabled.main}",
+              "type": "color"
             }
           },
           "text": {
             "voice": {
-              "defaultg": {
-                "value": "{bp.ref.color-palette.purple.75}",
-                "type": "color"
-              }
+              "value": "{bp.ref.color-palette.purple.75}",
+              "type": "color"
             },
             "messaging": {
-              "defaultg": {
-                "value": "{bp.ref.color-palette.green.75}",
-                "type": "color"
-              }
+              "value": "{bp.ref.color-palette.green.75}",
+              "type": "color"
             },
             "integration": {
-              "default": {
-                "value": "{bp.ref.color-palette.blue.75}",
-                "type": "color"
-              }
+              "value": "{bp.ref.color-palette.blue.75}",
+              "type": "color"
             },
             "disabled": {
-              "main": {
-                "value": "{bp.sys.color.disabled.onMain}",
-                "type": "color"
-              }
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            },
+            "numbers": {
+              "value": "{bp.ref.color-palette.maroon.75}",
+              "type": "color"
             }
           },
           "icon": {
             "voice": {
-              "default": {
-                "value": "{bp.ref.color-palette.purple.75}",
-                "type": "color"
-              }
+              "value": "{bp.ref.color-palette.purple.75}",
+              "type": "color"
             },
             "messaging": {
-              "default": {
-                "value": "{bp.ref.color-palette.green.75}",
-                "type": "color"
-              }
+              "value": "{bp.ref.color-palette.green.75}",
+              "type": "color"
             },
             "integration": {
-              "default": {
-                "value": "{bp.ref.color-palette.blue.75}",
-                "type": "color"
-              }
+              "value": "{bp.ref.color-palette.blue.75}",
+              "type": "color"
             },
             "disabled": {
-              "default": {
-                "value": "{bp.sys.color.disabled.onMain}",
-                "type": "color"
-              }
+              "value": "{bp.sys.color.disabled.onMain}",
+              "type": "color"
+            },
+            "": {
+              "value": "{bp.ref.color-palette.maroon.75}",
+              "type": "color"
             }
           }
         },
         "drawer": {
           "background": {
-            "default": {
-              "value": "{bp.color.surface.primary}",
-              "type": "color"
-            }
+            "value": "{bp.color.surface.primary}",
+            "type": "color"
           },
           "text": {
-            "disabled": {
-              "value": "{bp.sys.color.disabled.onMain}",
-              "type": "color"
-            }
+            "value": "{bp.sys.color.disabled.onMain}",
+            "type": "color"
           },
           "icon": {
             "disabled": {
