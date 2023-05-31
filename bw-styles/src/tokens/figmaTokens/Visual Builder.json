@@ -381,7 +381,7 @@
     "shadow": {
       "node": {
         "default": {
-          "value": "{bp.elevation.04}",
+          "value": "{bp.elevation.02}",
           "type": "boxShadow"
         },
         "hover": {
@@ -389,32 +389,7 @@
           "type": "boxShadow"
         },
         "selected": {
-          "value": [
-            {
-              "color": "#079cee",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "9",
-              "blur": "12",
-              "spread": "0"
-            },
-            {
-              "color": "#079cee",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "3",
-              "blur": "16",
-              "spread": "0"
-            },
-            {
-              "color": "#079cee",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "5",
-              "blur": "6",
-              "spread": "0"
-            }
-          ],
+          "value": "{bp.elevation.06}",
           "type": "boxShadow"
         }
       },
