@@ -806,7 +806,18 @@
       "bp.color.file-upload.border.disabled": "S:3d3a1205d0e180b92893c71c85fd38803221f59b,",
       "bp.color.file-upload.text.placeholder": "S:d3cfe896edbf96198a46c50fde3414b7ec5df4b5,",
       "bp.color.file-upload.text.input": "S:f74cb40d6cccad266a725154b3d17bafe32a6007,",
-      "bp.color.file-upload.text.requried": "S:e29058aa240f2bcaa26d195956cf9a2ee08f08fe,"
+      "bp.color.file-upload.text.requried": "S:e29058aa240f2bcaa26d195956cf9a2ee08f08fe,",
+      "bp.color.button.text.background.active": "S:df04c975be70456f6d7a7a7e35ed8c9170c46019,",
+      "bp.color.inline-radio.background.disabled.default": "S:05639c5afe7e2875fe8a4677ca95ef5e36d07ea0,",
+      "bp.color.inline-radio.background.disabled.selected": "S:59bc507832931d9a6f345882e79a7ac982410134,",
+      "bp.color.inline-radio.border.disabled.default": "S:067e43098851d49cb2a556da2ca710ed4e36bee0,",
+      "bp.color.inline-radio.border.disabled.selected": "S:1b198f3ef3fe4f4a5d13ad49a9fe6d5caa3137fa,",
+      "bp.color.inline-radio.text.disabled.default": "S:6abed94b5d455e5cff6be8e0ef89c7e9f2c922c3,",
+      "bp.color.inline-radio.text.disabled.selected": "S:e010a84e078b9790d2945e4a56fcb89a0e134b83,",
+      "bp.color.destructive-button.text.background.active": "S:1b113ef140ba3fa338895dfd8379141ce70ea2ca,",
+      "bp.color.list-item.background.disabled": "S:cf7c06b6730cb7f541d38f41b4c4f4c9edbf4fdd,",
+      "bp.typography.label.tab": "S:41de6a9a1d64986f82c43a5c050fa26487ccba30,",
+      "bp.shadow.modal.default": "S:179a2738c583eb1c5c68048a68f37e00e4590502,"
     }
   },
   {
