@@ -2,223 +2,223 @@
   "color": {
     "primary": {
       "main": {
-        "value": "{color-palette.blue.65}",
+        "value": "{color.blue.65}",
         "type": "color",
         "description": ""
       },
       "onMain": {
-        "value": "{color-palette.blue.0}",
+        "value": "{color.blue.0}",
         "type": "color",
         "description": ""
       },
       "container": {
-        "value": "{color-palette.blue.5}",
+        "value": "{color.blue.5}",
         "type": "color",
         "description": ""
       },
       "containerVariant": {
-        "value": "{color-palette.blue.20}",
+        "value": "{color.blue.20}",
         "type": "color",
         "description": ""
       },
       "onContainer": {
-        "value": "{color-palette.blue.75}",
+        "value": "{color.blue.75}",
         "type": "color",
         "description": ""
       }
     },
     "secondary": {
       "main": {
-        "value": "{color-palette.blue.75}",
+        "value": "{color.blue.75}",
         "type": "color",
         "description": ""
       },
       "onMain": {
-        "value": "{color-palette.blue.0}",
+        "value": "{color.blue.0}",
         "type": "color",
         "description": ""
       },
       "container": {
-        "value": "{color-palette.blue.70}",
+        "value": "{color.blue.70}",
         "type": "color"
       },
       "containerVariant": {
-        "value": "{color-palette.blue.65}",
+        "value": "{color.blue.65}",
         "type": "color"
       },
       "onContainer": {
-        "value": "{color-palette.blue.0}",
+        "value": "{color.blue.0}",
         "type": "color",
         "description": ""
       }
     },
     "tertiary": {
       "main": {
-        "value": "{color-palette.purple.55}",
+        "value": "{color.purple.55}",
         "type": "color"
       },
       "onMain": {
-        "value": "{color-palette.purple.0}",
+        "value": "{color.purple.0}",
         "type": "color"
       },
       "container": {
-        "value": "{color-palette.purple.75}",
+        "value": "{color.purple.75}",
         "type": "color"
       },
       "containerVariant": {
-        "value": "{color-palette.purple.85}",
+        "value": "{color.purple.85}",
         "type": "color"
       },
       "onContainer": {
-        "value": "{color-palette.purple.0}",
+        "value": "{color.purple.0}",
         "type": "color"
       }
     },
     "error": {
       "main": {
-        "value": "{color-palette.red.55}",
+        "value": "{color.red.55}",
         "type": "color",
         "description": ""
       },
       "onMain": {
-        "value": "{color-palette.red.0}",
+        "value": "{color.red.0}",
         "type": "color",
         "description": ""
       },
       "container": {
-        "value": "{color-palette.red.2}",
+        "value": "{color.red.2}",
         "type": "color",
         "description": ""
       },
       "containerVariant": {
-        "value": "{color-palette.red.5}",
+        "value": "{color.red.5}",
         "type": "color",
         "description": ""
       },
       "onContainer": {
-        "value": "{color-palette.red.90}",
+        "value": "{color.red.90}",
         "type": "color",
         "description": ""
       }
     },
     "warning": {
       "main": {
-        "value": "{color-palette.yellow.65}",
+        "value": "{color.yellow.65}",
         "type": "color"
       },
       "onMain": {
-        "value": "{color-palette.yellow.0}",
+        "value": "{color.yellow.0}",
         "type": "color"
       },
       "container": {
-        "value": "{color-palette.yellow.2}",
+        "value": "{color.yellow.2}",
         "type": "color"
       },
       "containerVariant": {
-        "value": "{color-palette.yellow.5}",
+        "value": "{color.yellow.5}",
         "type": "color"
       },
       "onContainer": {
-        "value": "{color-palette.yellow.90}",
+        "value": "{color.yellow.90}",
         "type": "color"
       }
     },
     "success": {
       "main": {
-        "value": "{color-palette.green.65}",
+        "value": "{color.green.65}",
         "type": "color"
       },
       "onMain": {
-        "value": "{color-palette.green.0}",
+        "value": "{color.green.0}",
         "type": "color"
       },
       "container": {
-        "value": "{color-palette.green.2}",
+        "value": "{color.green.2}",
         "type": "color"
       },
       "containerVariant": {
-        "value": "{color-palette.green.5}",
+        "value": "{color.green.5}",
         "type": "color"
       },
       "onContainer": {
-        "value": "{color-palette.green.90}",
+        "value": "{color.green.90}",
         "type": "color"
       }
     },
     "surface": {
       "main": {
-        "value": "{color-palette.grey.0}",
+        "value": "{color.grey.0}",
         "type": "color",
         "description": ""
       },
       "onMain": {
-        "value": "{color-palette.grey.100}",
+        "value": "{color.grey.100}",
         "type": "color",
         "description": ""
       },
       "variant": {
-        "value": "{color-palette.grey.10}",
+        "value": "{color.grey.10}",
         "type": "color",
         "description": ""
       },
       "onVariant": {
-        "value": "{color-palette.grey.55}",
+        "value": "{color.grey.55}",
         "type": "color"
       }
     },
     "background": {
       "main": {
-        "value": "{color-palette.grey.2}",
+        "value": "{color.grey.2}",
         "type": "color",
         "description": ""
       },
       "onMain": {
-        "value": "{color-palette.grey.60}",
+        "value": "{color.grey.60}",
         "type": "color",
         "description": ""
       },
       "variant": {
-        "value": "{color-palette.grey.5}",
+        "value": "{color.grey.5}",
         "type": "color"
       }
     },
     "outline": {
       "main": {
-        "value": "{color-palette.grey.20}",
+        "value": "{color.grey.20}",
         "type": "color"
       },
       "variant": {
-        "value": "{color-palette.grey.50}",
+        "value": "{color.grey.50}",
         "type": "color"
       },
       "primary": {
-        "value": "{color-palette.blue.50}",
+        "value": "{color.blue.50}",
         "type": "color"
       },
       "warning": {
-        "value": "{color-palette.yellow.50}",
+        "value": "{color.yellow.50}",
         "type": "color"
       },
       "error": {
-        "value": "{color-palette.red.20}",
+        "value": "{color.red.20}",
         "type": "color"
       },
       "success": {
-        "value": "{color-palette.green.20}",
+        "value": "{color.green.20}",
         "type": "color"
       },
       "seperator": {
-        "value": "{color-palette.grey.20}",
+        "value": "{color.grey.20}",
         "type": "color"
       }
     },
     "disabled": {
       "main": {
-        "value": "{color-palette.grey.15}",
+        "value": "{color.grey.15}",
         "type": "color"
       },
       "onMain": {
-        "value": "{color-palette.grey.65}",
+        "value": "{color.grey.65}",
         "type": "color"
       }
     }
