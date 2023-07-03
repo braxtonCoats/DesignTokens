@@ -1,5 +1,5 @@
 {
-  "color": {
+  "theme": {
     "primary": {
       "main": {
         "value": "{color.blue.40}",
