@@ -2486,11 +2486,11 @@
   },
   "border-radius": {
     "soft": {
-      "value": "4px",
+      "value": "{spacing.xxx-sm}",
       "type": "borderRadius"
     },
     "x-soft": {
-      "value": "8px",
+      "value": "{spacing.xxxx-sm}",
       "type": "borderRadius"
     },
     "sharp": {
