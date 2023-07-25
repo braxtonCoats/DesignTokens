@@ -1319,7 +1319,7 @@
       "bold": {
         "value": {
           "fontFamily": "{font.bandwidth}",
-          "fontWeight": "{font-weight.bold}",
+          "fontWeight": "{font-weight.semi-bold}",
           "lineHeight": "145%",
           "fontSize": "20px",
           "letterSpacing": "-.5%"
@@ -1339,7 +1339,7 @@
       "bold-italic": {
         "value": {
           "fontFamily": "{font.bandwidth}",
-          "fontWeight": "{font-weight.italic.bold}",
+          "fontWeight": "{font-weight.italic.semi-bold}",
           "lineHeight": "145%",
           "fontSize": "20px",
           "letterSpacing": "-.5%"
