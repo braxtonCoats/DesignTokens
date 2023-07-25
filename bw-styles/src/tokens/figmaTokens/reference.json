@@ -1155,7 +1155,7 @@
         "value": {
           "fontFamily": "{font.bandwidth}",
           "fontWeight": "{font-weight.extra-light}",
-          "lineHeight": "120$",
+          "lineHeight": "120%",
           "fontSize": "60px",
           "letterSpacing": "-1.5%"
         },
@@ -1165,7 +1165,7 @@
         "value": {
           "fontFamily": "{font.bandwidth}",
           "fontWeight": "{font-weight.bold}",
-          "lineHeight": "120$",
+          "lineHeight": "120%",
           "fontSize": "60px",
           "letterSpacing": "-1%"
         },
