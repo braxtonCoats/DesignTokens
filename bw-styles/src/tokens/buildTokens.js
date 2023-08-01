@@ -10,7 +10,9 @@ StyleDictionaryPackage.registerFormat({
   formatter: function(dictionary, config) {
     return `${this.selector} {
         ${dictionary.allProperties
-          .map((prop) => `  --${prop.name}: ${prop.value};`)
+          .map((prop) => `  --${this.selector === ':root'?prop.name.replace('bp-sys','bw').replace('bp','bw'):prop.name}: ${prop.value};`)
+          // Old map
+          // .map((prop) => `  --${prop.name}: ${prop.value};`)
           .join("\n")}
       }`;
   },
@@ -116,6 +118,12 @@ function getStyleDictionaryConfig(theme) {
             destination: `css/${theme}.css`,
             format: "css/variables",
             selector: `.${theme}-theme`,
+          },
+          // Newly added destination
+          {
+            destination: `css/bwtheme-variables.css`,
+            format: "css/variables",
+            selector: `:root`,
           },
         ],
       },
