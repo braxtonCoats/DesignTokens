@@ -2364,7 +2364,7 @@
       "help-text": {
         "value": {
           "fontFamily": "{font.overpass}",
-          "fontWeight": "{font-weight.italic.400}",
+          "fontWeight": "{font-weight.italic.regular}",
           "lineHeight": "$line-height.20",
           "fontSize": "$font-size.1",
           "letterSpacing": "$letter-spacing.none",
