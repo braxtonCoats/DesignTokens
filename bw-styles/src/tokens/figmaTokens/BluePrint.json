@@ -2767,7 +2767,7 @@
     },
     "modal": {
       "default": {
-        "value": "{m24}",
+        "value": "{elevation.24}",
         "type": "boxShadow"
       }
     }
