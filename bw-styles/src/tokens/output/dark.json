@@ -1638,6 +1638,16 @@
           "hover": {
             "value": "#2d282b",
             "type": "color"
+          },
+          "disabled": {
+            "default": {
+              "value": "#3a3537",
+              "type": "color"
+            },
+            "selected": {
+              "value": "#908d8e",
+              "type": "color"
+            }
           }
         },
         "border": {
@@ -1652,6 +1662,16 @@
           "hover": {
             "value": "#2d282b",
             "type": "color"
+          },
+          "disabled": {
+            "default": {
+              "value": "#3a3537",
+              "type": "color"
+            },
+            "selected": {
+              "value": "#908d8e",
+              "type": "color"
+            }
           }
         },
         "text": {
@@ -1666,6 +1686,16 @@
           "help-text": {
             "value": "#b4b2b3",
             "type": "color"
+          },
+          "disabled": {
+            "default": {
+              "value": "#908d8e",
+              "type": "color"
+            },
+            "selected": {
+              "value": "#3a3537",
+              "type": "color"
+            }
           }
         }
       },
@@ -3410,6 +3440,37 @@
           },
           "type": "boxShadow"
         }
+      },
+      "modal": {
+        "default": {
+          "value": [
+            {
+              "color": "#00000024",
+              "type": "dropShadow",
+              "x": "0px",
+              "y": "24px",
+              "blur": "38px",
+              "spread": "0px"
+            },
+            {
+              "color": "#0000001f",
+              "type": "dropShadow",
+              "x": "0px",
+              "y": "9px",
+              "blur": "46px",
+              "spread": "0px"
+            },
+            {
+              "color": "#00000033",
+              "type": "dropShadow",
+              "x": "0px",
+              "y": "11px",
+              "blur": "15px",
+              "spread": "0px"
+            }
+          ],
+          "type": "boxShadow"
+        }
       }
     },
     "spacing": {
@@ -3448,6 +3509,18 @@
       "x-lg": {
         "value": "64px",
         "type": "spacing"
+      },
+      "drag-item": {
+        "weight-box": {
+          "top-bottom": {
+            "value": "4px",
+            "type": "spacing"
+          },
+          "left-right": {
+            "value": "8px",
+            "type": "spacing"
+          }
+        }
       }
     },
     "elevation": {
